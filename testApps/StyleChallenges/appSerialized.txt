@@ -1,0 +1,265 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>StyleChallenges</name>
+  <uiElementsOfApp id="2">
+    <entry>
+      <int>2131099652</int>
+      <AppsUIElement id="3">
+        <parentIDs id="4">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="5"/>
+        <parentIDsDyn id="6"/>
+        <childIDsDyn id="7"/>
+        <idVar></idVar>
+        <id>2131099652</id>
+        <textVar></textVar>
+        <text id="8">
+          <entry>
+            <string>default_value</string>
+            <string>TextInButtonTag</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="9">
+          <st.cs.uni.saarland.de.entities.Listener id="10">
+            <declaringClass>default_value</declaringClass>
+            <listenerMethod>void xmlOnClick2(android.view.View)</listenerMethod>
+            <listenerClass>com.example.StyleChallenges.MainActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+            <calledAPISignatures id="11"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="12"/>
+        <styles id="13">
+          <st.cs.uni.saarland.de.entities.Style id="14">
+            <name>MySimpleButtonStyle</name>
+            <id>0</id>
+            <text id="15">
+              <string>simple style with strVar</string>
+            </text>
+            <onClickMethod id="16">
+              <declaringClass>default_value</declaringClass>
+              <listenerMethod>void xmlOnClick(android.view.View)</listenerMethod>
+              <listenerClass>com.example.StyleChallenges.MainActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+              <calledAPISignatures id="17"/>
+            </onClickMethod>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" id="18">
+          <name>main</name>
+          <traceCapable>true</traceCapable>
+        </logger>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099650</int>
+      <AppsUIElement id="19">
+        <parentIDs id="20">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="21"/>
+        <parentIDsDyn id="22"/>
+        <childIDsDyn id="23"/>
+        <idVar></idVar>
+        <id>2131099650</id>
+        <textVar></textVar>
+        <text id="24">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="25"/>
+        <drawableNames id="26"/>
+        <styles id="27">
+          <st.cs.uni.saarland.de.entities.Style id="28">
+            <name>SuperStyleTextViews</name>
+            <id>0</id>
+            <text id="29">
+              <string>superStyle</string>
+            </text>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099651</int>
+      <AppsUIElement id="30">
+        <parentIDs id="31">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="32"/>
+        <parentIDsDyn id="33"/>
+        <childIDsDyn id="34"/>
+        <idVar></idVar>
+        <id>2131099651</id>
+        <textVar></textVar>
+        <text id="35">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="36"/>
+        <drawableNames id="37"/>
+        <styles id="38">
+          <st.cs.uni.saarland.de.entities.Style id="39">
+            <name>ChildClassStyleTextView</name>
+            <id>0</id>
+            <text id="40"/>
+            <parent>SuperStyleTextViews</parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099648</int>
+      <AppsUIElement id="41">
+        <parentIDs id="42">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="43"/>
+        <parentIDsDyn id="44"/>
+        <childIDsDyn id="45"/>
+        <idVar></idVar>
+        <id>2131099648</id>
+        <textVar></textVar>
+        <text id="46">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="47"/>
+        <drawableNames id="48"/>
+        <styles id="49">
+          <st.cs.uni.saarland.de.entities.Style reference="14"/>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099649</int>
+      <AppsUIElement id="50">
+        <parentIDs id="51">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="52"/>
+        <parentIDsDyn id="53"/>
+        <childIDsDyn id="54"/>
+        <idVar></idVar>
+        <id>2131099649</id>
+        <textVar></textVar>
+        <text id="55">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="56"/>
+        <drawableNames id="57"/>
+        <styles id="58">
+          <st.cs.uni.saarland.de.entities.Style id="59">
+            <name>MySimpleButtonStyle2</name>
+            <id>0</id>
+            <text id="60">
+              <string>simple Button plain</string>
+            </text>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000000</int>
+      <AppsUIElement id="61">
+        <parentIDs id="62"/>
+        <childIDs id="63">
+          <int>2131099648</int>
+          <int>2131099649</int>
+          <int>2131099650</int>
+          <int>2131099651</int>
+          <int>2131099652</int>
+        </childIDs>
+        <parentIDsDyn id="64"/>
+        <childIDsDyn id="65"/>
+        <idVar></idVar>
+        <id>1000000</id>
+        <textVar></textVar>
+        <text id="66">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="67"/>
+        <drawableNames id="68"/>
+        <styles id="69"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </AppsUIElement>
+    </entry>
+  </uiElementsOfApp>
+  <xmlLayoutFiles id="70">
+    <entry>
+      <int>2130903040</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="71">
+        <name>main</name>
+        <id>2130903040</id>
+        <elementIDs id="72">
+          <int>2131099652</int>
+          <int>2131099650</int>
+          <int>2131099651</int>
+          <int>2131099648</int>
+          <int>2131099649</int>
+          <int>1000000</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="73"/>
+        <dynamicIncludedLayoutIDs id="74"/>
+        <rootElementID>1000000</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+  </xmlLayoutFiles>
+  <dialogs id="75"/>
+  <permissions id="76"/>
+  <activities id="77">
+    <st.cs.uni.saarland.de.entities.Activity id="78">
+      <name>com.example.StyleChallenges.MainActivity</name>
+      <label>StyleChallenges</label>
+      <xmlLayouts id="79">
+        <int>2130903040</int>
+      </xmlLayouts>
+    </st.cs.uni.saarland.de.entities.Activity>
+  </activities>
+  <includeTagIDs id="80"/>
+  <fragmentTagIDs id="81"/>
+  <screens id="82"/>
+  <activityToXMLLayoutFiles id="83">
+    <entry>
+      <string>com.example.StyleChallenges.MainActivity</string>
+      <set id="84">
+        <int>2130903040</int>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <mergedLayoutFileIDs id="85"/>
+  <fragmentClassToLayout id="86"/>
+  <intentFilters id="87">
+    <string>android.intent.action.MAIN</string>
+  </intentFilters>
+  <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="18"/>
+</st.cs.uni.saarland.de.entities.Application>

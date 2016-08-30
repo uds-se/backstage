@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/externalListButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="externalListButton2" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/sameListenerButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="sameListenerButton1" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/sameListenerButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="sameListenerButton2" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/listVarButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="listVarButton" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/declInSubMethodsButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="declInSubMethodsButton" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/externalListButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="externalListButton1" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/onCreateButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="onCreateButton" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/xmlButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="xmlButton" android:onClick="xmlOnClick1" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="right" android:id="@id/anonyListTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="anonyListTextView" />
+            <Button android:id="@id/whileLoopButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="whileLoopButton1" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/myTouchPlusClickButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="myTouchPlusClickButton" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/whileLoopButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="whileLoopButton2" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/actImplListLongClickButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="actImplListLongClickButton" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/arrayListButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="arrayListButton1" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/forLoopButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="forLoopButton1" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/arrayListButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="arrayListButton2" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/forLoopButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="forLoopButton2" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/multipleListenerButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="multipleListenerButton" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/switchButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="switchButton1" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/setterGetterButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="setterGetterButton" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/switchButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="6" android:text="switchButton2" style="?android:attr/buttonStyleSmall" />
+            <Button android:id="@id/specialXMLButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="9" android:text="specialXMLButton" android:onClick="xmlOnClick2" style="?android:attr/buttonStyleSmall" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+XMLLayoutFile: main; 2130903040
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableLayout; parent: LinearLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: nonStaticField; but_idBut: 2131034112; but_textVar: ; but_Text: nonStaticField; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$5; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: classField; but_idBut: 2131034113; but_textVar: ; but_Text: classField; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$4; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: fieldButtonID; but_idBut: 2131034114; but_textVar: ; but_Text: fieldButtonID; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$9; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: staticField; but_idBut: 2131034115; but_textVar: ; but_Text: staticField; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$10; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: passedID; but_idBut: 2131034116; but_textVar: ; but_Text: passedID; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$21; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: getter; but_idBut: 2131034117; but_textVar: ; but_Text: getter; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$13; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: innerClassField; but_idBut: 2131034118; but_textVar: ; but_Text: innerClassField; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$6; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: array; but_idBut: 2131034119; but_textVar: ; but_Text: array; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$11; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: innerClassFieldID; but_idBut: 2131034120; but_textVar: ; but_Text: innerClassFieldID; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$7; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: list; but_idBut: 2131034121; but_textVar: ; but_Text: list; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: fieldButton; but_idBut: 2131034122; but_textVar: ; but_Text: fieldButton; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$8; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: loop; but_idBut: 2131034123; but_textVar: ; but_Text: loop; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: passedButton; but_idBut: 2131034124; but_textVar: ; but_Text: passedButton; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$20; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: hierarchy1; but_idBut: 2131034125; but_textVar: ; but_Text: hierarchy1; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$15; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: staticClassField; but_idBut: 2131034126; but_textVar: ; but_Text: staticClassField; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$1; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: hierarchy2; but_idBut: 2131034127; but_textVar: ; but_Text: hierarchy2; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$16; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: getButFromOtherClass; but_idBut: 2131034128; but_textVar: ; but_Text: getButFromOtherClass; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$3; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: hierarchy3; but_idBut: 2131034129; but_textVar: ; but_Text: hierarchy3; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$17; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: findViewInOtherClass; but_idBut: 2131034130; but_textVar: ; but_Text: FindViewInOtherClass; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$2; listenerMethod void onClick(android.view.View)
+object_of: Button; parent: TableRow:;; but_idButVar: hierarchy4; but_idBut: 2131034131; but_textVar: ; but_Text: hierarchy4; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$18; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: TableRow:;; but_idButVar: ; but_idBut: 16908308; but_textVar: ; but_Text: androidStdIds; drawableName:  ; listenerClass: com.example.ChallengeApps.MyActivity$19; listenerMethod void onClick(android.view.View)
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TableRow; parent: TableLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+

@@ -1,0 +1,173 @@
+<list>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.BaseClass1: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034112</elementId>
+    <layoutIds/>
+    <text>hierarchy1</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034113</elementId>
+    <layoutIds/>
+    <text>hierarchy2</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034114</elementId>
+    <layoutIds/>
+    <text>hierarchy3</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$1: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034115</elementId>
+    <layoutIds/>
+    <text>multipleMethods</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$2: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034116</elementId>
+    <layoutIds/>
+    <text>multipleAPIsInOneMethod</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$3: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034117</elementId>
+    <layoutIds/>
+    <text>multipleAPIsInMultipleMethods</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$4: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034118</elementId>
+    <layoutIds/>
+    <text>newActivity</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$5: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034119</elementId>
+    <layoutIds/>
+    <text>multipleActivities</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$6: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034120</elementId>
+    <layoutIds/>
+    <text>useInternetIntent</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$7: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034121</elementId>
+    <layoutIds/>
+    <text>onDestroy</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.SuperClass1: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034122</elementId>
+    <layoutIds/>
+    <text>simpleAPICall</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.CompositeListener: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034123</elementId>
+    <layoutIds/>
+    <text>compositeListener</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$10: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034124</elementId>
+    <layoutIds/>
+    <text>constructor</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$12: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034125</elementId>
+    <layoutIds/>
+    <text>StartBroadcast</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$11: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034126</elementId>
+    <layoutIds/>
+    <text>DynBroadCast</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$13: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034127</elementId>
+    <layoutIds/>
+    <text>broadCastTriggers Activity</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <handlerMethod>
+      <signature>&lt;com.example.APIChallenges.MyActivity$14: void onClick(android.view.View)&gt;</signature>
+    </handlerMethod>
+    <elementId>2131034128</elementId>
+    <layoutIds/>
+    <text>service1</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034129</elementId>
+    <layoutIds/>
+    <text>New Button</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+  </uiElement>
+</list>

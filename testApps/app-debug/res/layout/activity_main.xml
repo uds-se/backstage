@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" />
+    <ImageButton android:id="@id/button" android:background="@drawable/abc_ic_menu_share_mtrl_alpha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Static Button" android:layout_below="@id/textView" android:layout_alignParentLeft="true" android:onClick="staticButtonClick" android:layout_alignParentStart="true" />
+    <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:text="goAnaonymousActivity" android:layout_toRightOf="@id/button" android:layout_below="@id/textView" android:onClick="goAnonymous" android:layout_marginStart="33.0dip" android:layout_toEndOf="@id/button" />
+    <Button android:id="@id/button9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:text="Go to Child Activity" android:layout_below="@id/button2" android:layout_alignParentLeft="true" android:onClick="goToTheChild" android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,738 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>APIChallenges</name>
+  <uiElementsOfApp id="2">
+    <entry>
+      <int>2131034117</int>
+      <AppsUIElement id="3">
+        <parentIDs id="4">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="5"/>
+        <parentIDsDyn id="6"/>
+        <childIDsDyn id="7"/>
+        <idVar></idVar>
+        <id>2131034117</id>
+        <textVar></textVar>
+        <text>multipleAPIsInMultipleMethods</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="8">
+          <st.cs.uni.saarland.de.entities.Listener id="9">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$3</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="10"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="11"/>
+        <logger class="org.slf4j.impl.SimpleLogger" id="12">
+          <name>main</name>
+          <currentLogLevel>20</currentLogLevel>
+        </logger>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034116</int>
+      <AppsUIElement id="13">
+        <parentIDs id="14">
+          <int>1000002</int>
+        </parentIDs>
+        <childIDs id="15"/>
+        <parentIDsDyn id="16"/>
+        <childIDsDyn id="17"/>
+        <idVar></idVar>
+        <id>2131034116</id>
+        <textVar></textVar>
+        <text>multipleAPIsInOneMethod</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="18">
+          <st.cs.uni.saarland.de.entities.Listener id="19">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="20"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="21"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034119</int>
+      <AppsUIElement id="22">
+        <parentIDs id="23">
+          <int>1000003</int>
+        </parentIDs>
+        <childIDs id="24"/>
+        <parentIDsDyn id="25"/>
+        <childIDsDyn id="26"/>
+        <idVar></idVar>
+        <id>2131034119</id>
+        <textVar></textVar>
+        <text>multipleActivities</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="27">
+          <st.cs.uni.saarland.de.entities.Listener id="28">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$5</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="29"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="30"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034118</int>
+      <AppsUIElement id="31">
+        <parentIDs id="32">
+          <int>1000003</int>
+        </parentIDs>
+        <childIDs id="33"/>
+        <parentIDsDyn id="34"/>
+        <childIDsDyn id="35"/>
+        <idVar></idVar>
+        <id>2131034118</id>
+        <textVar></textVar>
+        <text>newActivity</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="36">
+          <st.cs.uni.saarland.de.entities.Listener id="37">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$4</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="38"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="39"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034113</int>
+      <AppsUIElement id="40">
+        <parentIDs id="41">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="42"/>
+        <parentIDsDyn id="43"/>
+        <childIDsDyn id="44"/>
+        <idVar></idVar>
+        <id>2131034113</id>
+        <textVar></textVar>
+        <text>hierarchy2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="45"/>
+        <drawableNames id="46"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034112</int>
+      <AppsUIElement id="47">
+        <parentIDs id="48">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="49"/>
+        <parentIDsDyn id="50"/>
+        <childIDsDyn id="51"/>
+        <idVar></idVar>
+        <id>2131034112</id>
+        <textVar></textVar>
+        <text>hierarchy1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="52">
+          <st.cs.uni.saarland.de.entities.Listener id="53">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.BaseClass1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="54"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="55"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034115</int>
+      <AppsUIElement id="56">
+        <parentIDs id="57">
+          <int>1000002</int>
+        </parentIDs>
+        <childIDs id="58"/>
+        <parentIDsDyn id="59"/>
+        <childIDsDyn id="60"/>
+        <idVar></idVar>
+        <id>2131034115</id>
+        <textVar></textVar>
+        <text>multipleMethods</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="61">
+          <st.cs.uni.saarland.de.entities.Listener id="62">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="63"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="64"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034114</int>
+      <AppsUIElement id="65">
+        <parentIDs id="66">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="67"/>
+        <parentIDsDyn id="68"/>
+        <childIDsDyn id="69"/>
+        <idVar></idVar>
+        <id>2131034114</id>
+        <textVar></textVar>
+        <text>hierarchy3</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="70"/>
+        <drawableNames id="71"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034125</int>
+      <AppsUIElement id="72">
+        <parentIDs id="73">
+          <int>1000004</int>
+        </parentIDs>
+        <childIDs id="74"/>
+        <parentIDsDyn id="75"/>
+        <childIDsDyn id="76"/>
+        <idVar></idVar>
+        <id>2131034125</id>
+        <textVar></textVar>
+        <text>StartBroadcast</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="77">
+          <st.cs.uni.saarland.de.entities.Listener id="78">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$12</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="79"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="80"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034124</int>
+      <AppsUIElement id="81">
+        <parentIDs id="82">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="83"/>
+        <parentIDsDyn id="84"/>
+        <childIDsDyn id="85"/>
+        <idVar></idVar>
+        <id>2131034124</id>
+        <textVar></textVar>
+        <text>constructor</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="86">
+          <st.cs.uni.saarland.de.entities.Listener id="87">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$10</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="88"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="89"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000006</int>
+      <AppsUIElement id="90">
+        <parentIDs id="91"/>
+        <childIDs id="92">
+          <int>2131034129</int>
+        </childIDs>
+        <parentIDsDyn id="93"/>
+        <childIDsDyn id="94"/>
+        <idVar></idVar>
+        <id>1000006</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="95"/>
+        <drawableNames id="96"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034127</int>
+      <AppsUIElement id="97">
+        <parentIDs id="98">
+          <int>1000004</int>
+        </parentIDs>
+        <childIDs id="99"/>
+        <parentIDsDyn id="100"/>
+        <childIDsDyn id="101"/>
+        <idVar></idVar>
+        <id>2131034127</id>
+        <textVar></textVar>
+        <text>broadCastTriggers Activity</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="102">
+          <st.cs.uni.saarland.de.entities.Listener id="103">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$13</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="104"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="105"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000005</int>
+      <AppsUIElement id="106">
+        <parentIDs id="107">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="108">
+          <int>2131034128</int>
+        </childIDs>
+        <parentIDsDyn id="109"/>
+        <childIDsDyn id="110"/>
+        <idVar></idVar>
+        <id>1000005</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="111"/>
+        <drawableNames id="112"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000004</int>
+      <AppsUIElement id="113">
+        <parentIDs id="114">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="115">
+          <int>2131034125</int>
+          <int>2131034126</int>
+          <int>2131034127</int>
+        </childIDs>
+        <parentIDsDyn id="116"/>
+        <childIDsDyn id="117"/>
+        <idVar></idVar>
+        <id>1000004</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="118"/>
+        <drawableNames id="119"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034126</int>
+      <AppsUIElement id="120">
+        <parentIDs id="121">
+          <int>1000004</int>
+        </parentIDs>
+        <childIDs id="122"/>
+        <parentIDsDyn id="123"/>
+        <childIDsDyn id="124"/>
+        <idVar></idVar>
+        <id>2131034126</id>
+        <textVar></textVar>
+        <text>DynBroadCast</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="125">
+          <st.cs.uni.saarland.de.entities.Listener id="126">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$11</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="127"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="128"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000003</int>
+      <AppsUIElement id="129">
+        <parentIDs id="130">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="131">
+          <int>2131034118</int>
+          <int>2131034119</int>
+        </childIDs>
+        <parentIDsDyn id="132"/>
+        <childIDsDyn id="133"/>
+        <idVar></idVar>
+        <id>1000003</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="134"/>
+        <drawableNames id="135"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034121</int>
+      <AppsUIElement id="136">
+        <parentIDs id="137">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="138"/>
+        <parentIDsDyn id="139"/>
+        <childIDsDyn id="140"/>
+        <idVar></idVar>
+        <id>2131034121</id>
+        <textVar></textVar>
+        <text>onDestroy</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="141">
+          <st.cs.uni.saarland.de.entities.Listener id="142">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$7</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="143"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="144"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000002</int>
+      <AppsUIElement id="145">
+        <parentIDs id="146">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="147">
+          <int>2131034115</int>
+          <int>2131034116</int>
+        </childIDs>
+        <parentIDsDyn id="148"/>
+        <childIDsDyn id="149"/>
+        <idVar></idVar>
+        <id>1000002</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="150"/>
+        <drawableNames id="151"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034120</int>
+      <AppsUIElement id="152">
+        <parentIDs id="153">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="154"/>
+        <parentIDsDyn id="155"/>
+        <childIDsDyn id="156"/>
+        <idVar></idVar>
+        <id>2131034120</id>
+        <textVar></textVar>
+        <text>useInternetIntent</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="157">
+          <st.cs.uni.saarland.de.entities.Listener id="158">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$6</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="159"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="160"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000001</int>
+      <AppsUIElement id="161">
+        <parentIDs id="162">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="163">
+          <int>2131034112</int>
+          <int>2131034113</int>
+          <int>2131034114</int>
+        </childIDs>
+        <parentIDsDyn id="164"/>
+        <childIDsDyn id="165"/>
+        <idVar></idVar>
+        <id>1000001</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="166"/>
+        <drawableNames id="167"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034123</int>
+      <AppsUIElement id="168">
+        <parentIDs id="169">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="170"/>
+        <parentIDsDyn id="171"/>
+        <childIDsDyn id="172"/>
+        <idVar></idVar>
+        <id>2131034123</id>
+        <textVar></textVar>
+        <text>compositeListener</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="173">
+          <st.cs.uni.saarland.de.entities.Listener id="174">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.CompositeListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="175"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="176"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000000</int>
+      <AppsUIElement id="177">
+        <parentIDs id="178"/>
+        <childIDs id="179">
+          <int>1000001</int>
+          <int>1000002</int>
+          <int>2131034117</int>
+          <int>1000003</int>
+          <int>2131034120</int>
+          <int>2131034121</int>
+          <int>2131034122</int>
+          <int>2131034123</int>
+          <int>2131034124</int>
+          <int>1000004</int>
+          <int>1000005</int>
+        </childIDs>
+        <parentIDsDyn id="180"/>
+        <childIDsDyn id="181"/>
+        <idVar></idVar>
+        <id>1000000</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="182"/>
+        <drawableNames id="183"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034122</int>
+      <AppsUIElement id="184">
+        <parentIDs id="185">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="186"/>
+        <parentIDsDyn id="187"/>
+        <childIDsDyn id="188"/>
+        <idVar></idVar>
+        <id>2131034122</id>
+        <textVar></textVar>
+        <text>simpleAPICall</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="189">
+          <st.cs.uni.saarland.de.entities.Listener id="190">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.SuperClass1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="191"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="192"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034129</int>
+      <AppsUIElement id="193">
+        <parentIDs id="194">
+          <int>1000006</int>
+        </parentIDs>
+        <childIDs id="195"/>
+        <parentIDsDyn id="196"/>
+        <childIDsDyn id="197"/>
+        <idVar></idVar>
+        <id>2131034129</id>
+        <textVar></textVar>
+        <text>New Button</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="198"/>
+        <drawableNames id="199"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131034128</int>
+      <AppsUIElement id="200">
+        <parentIDs id="201">
+          <int>1000005</int>
+        </parentIDs>
+        <childIDs id="202"/>
+        <parentIDsDyn id="203"/>
+        <childIDsDyn id="204"/>
+        <idVar></idVar>
+        <id>2131034128</id>
+        <textVar></textVar>
+        <text>service1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="205">
+          <st.cs.uni.saarland.de.entities.Listener id="206">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.APIChallenges.MyActivity$14</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="207"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="208"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </AppsUIElement>
+    </entry>
+  </uiElementsOfApp>
+  <xmlLayoutFiles id="209">
+    <entry>
+      <int>2130903041</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="210">
+        <name>main2</name>
+        <id>2130903041</id>
+        <elementIDs id="211">
+          <int>2131034129</int>
+          <int>1000006</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="212"/>
+        <dynamicIncludedLayoutIDs id="213"/>
+        <rootElementID>1000006</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130903040</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="214">
+        <name>main</name>
+        <id>2130903040</id>
+        <elementIDs id="215">
+          <int>2131034117</int>
+          <int>2131034116</int>
+          <int>2131034119</int>
+          <int>2131034118</int>
+          <int>2131034113</int>
+          <int>2131034112</int>
+          <int>2131034115</int>
+          <int>2131034114</int>
+          <int>2131034125</int>
+          <int>2131034124</int>
+          <int>2131034127</int>
+          <int>1000005</int>
+          <int>1000004</int>
+          <int>2131034126</int>
+          <int>1000003</int>
+          <int>2131034121</int>
+          <int>1000002</int>
+          <int>2131034120</int>
+          <int>1000001</int>
+          <int>2131034123</int>
+          <int>1000000</int>
+          <int>2131034122</int>
+          <int>2131034128</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="216"/>
+        <dynamicIncludedLayoutIDs id="217"/>
+        <rootElementID>1000000</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+  </xmlLayoutFiles>
+  <dialogs id="218"/>
+  <activityNames id="219">
+    <string>com.example.APIChallenges.MyActivity</string>
+    <string>com.example.APIChallenges.MyActivity2</string>
+    <string>com.example.APIChallenges.MyActivity3</string>
+    <string>com.example.APIChallenges.MyActivity4</string>
+    <string>com.example.APIChallenges.MyActivity5</string>
+    <string>com.example.APIChallenges.MyActivity6</string>
+  </activityNames>
+  <firstActivities id="220">
+    <string>com.example.APIChallenges.MyActivity</string>
+  </firstActivities>
+  <permissions id="221">
+    <string>android.permission.SEND_SMS</string>
+    <string>android.permission.READ_CONTACTS</string>
+    <string>android.permission.ACCESS_NETWORK_STATE</string>
+  </permissions>
+  <includeTagIDs id="222"/>
+  <fragmentTagIDs id="223"/>
+  <screens id="224"/>
+  <activityToXMLLayoutFiles id="225">
+    <entry>
+      <string>com.example.APIChallenges.MyActivity</string>
+      <set id="226">
+        <int>2130903040</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.APIChallenges.MyActivity4</string>
+      <set id="227">
+        <int>2130903041</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.APIChallenges.MyActivity5</string>
+      <set id="228">
+        <int>2130903041</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.APIChallenges.MyActivity2</string>
+      <set id="229">
+        <int>2130903041</int>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <mergedLayoutFileIDs id="230"/>
+  <fragmentClassToLayout id="231"/>
+  <intentFilters id="232">
+    <string>android.intent.action.MAIN</string>
+    <string>myActionToTriggerTheStaticAttachedReceiver</string>
+    <string>myActionToTriggeBroadcaseWhichStartsNewActivity</string>
+  </intentFilters>
+  <logger class="org.slf4j.impl.SimpleLogger" reference="12"/>
+</st.cs.uni.saarland.de.entities.Application>

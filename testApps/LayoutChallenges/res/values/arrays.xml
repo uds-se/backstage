@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chooserLanguage">
+        <item>English (BE)</item>
+        <item>English (AE)</item>
+    </string-array>
+    <string-array name="listChoices">
+        <item>First choice</item>
+        <item>Second choice</item>
+    </string-array>
+</resources>

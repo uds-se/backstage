@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="normalStringInXML">false</item>
+    <item type="id" name="xmlWithStringVariable">false</item>
+    <item type="id" name="globalVarLaterWritten">false</item>
+    <item type="id" name="globalVarText">false</item>
+    <item type="id" name="globalVarTextID">false</item>
+    <item type="id" name="staticTextID">false</item>
+    <item type="id" name="stringBuilderDifficult">false</item>
+    <item type="id" name="stringBuilderTextView">false</item>
+    <item type="id" name="dynStringVar">false</item>
+    <item type="id" name="switch1">false</item>
+    <item type="id" name="concatTextBut">false</item>
+    <item type="id" name="arrayText">false</item>
+    <item type="id" name="listText">false</item>
+    <item type="id" name="andrStdText">false</item>
+    <item type="id" name="dynAndStdValues">false</item>
+</resources>

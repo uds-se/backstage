@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="MySimpleButtonStyle">false</item>
+    <item type="id" name="MySimpleButtonStyle2">false</item>
+    <item type="id" name="SuperStyleTextViews">false</item>
+    <item type="id" name="ChildClassStyleTextView">false</item>
+    <item type="id" name="onClickAndText2">false</item>
+</resources>

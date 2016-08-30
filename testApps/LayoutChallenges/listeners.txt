@@ -1,0 +1,13 @@
+2131165187;<com.example.LayoutChallenges.DrawerActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+2131165191;<com.example.LayoutChallenges.MyActivity: void gotoViewPagerAct(android.view.View)>
+2131165192;<com.example.LayoutChallenges.MyActivity: void gotoViewPagerXMLAct(android.view.View)>
+2131165193;<com.example.LayoutChallenges.MyActivity: void gotoTabViewAct(android.view.View)>
+2131165194;<com.example.LayoutChallenges.MyActivity: void gotoDrawerActivity(android.view.View)>
+2131165195;<com.example.LayoutChallenges.MyActivity: void showYesNoDialog(android.view.View)>
+2131165196;<com.example.LayoutChallenges.MyActivity: void showDialogSpecificChoice(android.view.View)>
+2131165197;<com.example.LayoutChallenges.MyActivity: void showDialogFragment(android.view.View)>
+2131165198;<com.example.LayoutChallenges.MyActivity: void gotoMergedLayout(android.view.View)>
+2131165201;<com.example.LayoutChallenges.MyActivity$2: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+2131165212;<com.example.LayoutChallenges.MyActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+2131165213;<com.example.LayoutChallenges.MyActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+2131165214;<com.example.LayoutChallenges.MyActivity: boolean onOptionsItemSelected(android.view.MenuItem)>

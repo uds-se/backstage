@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string>com.example.APIChallenges.MyActivity</string>
+    <set>
+      <int>2130903040</int>
+    </set>
+  </entry>
+  <entry>
+    <string>com.example.APIChallenges.MyActivity4</string>
+    <set>
+      <int>2130903041</int>
+    </set>
+  </entry>
+  <entry>
+    <string>com.example.APIChallenges.MyActivity5</string>
+    <set>
+      <int>2130903041</int>
+    </set>
+  </entry>
+  <entry>
+    <string>com.example.APIChallenges.MyActivity2</string>
+    <set>
+      <int>2130903041</int>
+    </set>
+  </entry>
+</map><map/><map/>

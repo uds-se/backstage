@@ -1,0 +1,16 @@
+TextChallenges;LinearLayout;;;;
+TextChallenges;TextView;normalStringInXML;2131034112;;Test 1
+TextChallenges;TextView;xmlWithStringVariable;2131034113;my_Text2;Test 2
+TextChallenges;TextView;globalVarLaterWritten;2131034114;;"Test 3"
+TextChallenges;TextView;globalVarText;2131034115;;"Test 4"
+TextChallenges;TextView;globalVarTextID;2131034116;;Test 5
+TextChallenges;TextView;staticTextID;2131034117;;Test 6
+TextChallenges;TextView;stringBuilderDifficult;2131034118;;Te$r3 7
+TextChallenges;TextView;stringBuilderTextView;2131034119;;Test 8
+TextChallenges;TextView;dynStringVar;2131034120;;Test 9
+TextChallenges;Switch;switch1;2131034121;;Test 10
+TextChallenges;Button;concatTextBut;2131034122;;Test 11
+TextChallenges;TextView;arrayText;2131034123;;"Test 12"
+TextChallenges;TextView;listText;2131034124;;
+TextChallenges;CheckBox;andrStdText;2131034125;;Cancel
+TextChallenges;TextView;dynAndStdValues;2131034126;;OK

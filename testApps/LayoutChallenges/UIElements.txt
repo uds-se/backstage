@@ -1,0 +1,59 @@
+LayoutChallenges;android.support.v4.widget.DrawerLayout;drawerlayout;2131165184;;
+---SubLayout: LayoutChallenges;FrameLayout;mainLayoutDrawer;2131165185;;
+LayoutChallenges;TextView;drawerTextView;2131165186;;
+LayoutChallenges;ListView;drawer;2131165187;;Second choice#First choice;com.example.LayoutChallenges.DrawerActivity---void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+LayoutChallenges;List;;;;2130968576
+LayoutChallenges;LinearLayout;mainLinearLayout;2131165190;;
+LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;Button;gotoViewPager;2131165191;;gotoViewPager;com.example.LayoutChallenges.MyActivity---void gotoViewPagerAct(android.view.View)
+LayoutChallenges;Button;gotoViewPagerXMLdef;2131165192;;gotoViewPagerXMLdef;com.example.LayoutChallenges.MyActivity---void gotoViewPagerXMLAct(android.view.View)
+LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;Button;gotoTabView;2131165193;;gotoTabView;com.example.LayoutChallenges.MyActivity---void gotoTabViewAct(android.view.View)
+LayoutChallenges;Button;gotoDrawerActivity;2131165194;;gotoDrawerActivity;com.example.LayoutChallenges.MyActivity---void gotoDrawerActivity(android.view.View)
+LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;Button;getDialog1;2131165195;;getDialog1;com.example.LayoutChallenges.MyActivity---void showYesNoDialog(android.view.View)
+LayoutChallenges;Button;getDialog2;2131165196;;getDialog2;com.example.LayoutChallenges.MyActivity---void showDialogSpecificChoice(android.view.View)
+LayoutChallenges;Button;getDialog3;2131165197;;getDialog3;com.example.LayoutChallenges.MyActivity---void showDialogFragment(android.view.View)
+LayoutChallenges;Button;gotoMergedLayout;2131165198;;gotoMergedLayout;com.example.LayoutChallenges.MyActivity---void gotoMergedLayout(android.view.View)
+LayoutChallenges;ListView;listView;2131165201;;Line1#Line2;com.example.LayoutChallenges.MyActivity$2---void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+LayoutChallenges;item;menuItem1;2131165212;;menuItem1
+LayoutChallenges;item;menuItem2;2131165213;;menuItem2
+LayoutChallenges;item;menuItem3;2131165214;;menuItem3
+LayoutChallenges;TextView;noValue;2131165200;;getContextMenu
+---SubLayout: 2131099648;LayoutChallenges;item;popupItem1;2131165215;;popupMenuItem1
+LayoutChallenges;item;popupItem2;2131165216;;popupMenuItem2
+LayoutChallenges;Button;noValue;2131165199;;getPopupMenu;com.example.LayoutChallenges.MyActivity---void showPopup(android.view.View);---boolean onMenuItemClick(android.view.MenuItem);---boolean onMenuItemClick(android.view.MenuItem)
+---SubLayout: 2131099650;LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;TextView;mergedLayout1TV;2131165202;;mergedLayout1TV
+LayoutChallenges;TextView;mergedLayout3TV;2131165205;;mergedLayout3TV
+LayoutChallenges;LinearLayout;fragmentContainer;2131165206;;
+LayoutChallenges;include;;;;
+---SubLayout: 2130903046;LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;TextView;Fragment2TV;2131165189;;Fragment2TV
+LayoutChallenges;-AddedText-;noValue;87118438;;Tab2 Title
+LayoutChallenges;android.support.v4.view.ViewPager;viewpagerXML;2131165208;;
+---SubLayout: LayoutChallenges;LinearLayout;viewPagerPageXML1;2131165209;;
+LayoutChallenges;TextView;;;;View1(Viewpager xml defined)
+LayoutChallenges;LinearLayout;viewPagerPageXML2;2131165210;;
+LayoutChallenges;TextView;;;;View2(Viewpager xml defined)
+LayoutChallenges;LinearLayout;viewPagerPageXML3;2131165211;;
+LayoutChallenges;TextView;;;;View3(Viewpager xml defined)
+LayoutChallenges;TextView;Fragment1TV;2131165188;;Fragment1TV
+LayoutChallenges;LinearLayout;;;;
+---SubLayout: LayoutChallenges;-AddedText-;noValue;560146610;;Tab1 Title
+LayoutChallenges;item;menuItem1;2131165212;;menuItem1
+LayoutChallenges;item;menuItem2;2131165213;;menuItem2
+LayoutChallenges;item;menuItem3;2131165214;;menuItem3
+LayoutChallenges;item;menuItem1;2131165212;;menuItem1;com.example.LayoutChallenges.MyActivity---boolean onOptionsItemSelected(android.view.MenuItem)
+LayoutChallenges;item;menuItem2;2131165213;;menuItem2;com.example.LayoutChallenges.MyActivity---boolean onOptionsItemSelected(android.view.MenuItem)
+LayoutChallenges;item;menuItem3;2131165214;;menuItem3;com.example.LayoutChallenges.MyActivity---boolean onOptionsItemSelected(android.view.MenuItem)
+LayoutChallenges;TextView;mergedLayout3TV;2131165205;;mergedLayout3TV
+LayoutChallenges;LinearLayout;fragmentContainer;2131165206;;
+LayoutChallenges;android.support.v4.view.ViewPager;viewpager;2131165207;;
+---SubLayout: LayoutChallenges;LinearLayout;;;;
+LayoutChallenges;TextView;mergedLayout2TV;2131165203;;mergedLayout2TV
+LayoutChallenges;TextView;Fragment1TV;2131165188;;Fragment1TV
+LayoutChallenges;LinearLayout;;;;
+---SubLayout: com.example.LayoutChallenges.Fragment1LayoutChallenges;fragment;fragamentTag1;2131165204;;
+---SubLayout: 2130903041;LayoutChallenges;item;popupItem1;2131165215;;popupMenuItem1
+LayoutChallenges;item;popupItem2;2131165216;;popupMenuItem2

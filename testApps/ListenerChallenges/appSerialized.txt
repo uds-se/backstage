@@ -1,0 +1,1045 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>ListenerChallenges</name>
+  <uiElementsOfApp id="2">
+    <entry>
+      <int>2131099654</int>
+      <AppsUIElement id="3">
+        <parentIDs id="4">
+          <int>1000010</int>
+        </parentIDs>
+        <childIDs id="5"/>
+        <idVar></idVar>
+        <id>2131099654</id>
+        <textVar></textVar>
+        <text>onCreateButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="6">
+          <st.cs.uni.saarland.de.entities.Listener id="7">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="8"/>
+        <logger class="org.slf4j.impl.SimpleLogger" id="9">
+          <name>main</name>
+          <currentLogLevel>20</currentLogLevel>
+        </logger>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000015</int>
+      <AppsUIElement id="10">
+        <parentIDs id="11">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="12">
+          <int>2131099664</int>
+          <int>2131099665</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000015</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="13"/>
+        <drawableNames id="14"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099655</int>
+      <AppsUIElement id="15">
+        <parentIDs id="16">
+          <int>1000010</int>
+        </parentIDs>
+        <childIDs id="17"/>
+        <idVar></idVar>
+        <id>2131099655</id>
+        <textVar></textVar>
+        <text>xmlButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="18">
+          <st.cs.uni.saarland.de.entities.Listener id="19">
+            <listenerMethod>void xmlOnClick1(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="20"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000014</int>
+      <AppsUIElement id="21">
+        <parentIDs id="22">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="23">
+          <int>2131099662</int>
+          <int>2131099663</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000014</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="24"/>
+        <drawableNames id="25"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099652</int>
+      <AppsUIElement id="26">
+        <parentIDs id="27">
+          <int>1000007</int>
+        </parentIDs>
+        <childIDs id="28"/>
+        <idVar></idVar>
+        <id>2131099652</id>
+        <textVar></textVar>
+        <text>declInSubMethodsButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="29">
+          <st.cs.uni.saarland.de.entities.Listener id="30">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$5</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="31">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$3</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="32">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$3</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="33"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000013</int>
+      <AppsUIElement id="34">
+        <parentIDs id="35">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="36">
+          <int>2131099660</int>
+          <int>2131099661</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000013</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="37"/>
+        <drawableNames id="38"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099653</int>
+      <AppsUIElement id="39">
+        <parentIDs id="40">
+          <int>1000007</int>
+        </parentIDs>
+        <childIDs id="41"/>
+        <idVar></idVar>
+        <id>2131099653</id>
+        <textVar></textVar>
+        <text>externalListButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="42">
+          <st.cs.uni.saarland.de.entities.Listener id="43">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="44"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000012</int>
+      <AppsUIElement id="45">
+        <parentIDs id="46">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="47">
+          <int>2131099658</int>
+          <int>2131099659</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000012</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="48"/>
+        <drawableNames id="49"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099650</int>
+      <AppsUIElement id="50">
+        <parentIDs id="51">
+          <int>1000005</int>
+        </parentIDs>
+        <childIDs id="52"/>
+        <idVar></idVar>
+        <id>2131099650</id>
+        <textVar></textVar>
+        <text>sameListenerButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="53">
+          <st.cs.uni.saarland.de.entities.Listener id="54">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$MyInnerListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="55"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000011</int>
+      <AppsUIElement id="56">
+        <parentIDs id="57">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="58">
+          <int>2131099656</int>
+          <int>2131099657</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000011</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="59"/>
+        <drawableNames id="60"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099651</int>
+      <AppsUIElement id="61">
+        <parentIDs id="62">
+          <int>1000005</int>
+        </parentIDs>
+        <childIDs id="63"/>
+        <idVar></idVar>
+        <id>2131099651</id>
+        <textVar></textVar>
+        <text>listVarButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="64">
+          <st.cs.uni.saarland.de.entities.Listener id="65">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$4</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="66"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000010</int>
+      <AppsUIElement id="67">
+        <parentIDs id="68">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="69">
+          <int>2131099654</int>
+          <int>2131099655</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000010</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="70"/>
+        <drawableNames id="71"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099648</int>
+      <AppsUIElement id="72">
+        <parentIDs id="73">
+          <int>1000002</int>
+        </parentIDs>
+        <childIDs id="74"/>
+        <idVar></idVar>
+        <id>2131099648</id>
+        <textVar></textVar>
+        <text>externalListButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="75">
+          <st.cs.uni.saarland.de.entities.Listener id="76">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="77"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000009</int>
+      <AppsUIElement id="78">
+        <parentIDs id="79">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="80"/>
+        <idVar></idVar>
+        <id>1000009</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="81"/>
+        <drawableNames id="82"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099649</int>
+      <AppsUIElement id="83">
+        <parentIDs id="84">
+          <int>1000002</int>
+        </parentIDs>
+        <childIDs id="85"/>
+        <idVar></idVar>
+        <id>2131099649</id>
+        <textVar></textVar>
+        <text>sameListenerButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="86">
+          <st.cs.uni.saarland.de.entities.Listener id="87">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$MyInnerListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="88"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000008</int>
+      <AppsUIElement id="89">
+        <parentIDs id="90">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="91"/>
+        <idVar></idVar>
+        <id>1000008</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="92"/>
+        <drawableNames id="93"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000007</int>
+      <AppsUIElement id="94">
+        <parentIDs id="95">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="96">
+          <int>2131099652</int>
+          <int>2131099653</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000007</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="97"/>
+        <drawableNames id="98"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099662</int>
+      <AppsUIElement id="99">
+        <parentIDs id="100">
+          <int>1000014</int>
+        </parentIDs>
+        <childIDs id="101"/>
+        <idVar></idVar>
+        <id>2131099662</id>
+        <textVar></textVar>
+        <text>forLoopButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="102"/>
+        <drawableNames id="103"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000006</int>
+      <AppsUIElement id="104">
+        <parentIDs id="105">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="106"/>
+        <idVar></idVar>
+        <id>1000006</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="107"/>
+        <drawableNames id="108"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099663</int>
+      <AppsUIElement id="109">
+        <parentIDs id="110">
+          <int>1000014</int>
+        </parentIDs>
+        <childIDs id="111"/>
+        <idVar></idVar>
+        <id>2131099663</id>
+        <textVar></textVar>
+        <text>arrayListButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="112"/>
+        <drawableNames id="113"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000005</int>
+      <AppsUIElement id="114">
+        <parentIDs id="115">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="116">
+          <int>2131099650</int>
+          <int>2131099651</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000005</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="117"/>
+        <drawableNames id="118"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099660</int>
+      <AppsUIElement id="119">
+        <parentIDs id="120">
+          <int>1000013</int>
+        </parentIDs>
+        <childIDs id="121"/>
+        <idVar></idVar>
+        <id>2131099660</id>
+        <textVar></textVar>
+        <text>actImplListLongClickButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="122">
+          <st.cs.uni.saarland.de.entities.Listener id="123">
+            <listenerMethod>boolean onLongClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity</listenerClass>
+            <actionWaitingFor>OnLongClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="124"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000004</int>
+      <AppsUIElement id="125">
+        <parentIDs id="126">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="127"/>
+        <idVar></idVar>
+        <id>1000004</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="128"/>
+        <drawableNames id="129"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099661</int>
+      <AppsUIElement id="130">
+        <parentIDs id="131">
+          <int>1000013</int>
+        </parentIDs>
+        <childIDs id="132"/>
+        <idVar></idVar>
+        <id>2131099661</id>
+        <textVar></textVar>
+        <text>arrayListButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="133"/>
+        <drawableNames id="134"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000003</int>
+      <AppsUIElement id="135">
+        <parentIDs id="136">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="137"/>
+        <idVar></idVar>
+        <id>1000003</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="138"/>
+        <drawableNames id="139"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099658</int>
+      <AppsUIElement id="140">
+        <parentIDs id="141">
+          <int>1000012</int>
+        </parentIDs>
+        <childIDs id="142"/>
+        <idVar></idVar>
+        <id>2131099658</id>
+        <textVar></textVar>
+        <text>myTouchPlusClickButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="143">
+          <st.cs.uni.saarland.de.entities.Listener id="144">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$5</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="145">
+            <listenerMethod>boolean onTouch(android.view.View,android.view.MotionEvent)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyOnTouchListener</listenerClass>
+            <actionWaitingFor>OnTouch</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="146"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000002</int>
+      <AppsUIElement id="147">
+        <parentIDs id="148">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="149">
+          <int>2131099648</int>
+          <int>2131099649</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000002</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="150"/>
+        <drawableNames id="151"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099659</int>
+      <AppsUIElement id="152">
+        <parentIDs id="153">
+          <int>1000012</int>
+        </parentIDs>
+        <childIDs id="154"/>
+        <idVar></idVar>
+        <id>2131099659</id>
+        <textVar></textVar>
+        <text>whileLoopButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="155"/>
+        <drawableNames id="156"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000001</int>
+      <AppsUIElement id="157">
+        <parentIDs id="158">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="159">
+          <int>1000002</int>
+          <int>1000003</int>
+          <int>1000004</int>
+          <int>1000005</int>
+          <int>1000006</int>
+          <int>1000007</int>
+          <int>1000008</int>
+          <int>1000009</int>
+          <int>1000010</int>
+          <int>1000011</int>
+          <int>1000012</int>
+          <int>1000013</int>
+          <int>1000014</int>
+          <int>1000015</int>
+          <int>1000016</int>
+          <int>1000017</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000001</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableLayout</kindOfUiElement>
+        <listeners id="160"/>
+        <drawableNames id="161"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099656</int>
+      <AppsUIElement id="162">
+        <parentIDs id="163">
+          <int>1000011</int>
+        </parentIDs>
+        <childIDs id="164"/>
+        <idVar></idVar>
+        <id>2131099656</id>
+        <textVar></textVar>
+        <text>anonyListTextView</text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="165">
+          <st.cs.uni.saarland.de.entities.Listener id="166">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="167"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000000</int>
+      <AppsUIElement id="168">
+        <parentIDs id="169"/>
+        <childIDs id="170">
+          <int>1000001</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000000</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="171"/>
+        <drawableNames id="172"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099657</int>
+      <AppsUIElement id="173">
+        <parentIDs id="174">
+          <int>1000011</int>
+        </parentIDs>
+        <childIDs id="175"/>
+        <idVar></idVar>
+        <id>2131099657</id>
+        <textVar></textVar>
+        <text>whileLoopButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="176"/>
+        <drawableNames id="177"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099670</int>
+      <AppsUIElement id="178">
+        <parentIDs id="179"/>
+        <childIDs id="180"/>
+        <idVar></idVar>
+        <id>2131099670</id>
+        <textVar></textVar>
+        <text>menuItem1</text>
+        <kindOfUiElement>item</kindOfUiElement>
+        <listeners id="181"/>
+        <drawableNames id="182"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099671</int>
+      <AppsUIElement id="183">
+        <parentIDs id="184"/>
+        <childIDs id="185"/>
+        <idVar></idVar>
+        <id>2131099671</id>
+        <textVar></textVar>
+        <text>menuItem2</text>
+        <kindOfUiElement>item</kindOfUiElement>
+        <listeners id="186"/>
+        <drawableNames id="187"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099668</int>
+      <AppsUIElement id="188">
+        <parentIDs id="189">
+          <int>1000017</int>
+        </parentIDs>
+        <childIDs id="190"/>
+        <idVar></idVar>
+        <id>2131099668</id>
+        <textVar></textVar>
+        <text>switchButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="191">
+          <st.cs.uni.saarland.de.entities.Listener id="192">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyThirdListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="193">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MySecondListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="194"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099669</int>
+      <AppsUIElement id="195">
+        <parentIDs id="196">
+          <int>1000017</int>
+        </parentIDs>
+        <childIDs id="197"/>
+        <idVar></idVar>
+        <id>2131099669</id>
+        <textVar></textVar>
+        <text>specialXMLButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="198">
+          <st.cs.uni.saarland.de.entities.Listener id="199">
+            <listenerMethod>xmlOnClick2</listenerMethod>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="200"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099666</int>
+      <AppsUIElement id="201">
+        <parentIDs id="202">
+          <int>1000016</int>
+        </parentIDs>
+        <childIDs id="203"/>
+        <idVar></idVar>
+        <id>2131099666</id>
+        <textVar></textVar>
+        <text>switchButton1</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="204">
+          <st.cs.uni.saarland.de.entities.Listener id="205">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyThirdListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="206">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MySecondListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="207"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099667</int>
+      <AppsUIElement id="208">
+        <parentIDs id="209">
+          <int>1000016</int>
+        </parentIDs>
+        <childIDs id="210"/>
+        <idVar></idVar>
+        <id>2131099667</id>
+        <textVar></textVar>
+        <text>setterGetterButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="211">
+          <st.cs.uni.saarland.de.entities.Listener id="212">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$5</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="213">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$3</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="214">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$3</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="215"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099664</int>
+      <AppsUIElement id="216">
+        <parentIDs id="217">
+          <int>1000015</int>
+        </parentIDs>
+        <childIDs id="218"/>
+        <idVar></idVar>
+        <id>2131099664</id>
+        <textVar></textVar>
+        <text>forLoopButton2</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="219"/>
+        <drawableNames id="220"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099665</int>
+      <AppsUIElement id="221">
+        <parentIDs id="222">
+          <int>1000015</int>
+        </parentIDs>
+        <childIDs id="223"/>
+        <idVar></idVar>
+        <id>2131099665</id>
+        <textVar></textVar>
+        <text>multipleListenerButton</text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="224">
+          <st.cs.uni.saarland.de.entities.Listener id="225">
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.CompositeOnClickListener</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="226"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000017</int>
+      <AppsUIElement id="227">
+        <parentIDs id="228">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="229">
+          <int>2131099668</int>
+          <int>2131099669</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000017</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="230"/>
+        <drawableNames id="231"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131099672</int>
+      <AppsUIElement id="232">
+        <parentIDs id="233"/>
+        <childIDs id="234"/>
+        <idVar></idVar>
+        <id>2131099672</id>
+        <textVar></textVar>
+        <text>menuItem3WonCLick</text>
+        <kindOfUiElement>item</kindOfUiElement>
+        <listeners id="235">
+          <st.cs.uni.saarland.de.entities.Listener id="236">
+            <listenerMethod>boolean onMenuItemClick(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.UIEventHandlersChallenge.MyActivity$6</listenerClass>
+            <actionWaitingFor>OnMenuItemClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="237"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000016</int>
+      <AppsUIElement id="238">
+        <parentIDs id="239">
+          <int>1000001</int>
+        </parentIDs>
+        <childIDs id="240">
+          <int>2131099666</int>
+          <int>2131099667</int>
+        </childIDs>
+        <idVar></idVar>
+        <id>1000016</id>
+        <textVar></textVar>
+        <text></text>
+        <kindOfUiElement>TableRow</kindOfUiElement>
+        <listeners id="241"/>
+        <drawableNames id="242"/>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </AppsUIElement>
+    </entry>
+  </uiElementsOfApp>
+  <xmlLayoutFiles id="243">
+    <entry>
+      <int>2130903040</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="244">
+        <name>main</name>
+        <id>2130903040</id>
+        <elementIDs id="245">
+          <int>2131099654</int>
+          <int>1000015</int>
+          <int>2131099655</int>
+          <int>1000014</int>
+          <int>2131099652</int>
+          <int>1000013</int>
+          <int>2131099653</int>
+          <int>1000012</int>
+          <int>2131099650</int>
+          <int>1000011</int>
+          <int>2131099651</int>
+          <int>1000010</int>
+          <int>2131099648</int>
+          <int>1000009</int>
+          <int>2131099649</int>
+          <int>1000008</int>
+          <int>1000007</int>
+          <int>2131099662</int>
+          <int>1000006</int>
+          <int>2131099663</int>
+          <int>1000005</int>
+          <int>2131099660</int>
+          <int>1000004</int>
+          <int>2131099661</int>
+          <int>1000003</int>
+          <int>2131099658</int>
+          <int>1000002</int>
+          <int>2131099659</int>
+          <int>1000001</int>
+          <int>2131099656</int>
+          <int>1000000</int>
+          <int>2131099657</int>
+          <int>2131099668</int>
+          <int>2131099669</int>
+          <int>2131099666</int>
+          <int>2131099667</int>
+          <int>2131099664</int>
+          <int>2131099665</int>
+          <int>1000017</int>
+          <int>1000016</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="246"/>
+        <dynamicIncludedLayoutIDs id="247"/>
+        <rootElementID>1000000</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131034112</int>
+      <st.cs.uni.saarland.de.entities.Menu id="248">
+        <name>option</name>
+        <id>2131034112</id>
+        <elementIDs id="249">
+          <int>2131099670</int>
+          <int>2131099671</int>
+          <int>2131099672</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="250"/>
+        <dynamicIncludedLayoutIDs id="251"/>
+        <rootElementID>2131099670</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        <assignedActivity id="252"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="253"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+  </xmlLayoutFiles>
+  <dialogs id="254"/>
+  <activityNames id="255">
+    <string>com.example.UIEventHandlersChallenge.MyActivity</string>
+  </activityNames>
+  <firstActivities id="256">
+    <string>com.example.UIEventHandlersChallenge.MyActivity</string>
+  </firstActivities>
+  <permissions id="257"/>
+  <includeTagIDs id="258"/>
+  <fragmentTagIDs id="259"/>
+  <screens id="260"/>
+  <activityToXMLLayoutFiles id="261">
+    <entry>
+      <string>com.example.UIEventHandlersChallenge.MyActivity</string>
+      <set id="262">
+        <int>2130903040</int>
+        <int>2131034112</int>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <mergedLayoutFileIDs id="263"/>
+  <fragmentClassToLayout id="264"/>
+  <intentFilters id="265">
+    <string>android.intent.action.MAIN</string>
+  </intentFilters>
+  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+</st.cs.uni.saarland.de.entities.Application>

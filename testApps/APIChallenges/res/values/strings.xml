@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APIChallenges</string>
+    <string name="service1_name">service1_running</string>
+    <string name="service2_name">foregroundService2</string>
+</resources>

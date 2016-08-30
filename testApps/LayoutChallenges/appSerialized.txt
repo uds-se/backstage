@@ -1,0 +1,1106 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>LayoutChallenges</name>
+  <xmlLayoutFiles id="2">
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="3">
+      <name>drawerlayout</name>
+      <id>2130903040</id>
+      <elements id="4">
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="5">
+          <parents defined-in="AppsUIElement" id="6">
+            <null/>
+          </parents>
+          <uiIDVar>drawerlayout</uiIDVar>
+          <uiID>2131165184</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>android.support.v4.widget.DrawerLayout</kindOfUiElement>
+          <listeners id="7"/>
+          <drawableNames id="8"/>
+          <logger class="org.slf4j.impl.SimpleLogger" id="9">
+            <name>main</name>
+            <currentLogLevel>20</currentLogLevel>
+          </logger>
+          <xmlFiles id="10"/>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+        <AppsUIElement id="11">
+          <parents id="12">
+            <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="5"/>
+          </parents>
+          <uiIDVar>mainLayoutDrawer</uiIDVar>
+          <uiID>2131165185</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>FrameLayout</kindOfUiElement>
+          <listeners id="13"/>
+          <drawableNames id="14"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="15">
+          <parents id="16">
+            <AppsUIElement reference="11"/>
+          </parents>
+          <uiIDVar>drawerTextView</uiIDVar>
+          <uiID>2131165186</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="17"/>
+          <drawableNames id="18"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="19">
+          <parents id="20">
+            <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="5"/>
+          </parents>
+          <uiIDVar>drawer</uiIDVar>
+          <uiID>2131165187</uiID>
+          <textVar></textVar>
+          <text>Second choice#First choice</text>
+          <kindOfUiElement>ListView</kindOfUiElement>
+          <listeners id="21">
+            <st.cs.uni.saarland.de.entities.Listener id="22">
+              <listenerMethod>void onItemClick(android.widget.AdapterView,android.view.View,int,long)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.DrawerActivity</listenerClass>
+              <actionWaitingFor>OnItemClick</actionWaitingFor>
+              <xmlDefined>false</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="23"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.Menu id="24">
+      <name>-NewFoundInCode-</name>
+      <id>1527684620</id>
+      <elements id="25">
+        <AppsUIElement id="26">
+          <parents id="27"/>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text>2130968576</text>
+          <kindOfUiElement>List</kindOfUiElement>
+          <listeners id="28"/>
+          <drawableNames id="29"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <assignedActivity id="30">
+        <string>com.example.LayoutChallenges.MyActivity</string>
+      </assignedActivity>
+      <kindOfMenu>NavDropDown</kindOfMenu>
+      <listeners id="31">
+        <st.cs.uni.saarland.de.entities.Listener id="32">
+          <listenerMethod>boolean onNavigationItemSelected(int, long)</listenerMethod>
+          <listenerClass>com.example.LayoutChallenges.MyActivity$1</listenerClass>
+          <actionWaitingFor>onClick</actionWaitingFor>
+          <xmlDefined>false</xmlDefined>
+        </st.cs.uni.saarland.de.entities.Listener>
+      </listeners>
+    </st.cs.uni.saarland.de.entities.Menu>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="33">
+      <name>main</name>
+      <id>2130903043</id>
+      <elements id="34">
+        <AppsUIElement id="35">
+          <parents id="36">
+            <null/>
+          </parents>
+          <uiIDVar>mainLinearLayout</uiIDVar>
+          <uiID>2131165190</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="37"/>
+          <drawableNames id="38"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="39">
+          <parents id="40">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="41"/>
+          <drawableNames id="42"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="43">
+          <parents id="44">
+            <AppsUIElement reference="39"/>
+          </parents>
+          <uiIDVar>gotoViewPager</uiIDVar>
+          <uiID>2131165191</uiID>
+          <textVar></textVar>
+          <text>gotoViewPager</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="45">
+            <st.cs.uni.saarland.de.entities.Listener id="46">
+              <listenerMethod>void gotoViewPagerAct(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="47"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="48">
+          <parents id="49">
+            <AppsUIElement reference="39"/>
+          </parents>
+          <uiIDVar>gotoViewPagerXMLdef</uiIDVar>
+          <uiID>2131165192</uiID>
+          <textVar></textVar>
+          <text>gotoViewPagerXMLdef</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="50">
+            <st.cs.uni.saarland.de.entities.Listener id="51">
+              <listenerMethod>void gotoViewPagerXMLAct(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="52"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="53">
+          <parents id="54">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="55"/>
+          <drawableNames id="56"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="57">
+          <parents id="58">
+            <AppsUIElement reference="53"/>
+          </parents>
+          <uiIDVar>gotoTabView</uiIDVar>
+          <uiID>2131165193</uiID>
+          <textVar></textVar>
+          <text>gotoTabView</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="59">
+            <st.cs.uni.saarland.de.entities.Listener id="60">
+              <listenerMethod>void gotoTabViewAct(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="61"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="62">
+          <parents id="63">
+            <AppsUIElement reference="53"/>
+          </parents>
+          <uiIDVar>gotoDrawerActivity</uiIDVar>
+          <uiID>2131165194</uiID>
+          <textVar></textVar>
+          <text>gotoDrawerActivity</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="64">
+            <st.cs.uni.saarland.de.entities.Listener id="65">
+              <listenerMethod>void gotoDrawerActivity(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="66"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="67">
+          <parents id="68">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="69"/>
+          <drawableNames id="70"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="71">
+          <parents id="72">
+            <AppsUIElement reference="67"/>
+          </parents>
+          <uiIDVar>getDialog1</uiIDVar>
+          <uiID>2131165195</uiID>
+          <textVar></textVar>
+          <text>getDialog1</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="73">
+            <st.cs.uni.saarland.de.entities.Listener id="74">
+              <listenerMethod>void showYesNoDialog(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="75"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="76">
+          <parents id="77">
+            <AppsUIElement reference="67"/>
+          </parents>
+          <uiIDVar>getDialog2</uiIDVar>
+          <uiID>2131165196</uiID>
+          <textVar></textVar>
+          <text>getDialog2</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="78">
+            <st.cs.uni.saarland.de.entities.Listener id="79">
+              <listenerMethod>void showDialogSpecificChoice(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="80"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="81">
+          <parents id="82">
+            <AppsUIElement reference="67"/>
+          </parents>
+          <uiIDVar>getDialog3</uiIDVar>
+          <uiID>2131165197</uiID>
+          <textVar></textVar>
+          <text>getDialog3</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="83">
+            <st.cs.uni.saarland.de.entities.Listener id="84">
+              <listenerMethod>void showDialogFragment(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="85"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="86">
+          <parents id="87">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar>gotoMergedLayout</uiIDVar>
+          <uiID>2131165198</uiID>
+          <textVar></textVar>
+          <text>gotoMergedLayout</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="88">
+            <st.cs.uni.saarland.de.entities.Listener id="89">
+              <listenerMethod>void gotoMergedLayout(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="90"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="91">
+          <parents id="92">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar>listView</uiIDVar>
+          <uiID>2131165201</uiID>
+          <textVar></textVar>
+          <text>Line1#Line2</text>
+          <kindOfUiElement>ListView</kindOfUiElement>
+          <listeners id="93">
+            <st.cs.uni.saarland.de.entities.Listener id="94">
+              <listenerMethod>void onItemClick(android.widget.AdapterView,android.view.View,int,long)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity$2</listenerClass>
+              <actionWaitingFor>OnItemClick</actionWaitingFor>
+              <xmlDefined>false</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="95"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="96">
+          <parents defined-in="AppsUIElement" id="97">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar>noValue</uiIDVar>
+          <uiID>2131165200</uiID>
+          <textVar></textVar>
+          <text>getContextMenu</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="98"/>
+          <drawableNames id="99"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="100">
+            <st.cs.uni.saarland.de.entities.Menu id="101">
+              <name>contextmenu</name>
+              <id>2131099648</id>
+              <elements id="102">
+                <AppsUIElement id="103">
+                  <parents id="104">
+                    <AppsUIElement id="105">
+                      <parents id="106"/>
+                      <uiIDVar></uiIDVar>
+                      <uiID></uiID>
+                      <textVar></textVar>
+                      <text></text>
+                      <listeners id="107"/>
+                      <drawableNames id="108"/>
+                      <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                    </AppsUIElement>
+                  </parents>
+                  <uiIDVar>menuItem1</uiIDVar>
+                  <uiID>2131165212</uiID>
+                  <textVar></textVar>
+                  <text>menuItem1</text>
+                  <kindOfUiElement>item</kindOfUiElement>
+                  <listeners id="109"/>
+                  <drawableNames id="110"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+                <AppsUIElement id="111">
+                  <parents id="112">
+                    <AppsUIElement reference="105"/>
+                  </parents>
+                  <uiIDVar>menuItem2</uiIDVar>
+                  <uiID>2131165213</uiID>
+                  <textVar></textVar>
+                  <text>menuItem2</text>
+                  <kindOfUiElement>item</kindOfUiElement>
+                  <listeners id="113"/>
+                  <drawableNames id="114"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+                <AppsUIElement id="115">
+                  <parents id="116">
+                    <AppsUIElement reference="105"/>
+                  </parents>
+                  <uiIDVar>menuItem3</uiIDVar>
+                  <uiID>2131165214</uiID>
+                  <textVar></textVar>
+                  <text>menuItem3</text>
+                  <kindOfUiElement>item</kindOfUiElement>
+                  <listeners id="117"/>
+                  <drawableNames id="118"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+              </elements>
+              <isIncludedSomeWhere>false</isIncludedSomeWhere>
+              <assignedActivity id="119"/>
+              <kindOfMenu>Contextual</kindOfMenu>
+              <listeners id="120"/>
+            </st.cs.uni.saarland.de.entities.Menu>
+          </xmlFiles>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="121">
+          <parents defined-in="AppsUIElement" id="122">
+            <AppsUIElement reference="35"/>
+          </parents>
+          <uiIDVar>noValue</uiIDVar>
+          <uiID>2131165199</uiID>
+          <textVar></textVar>
+          <text>getPopupMenu</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="123">
+            <st.cs.uni.saarland.de.entities.Listener id="124">
+              <listenerMethod>void showPopup(android.view.View)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>true</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+            <st.cs.uni.saarland.de.entities.Listener id="125">
+              <listenerMethod>boolean onMenuItemClick(android.view.MenuItem)</listenerMethod>
+              <listenerClass></listenerClass>
+              <actionWaitingFor>onMenuItemClick</actionWaitingFor>
+              <xmlDefined>false</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+            <st.cs.uni.saarland.de.entities.Listener reference="125"/>
+          </listeners>
+          <drawableNames id="126"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="127">
+            <st.cs.uni.saarland.de.entities.Menu id="128">
+              <name>popupmenu</name>
+              <id>2131099650</id>
+              <elements id="129">
+                <AppsUIElement id="130">
+                  <parents id="131">
+                    <AppsUIElement id="132">
+                      <parents id="133"/>
+                      <uiIDVar></uiIDVar>
+                      <uiID></uiID>
+                      <textVar></textVar>
+                      <text></text>
+                      <listeners id="134"/>
+                      <drawableNames id="135"/>
+                      <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                    </AppsUIElement>
+                  </parents>
+                  <uiIDVar>popupItem1</uiIDVar>
+                  <uiID>2131165215</uiID>
+                  <textVar></textVar>
+                  <text>popupMenuItem1</text>
+                  <kindOfUiElement>item</kindOfUiElement>
+                  <listeners id="136"/>
+                  <drawableNames id="137"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+                <AppsUIElement id="138">
+                  <parents id="139">
+                    <AppsUIElement reference="132"/>
+                  </parents>
+                  <uiIDVar>popupItem2</uiIDVar>
+                  <uiID>2131165216</uiID>
+                  <textVar></textVar>
+                  <text>popupMenuItem2</text>
+                  <kindOfUiElement>item</kindOfUiElement>
+                  <listeners id="140"/>
+                  <drawableNames id="141"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+              </elements>
+              <isIncludedSomeWhere>false</isIncludedSomeWhere>
+              <assignedActivity id="142"/>
+              <kindOfMenu>Popup</kindOfMenu>
+              <listeners id="143">
+                <st.cs.uni.saarland.de.entities.Listener reference="125"/>
+              </listeners>
+            </st.cs.uni.saarland.de.entities.Menu>
+          </xmlFiles>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="144">
+      <name>merged_layout1</name>
+      <id>2130903044</id>
+      <elements id="145">
+        <AppsUIElement id="146">
+          <parents id="147">
+            <null/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="148"/>
+          <drawableNames id="149"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="150">
+          <parents id="151">
+            <AppsUIElement reference="146"/>
+          </parents>
+          <uiIDVar>mergedLayout1TV</uiIDVar>
+          <uiID>2131165202</uiID>
+          <textVar></textVar>
+          <text>mergedLayout1TV</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="152"/>
+          <drawableNames id="153"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <st.cs.uni.saarland.de.entities.XMLIncludeTag id="154">
+          <parents defined-in="AppsUIElement" id="155">
+            <AppsUIElement reference="146"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>include</kindOfUiElement>
+          <listeners id="156"/>
+          <drawableNames id="157"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="158">
+            <st.cs.uni.saarland.de.entities.XMLLayoutFile id="159">
+              <name>merged_layout3_merge_tag</name>
+              <id>2130903046</id>
+              <elements id="160">
+                <AppsUIElement id="161">
+                  <parents id="162">
+                    <null/>
+                    <AppsUIElement reference="146"/>
+                  </parents>
+                  <uiIDVar>mergedLayout3TV</uiIDVar>
+                  <uiID>2131165205</uiID>
+                  <textVar></textVar>
+                  <text>mergedLayout3TV</text>
+                  <kindOfUiElement>TextView</kindOfUiElement>
+                  <listeners id="163"/>
+                  <drawableNames id="164"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+                <AppsUIElement id="165">
+                  <parents id="166">
+                    <null/>
+                  </parents>
+                  <uiIDVar>fragmentContainer</uiIDVar>
+                  <uiID>2131165206</uiID>
+                  <textVar></textVar>
+                  <text></text>
+                  <kindOfUiElement>LinearLayout</kindOfUiElement>
+                  <listeners id="167"/>
+                  <drawableNames id="168"/>
+                  <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+                </AppsUIElement>
+              </elements>
+              <isIncludedSomeWhere>true</isIncludedSomeWhere>
+            </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+          </xmlFiles>
+          <layoutName>merged_layout3_merge_tag</layoutName>
+        </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.Dialog id="169">
+      <name></name>
+      <id>0</id>
+      <elements id="170"/>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <showingClass>com.example.LayoutChallenges.MyActivity</showingClass>
+      <posText></posText>
+      <negText></negText>
+      <message></message>
+      <neutralText></neutralText>
+      <titleText>Title of Dialog2</titleText>
+      <kindOfUiElement>Dialog</kindOfUiElement>
+      <negativeListener id="171"/>
+      <posListener id="172"/>
+      <neutralListener id="173"/>
+      <itemListener id="174">
+        <st.cs.uni.saarland.de.entities.Listener id="175">
+          <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+          <listenerClass>com.example.LayoutChallenges.MyActivity$6</listenerClass>
+          <actionWaitingFor>onClick</actionWaitingFor>
+          <xmlDefined>false</xmlDefined>
+        </st.cs.uni.saarland.de.entities.Listener>
+      </itemListener>
+      <itemTexts>Second choice#First choice</itemTexts>
+    </st.cs.uni.saarland.de.entities.Dialog>
+    <st.cs.uni.saarland.de.entities.Menu id="176">
+      <name>fragment2</name>
+      <id>2130903042</id>
+      <elements id="177">
+        <AppsUIElement id="178">
+          <parents id="179">
+            <null/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="180"/>
+          <drawableNames id="181"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="182">
+          <parents id="183">
+            <AppsUIElement reference="178"/>
+          </parents>
+          <uiIDVar>Fragment2TV</uiIDVar>
+          <uiID>2131165189</uiID>
+          <textVar></textVar>
+          <text>Fragment2TV</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="184"/>
+          <drawableNames id="185"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="186">
+          <parents id="187"/>
+          <uiIDVar>noValue</uiIDVar>
+          <uiID>87118438</uiID>
+          <textVar></textVar>
+          <text>Tab2 Title</text>
+          <kindOfUiElement>-AddedText-</kindOfUiElement>
+          <listeners id="188"/>
+          <drawableNames id="189"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <assignedActivity id="190"/>
+      <kindOfMenu>TabView</kindOfMenu>
+      <listeners id="191"/>
+    </st.cs.uni.saarland.de.entities.Menu>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="192">
+      <name>viewpager_xml_defined</name>
+      <id>2130903048</id>
+      <elements id="193">
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="194">
+          <parents defined-in="AppsUIElement" id="195">
+            <null/>
+          </parents>
+          <uiIDVar>viewpagerXML</uiIDVar>
+          <uiID>2131165208</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>android.support.v4.view.ViewPager</kindOfUiElement>
+          <listeners id="196"/>
+          <drawableNames id="197"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="198"/>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+        <AppsUIElement id="199">
+          <parents id="200">
+            <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="194"/>
+          </parents>
+          <uiIDVar>viewPagerPageXML1</uiIDVar>
+          <uiID>2131165209</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="201"/>
+          <drawableNames id="202"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="203">
+          <parents id="204">
+            <AppsUIElement reference="199"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text>View1(Viewpager xml defined)</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="205"/>
+          <drawableNames id="206"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="207">
+          <parents id="208">
+            <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="194"/>
+          </parents>
+          <uiIDVar>viewPagerPageXML2</uiIDVar>
+          <uiID>2131165210</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="209"/>
+          <drawableNames id="210"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="211">
+          <parents id="212">
+            <AppsUIElement reference="207"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text>View2(Viewpager xml defined)</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="213"/>
+          <drawableNames id="214"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="215">
+          <parents id="216">
+            <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="194"/>
+          </parents>
+          <uiIDVar>viewPagerPageXML3</uiIDVar>
+          <uiID>2131165211</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="217"/>
+          <drawableNames id="218"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="219">
+          <parents id="220">
+            <AppsUIElement reference="215"/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text>View3(Viewpager xml defined)</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="221"/>
+          <drawableNames id="222"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.Menu id="223">
+      <name>fragment1</name>
+      <id>2130903041</id>
+      <elements id="224">
+        <AppsUIElement id="225">
+          <parents id="226">
+            <AppsUIElement id="227">
+              <parents id="228">
+                <null/>
+              </parents>
+              <uiIDVar></uiIDVar>
+              <uiID></uiID>
+              <textVar></textVar>
+              <text></text>
+              <kindOfUiElement>LinearLayout</kindOfUiElement>
+              <listeners id="229"/>
+              <drawableNames id="230"/>
+              <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+            </AppsUIElement>
+          </parents>
+          <uiIDVar>Fragment1TV</uiIDVar>
+          <uiID>2131165188</uiID>
+          <textVar></textVar>
+          <text>Fragment1TV</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="231"/>
+          <drawableNames id="232"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="233">
+          <parents defined-in="AppsUIElement" id="234">
+            <null/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners reference="229"/>
+          <drawableNames id="235"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="236"/>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+        <AppsUIElement id="237">
+          <parents id="238"/>
+          <uiIDVar>noValue</uiIDVar>
+          <uiID>560146610</uiID>
+          <textVar></textVar>
+          <text>Tab1 Title</text>
+          <kindOfUiElement>-AddedText-</kindOfUiElement>
+          <listeners id="239"/>
+          <drawableNames id="240"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <assignedActivity id="241"/>
+      <kindOfMenu>TabView</kindOfMenu>
+      <listeners id="242"/>
+    </st.cs.uni.saarland.de.entities.Menu>
+    <st.cs.uni.saarland.de.entities.Menu reference="101"/>
+    <st.cs.uni.saarland.de.entities.Menu id="243">
+      <name>optionmenu</name>
+      <id>2131099649</id>
+      <elements id="244">
+        <AppsUIElement id="245">
+          <parents id="246">
+            <AppsUIElement id="247">
+              <parents id="248"/>
+              <uiIDVar></uiIDVar>
+              <uiID></uiID>
+              <textVar></textVar>
+              <text></text>
+              <listeners id="249"/>
+              <drawableNames id="250"/>
+              <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+            </AppsUIElement>
+          </parents>
+          <uiIDVar>menuItem1</uiIDVar>
+          <uiID>2131165212</uiID>
+          <textVar></textVar>
+          <text>menuItem1</text>
+          <kindOfUiElement>item</kindOfUiElement>
+          <listeners id="251">
+            <st.cs.uni.saarland.de.entities.Listener id="252">
+              <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+              <listenerClass>com.example.LayoutChallenges.MyActivity</listenerClass>
+              <actionWaitingFor>onClick</actionWaitingFor>
+              <xmlDefined>false</xmlDefined>
+            </st.cs.uni.saarland.de.entities.Listener>
+          </listeners>
+          <drawableNames id="253"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="254">
+          <parents id="255">
+            <AppsUIElement reference="247"/>
+          </parents>
+          <uiIDVar>menuItem2</uiIDVar>
+          <uiID>2131165213</uiID>
+          <textVar></textVar>
+          <text>menuItem2</text>
+          <kindOfUiElement>item</kindOfUiElement>
+          <listeners id="256">
+            <st.cs.uni.saarland.de.entities.Listener reference="252"/>
+          </listeners>
+          <drawableNames id="257"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="258">
+          <parents id="259">
+            <AppsUIElement reference="247"/>
+          </parents>
+          <uiIDVar>menuItem3</uiIDVar>
+          <uiID>2131165214</uiID>
+          <textVar></textVar>
+          <text>menuItem3</text>
+          <kindOfUiElement>item</kindOfUiElement>
+          <listeners id="260">
+            <st.cs.uni.saarland.de.entities.Listener reference="252"/>
+          </listeners>
+          <drawableNames id="261"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <assignedActivity id="262"/>
+      <kindOfMenu>Option</kindOfMenu>
+      <listeners id="263">
+        <st.cs.uni.saarland.de.entities.Listener reference="252"/>
+      </listeners>
+    </st.cs.uni.saarland.de.entities.Menu>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile reference="159"/>
+    <st.cs.uni.saarland.de.entities.Dialog id="264">
+      <name></name>
+      <id>1</id>
+      <elements id="265"/>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <showingClass>com.example.LayoutChallenges.MyActivity</showingClass>
+      <posText>Yes</posText>
+      <negText>No</negText>
+      <message>My message of Dialog1</message>
+      <neutralText></neutralText>
+      <titleText>Title of Dialog1</titleText>
+      <kindOfUiElement>Dialog</kindOfUiElement>
+      <negativeListener id="266">
+        <st.cs.uni.saarland.de.entities.Listener id="267">
+          <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+          <listenerClass>com.example.LayoutChallenges.MyActivity$4</listenerClass>
+          <actionWaitingFor>onClick</actionWaitingFor>
+          <xmlDefined>false</xmlDefined>
+        </st.cs.uni.saarland.de.entities.Listener>
+      </negativeListener>
+      <posListener id="268">
+        <st.cs.uni.saarland.de.entities.Listener id="269">
+          <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+          <listenerClass>com.example.LayoutChallenges.MyActivity$3</listenerClass>
+          <actionWaitingFor>onClick</actionWaitingFor>
+          <xmlDefined>false</xmlDefined>
+        </st.cs.uni.saarland.de.entities.Listener>
+      </posListener>
+      <neutralListener id="270"/>
+      <itemListener id="271"/>
+      <itemTexts></itemTexts>
+    </st.cs.uni.saarland.de.entities.Dialog>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="272">
+      <name>viewpager</name>
+      <id>2130903047</id>
+      <elements id="273">
+        <st.cs.uni.saarland.de.entities.SpecialXMLTag id="274">
+          <parents defined-in="AppsUIElement" id="275">
+            <null/>
+          </parents>
+          <uiIDVar>viewpager</uiIDVar>
+          <uiID>2131165207</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>android.support.v4.view.ViewPager</kindOfUiElement>
+          <listeners id="276"/>
+          <drawableNames id="277"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="278"/>
+        </st.cs.uni.saarland.de.entities.SpecialXMLTag>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="279">
+      <name>merged_layout2</name>
+      <id>2130903045</id>
+      <elements id="280">
+        <AppsUIElement id="281">
+          <parents id="282">
+            <null/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="283"/>
+          <drawableNames id="284"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="285">
+          <parents id="286">
+            <AppsUIElement reference="281"/>
+          </parents>
+          <uiIDVar>mergedLayout2TV</uiIDVar>
+          <uiID>2131165203</uiID>
+          <textVar></textVar>
+          <text>mergedLayout2TV</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="287"/>
+          <drawableNames id="288"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <st.cs.uni.saarland.de.entities.XMLFragment id="289">
+          <parents defined-in="AppsUIElement" id="290">
+            <AppsUIElement reference="281"/>
+          </parents>
+          <uiIDVar>fragamentTag1</uiIDVar>
+          <uiID>2131165204</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>fragment</kindOfUiElement>
+          <listeners id="291"/>
+          <drawableNames id="292"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+          <xmlFiles id="293">
+            <st.cs.uni.saarland.de.entities.XMLLayoutFile id="294">
+              <name>fragment1</name>
+              <id>2130903041</id>
+              <elements id="295">
+                <AppsUIElement reference="225"/>
+                <st.cs.uni.saarland.de.entities.SpecialXMLTag reference="233"/>
+              </elements>
+              <isIncludedSomeWhere>false</isIncludedSomeWhere>
+            </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+          </xmlFiles>
+          <className>com.example.LayoutChallenges.Fragment1</className>
+        </st.cs.uni.saarland.de.entities.XMLFragment>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    <st.cs.uni.saarland.de.entities.Menu reference="128"/>
+    <st.cs.uni.saarland.de.entities.Dialog id="296">
+      <name></name>
+      <id>2</id>
+      <elements id="297"/>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+      <showingClass>com.example.LayoutChallenges.FragmentDialog</showingClass>
+      <posText></posText>
+      <negText></negText>
+      <message>My question of DialogFragment</message>
+      <neutralText></neutralText>
+      <titleText></titleText>
+      <kindOfUiElement>Dialog</kindOfUiElement>
+      <negativeListener id="298"/>
+      <posListener id="299"/>
+      <neutralListener id="300"/>
+      <itemListener id="301"/>
+      <itemTexts></itemTexts>
+    </st.cs.uni.saarland.de.entities.Dialog>
+  </xmlLayoutFiles>
+  <activityNames id="302">
+    <string>com.example.LayoutChallenges.MyActivity</string>
+    <string>com.example.LayoutChallenges.MergedLayoutActivity</string>
+    <string>com.example.LayoutChallenges.TabViewActivity</string>
+    <string>com.example.LayoutChallenges.ViewPagerActivity</string>
+    <string>com.example.LayoutChallenges.ViewPagerActivity_XML</string>
+    <string>com.example.LayoutChallenges.DrawerActivity</string>
+  </activityNames>
+  <permissions id="303"/>
+  <screens id="304"/>
+  <activityToXMLLayoutFiles id="305">
+    <entry>
+      <string>com.example.LayoutChallenges.ViewPagerActivity</string>
+      <set id="306">
+        <string>2130903047</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.MyActivity</string>
+      <set id="307">
+        <string>0</string>
+        <string>1</string>
+        <string>2131099648</string>
+        <string>1527684620</string>
+        <string>2130903043</string>
+        <string>2131099650</string>
+        <string>2131099649</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.FragmentDialog</string>
+      <set id="308">
+        <string>2</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.TabViewActivity</string>
+      <set id="309">
+        <string>2130903041</string>
+        <string>2130903042</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.ViewPagerActivity_XML</string>
+      <set id="310">
+        <string>2130903048</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.DrawerActivity</string>
+      <set id="311">
+        <string>2130903040</string>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <classToLayoutFileOrClass id="312">
+    <entry>
+      <string>com.example.LayoutChallenges.Fragment1</string>
+      <set id="313">
+        <string>2130903041</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.Fragment2</string>
+      <set id="314">
+        <string>2130903042</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.Fragment1v4</string>
+      <set id="315">
+        <string>2130903041</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.Fragment2v4</string>
+      <set id="316">
+        <string>2130903042</string>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.LayoutChallenges.ViewPagerActivity$ScreenSlidePagerAdapter</string>
+      <set id="317">
+        <string>2130903041</string>
+        <string>2130903042</string>
+      </set>
+    </entry>
+  </classToLayoutFileOrClass>
+  <intentFilters id="318">
+    <string>android.intent.action.MAIN</string>
+  </intentFilters>
+  <dialogs id="319">
+    <st.cs.uni.saarland.de.entities.Dialog reference="169"/>
+    <st.cs.uni.saarland.de.entities.Dialog reference="264"/>
+    <st.cs.uni.saarland.de.entities.Dialog reference="296"/>
+  </dialogs>
+</st.cs.uni.saarland.de.entities.Application>

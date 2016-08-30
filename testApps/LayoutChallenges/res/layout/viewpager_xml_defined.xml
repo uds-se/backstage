@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager android:id="@id/viewpagerXML" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/viewPagerPageXML1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="View1(Viewpager xml defined)" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/viewPagerPageXML2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="View2(Viewpager xml defined)" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/viewPagerPageXML3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="View3(Viewpager xml defined)" />
+    </LinearLayout>
+</android.support.v4.view.ViewPager>

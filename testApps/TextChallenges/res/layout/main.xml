@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/normalStringInXML" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test 1" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/xmlWithStringVariable" android:layout_width="155.0dip" android:layout_height="wrap_content" android:text="@string/my_Text2" android:phoneNumber="false" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/globalVarLaterWritten" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/globalVarText" android:layout_width="67.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/globalVarTextID" android:layout_width="42.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/staticTextID" android:layout_width="59.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/stringBuilderDifficult" android:layout_width="51.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/stringBuilderTextView" android:layout_width="105.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/dynStringVar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Switch android:id="@id/switch1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+    <Button android:id="@id/concatTextBut" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonStyleSmall" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/arrayText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/listText" android:layout_width="99.0dip" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/andrStdText" android:layout_width="99.0dip" android:layout_height="wrap_content" android:checked="false" android:text="@android:string/no" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/dynAndStdValues" android:layout_width="59.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

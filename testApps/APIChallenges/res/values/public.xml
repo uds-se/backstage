@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="main2" id="0x7f030001" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="service1_name" id="0x7f040001" />
+    <public type="string" name="service2_name" id="0x7f040002" />
+    <public type="id" name="hierarchy1" id="0x7f050000" />
+    <public type="id" name="hierarchy2" id="0x7f050001" />
+    <public type="id" name="hierarchy3" id="0x7f050002" />
+    <public type="id" name="multipleMethods" id="0x7f050003" />
+    <public type="id" name="multipleAPIsInOneMethod" id="0x7f050004" />
+    <public type="id" name="multipleAPIsInMultipleMethods" id="0x7f050005" />
+    <public type="id" name="newActivity" id="0x7f050006" />
+    <public type="id" name="multipleActivities" id="0x7f050007" />
+    <public type="id" name="useInternetIntent" id="0x7f050008" />
+    <public type="id" name="onDestroy" id="0x7f050009" />
+    <public type="id" name="simpleAPICall" id="0x7f05000a" />
+    <public type="id" name="compositeListener" id="0x7f05000b" />
+    <public type="id" name="constructor" id="0x7f05000c" />
+    <public type="id" name="StartBroadcast" id="0x7f05000d" />
+    <public type="id" name="DynBroadCast" id="0x7f05000e" />
+    <public type="id" name="broadCastTriggersActivity" id="0x7f05000f" />
+    <public type="id" name="service1" id="0x7f050010" />
+    <public type="id" name="button" id="0x7f050011" />
+</resources>

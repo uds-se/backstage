@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.98">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/nonStaticField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="nonStaticField" />
+            <Button android:id="@id/classField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="classField" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/fieldButtonID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="fieldButtonID" />
+            <Button android:id="@id/staticField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="staticField" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/passedID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="passedID" />
+            <Button android:id="@id/getter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="getter" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/innerClassField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="innerClassField" />
+            <Button android:id="@id/array" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="array" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/innerClassFieldID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="innerClassFieldID" />
+            <Button android:id="@id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="list" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/fieldButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="fieldButton" />
+            <Button android:id="@id/loop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="loop" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/passedButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="passedButton" />
+            <Button android:id="@id/hierarchy1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="hierarchy1" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/staticClassField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="staticClassField" />
+            <Button android:id="@id/hierarchy2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="hierarchy2" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/getButFromOtherClass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="getButFromOtherClass" />
+            <Button android:id="@id/hierarchy3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="hierarchy3" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/findViewInOtherClass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="FindViewInOtherClass" />
+            <Button android:id="@id/hierarchy4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text="hierarchy4" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="androidStdIds" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </TableLayout>
+</LinearLayout>

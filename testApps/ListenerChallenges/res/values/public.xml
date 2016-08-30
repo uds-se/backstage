@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="menu" name="option" id="0x7f050000" />
+    <public type="id" name="externalListButton2" id="0x7f060000" />
+    <public type="id" name="sameListenerButton1" id="0x7f060001" />
+    <public type="id" name="sameListenerButton2" id="0x7f060002" />
+    <public type="id" name="listVarButton" id="0x7f060003" />
+    <public type="id" name="declInSubMethodsButton" id="0x7f060004" />
+    <public type="id" name="externalListButton1" id="0x7f060005" />
+    <public type="id" name="onCreateButton" id="0x7f060006" />
+    <public type="id" name="xmlButton" id="0x7f060007" />
+    <public type="id" name="anonyListTextView" id="0x7f060008" />
+    <public type="id" name="whileLoopButton1" id="0x7f060009" />
+    <public type="id" name="myTouchPlusClickButton" id="0x7f06000a" />
+    <public type="id" name="whileLoopButton2" id="0x7f06000b" />
+    <public type="id" name="actImplListLongClickButton" id="0x7f06000c" />
+    <public type="id" name="arrayListButton1" id="0x7f06000d" />
+    <public type="id" name="forLoopButton1" id="0x7f06000e" />
+    <public type="id" name="arrayListButton2" id="0x7f06000f" />
+    <public type="id" name="forLoopButton2" id="0x7f060010" />
+    <public type="id" name="multipleListenerButton" id="0x7f060011" />
+    <public type="id" name="switchButton1" id="0x7f060012" />
+    <public type="id" name="setterGetterButton" id="0x7f060013" />
+    <public type="id" name="switchButton2" id="0x7f060014" />
+    <public type="id" name="specialXMLButton" id="0x7f060015" />
+    <public type="id" name="menuItem1" id="0x7f060016" />
+    <public type="id" name="menuItem2" id="0x7f060017" />
+    <public type="id" name="menuItem3" id="0x7f060018" />
+</resources>

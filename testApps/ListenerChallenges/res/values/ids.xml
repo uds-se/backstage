@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="externalListButton2">false</item>
+    <item type="id" name="sameListenerButton1">false</item>
+    <item type="id" name="sameListenerButton2">false</item>
+    <item type="id" name="listVarButton">false</item>
+    <item type="id" name="declInSubMethodsButton">false</item>
+    <item type="id" name="externalListButton1">false</item>
+    <item type="id" name="onCreateButton">false</item>
+    <item type="id" name="xmlButton">false</item>
+    <item type="id" name="anonyListTextView">false</item>
+    <item type="id" name="whileLoopButton1">false</item>
+    <item type="id" name="myTouchPlusClickButton">false</item>
+    <item type="id" name="whileLoopButton2">false</item>
+    <item type="id" name="actImplListLongClickButton">false</item>
+    <item type="id" name="arrayListButton1">false</item>
+    <item type="id" name="forLoopButton1">false</item>
+    <item type="id" name="arrayListButton2">false</item>
+    <item type="id" name="forLoopButton2">false</item>
+    <item type="id" name="multipleListenerButton">false</item>
+    <item type="id" name="switchButton1">false</item>
+    <item type="id" name="setterGetterButton">false</item>
+    <item type="id" name="switchButton2">false</item>
+    <item type="id" name="specialXMLButton">false</item>
+    <item type="id" name="menuItem1">false</item>
+    <item type="id" name="menuItem2">false</item>
+    <item type="id" name="menuItem3">false</item>
+</resources>

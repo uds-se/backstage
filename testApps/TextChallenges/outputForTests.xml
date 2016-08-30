@@ -1,0 +1,128 @@
+<list>
+  <uiElement>
+    <elementId>2131034112</elementId>
+    <layoutIds/>
+    <text>Test 1</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034113</elementId>
+    <layoutIds/>
+    <text>Test 2</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034114</elementId>
+    <layoutIds/>
+    <text>Test 3</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034115</elementId>
+    <layoutIds/>
+    <text>Test 4</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034116</elementId>
+    <layoutIds/>
+    <text>Test 5</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034117</elementId>
+    <layoutIds/>
+    <text>Test 6</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034118</elementId>
+    <layoutIds/>
+    <text>Te$r3 7</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034119</elementId>
+    <layoutIds/>
+    <text>Test 8</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034120</elementId>
+    <layoutIds/>
+    <text>Test 9</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034121</elementId>
+    <layoutIds/>
+    <text>Test 10</text>
+    <kindOfElement>Switch</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034122</elementId>
+    <layoutIds/>
+    <text>Test 11</text>
+    <kindOfElement>Button</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034123</elementId>
+    <layoutIds/>
+    <text>Test 12</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034125</elementId>
+    <layoutIds/>
+    <text>Cancel</text>
+    <kindOfElement>CheckBox</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+  <uiElement>
+    <elementId>2131034126</elementId>
+    <layoutIds/>
+    <text>OK</text>
+    <kindOfElement>TextView</kindOfElement>
+    <parents/>
+    <superClasses/>
+    <intentFilters/>
+  </uiElement>
+</list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="hierarchy1">false</item>
+    <item type="id" name="hierarchy2">false</item>
+    <item type="id" name="hierarchy3">false</item>
+    <item type="id" name="multipleMethods">false</item>
+    <item type="id" name="multipleAPIsInOneMethod">false</item>
+    <item type="id" name="multipleAPIsInMultipleMethods">false</item>
+    <item type="id" name="newActivity">false</item>
+    <item type="id" name="multipleActivities">false</item>
+    <item type="id" name="useInternetIntent">false</item>
+    <item type="id" name="onDestroy">false</item>
+    <item type="id" name="simpleAPICall">false</item>
+    <item type="id" name="compositeListener">false</item>
+    <item type="id" name="constructor">false</item>
+    <item type="id" name="StartBroadcast">false</item>
+    <item type="id" name="DynBroadCast">false</item>
+    <item type="id" name="broadCastTriggersActivity">false</item>
+    <item type="id" name="service1">false</item>
+    <item type="id" name="button">false</item>
+</resources>

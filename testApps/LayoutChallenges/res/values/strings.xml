@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LayoutChallenges</string>
+    <string name="Tab1Title">Tab1 Title</string>
+    <string name="alertDialogStr">Title of Dialog1</string>
+    <string name="alertDiaMultMsg">my message of Dialog2</string>
+</resources>

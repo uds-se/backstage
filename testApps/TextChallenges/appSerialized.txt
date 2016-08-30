@@ -1,0 +1,241 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>TextChallenges</name>
+  <xmlLayoutFiles id="2">
+    <st.cs.uni.saarland.de.entities.XMLLayoutFile id="3">
+      <name>main</name>
+      <id>2130903040</id>
+      <elements id="4">
+        <AppsUIElement id="5">
+          <parents id="6">
+            <null/>
+          </parents>
+          <uiIDVar></uiIDVar>
+          <uiID></uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>LinearLayout</kindOfUiElement>
+          <listeners id="7"/>
+          <drawableNames id="8"/>
+          <logger class="org.slf4j.impl.SimpleLogger" id="9">
+            <name>main</name>
+            <currentLogLevel>20</currentLogLevel>
+          </logger>
+        </AppsUIElement>
+        <AppsUIElement id="10">
+          <parents id="11">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>normalStringInXML</uiIDVar>
+          <uiID>2131034112</uiID>
+          <textVar></textVar>
+          <text>Test 1</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="12"/>
+          <drawableNames id="13"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="14">
+          <parents id="15">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>xmlWithStringVariable</uiIDVar>
+          <uiID>2131034113</uiID>
+          <textVar>my_Text2</textVar>
+          <text>Test 2</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="16"/>
+          <drawableNames id="17"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="18">
+          <parents id="19">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>globalVarLaterWritten</uiIDVar>
+          <uiID>2131034114</uiID>
+          <textVar></textVar>
+          <text>&quot;Test 3&quot;</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="20"/>
+          <drawableNames id="21"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="22">
+          <parents id="23">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>globalVarText</uiIDVar>
+          <uiID>2131034115</uiID>
+          <textVar></textVar>
+          <text>&quot;Test 4&quot;</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="24"/>
+          <drawableNames id="25"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="26">
+          <parents id="27">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>globalVarTextID</uiIDVar>
+          <uiID>2131034116</uiID>
+          <textVar></textVar>
+          <text>Test 5</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="28"/>
+          <drawableNames id="29"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="30">
+          <parents id="31">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>staticTextID</uiIDVar>
+          <uiID>2131034117</uiID>
+          <textVar></textVar>
+          <text>Test 6</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="32"/>
+          <drawableNames id="33"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="34">
+          <parents id="35">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>stringBuilderDifficult</uiIDVar>
+          <uiID>2131034118</uiID>
+          <textVar></textVar>
+          <text>Te$r3 7</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="36"/>
+          <drawableNames id="37"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="38">
+          <parents id="39">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>stringBuilderTextView</uiIDVar>
+          <uiID>2131034119</uiID>
+          <textVar></textVar>
+          <text>Test 8</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="40"/>
+          <drawableNames id="41"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="42">
+          <parents id="43">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>dynStringVar</uiIDVar>
+          <uiID>2131034120</uiID>
+          <textVar></textVar>
+          <text>Test 9</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="44"/>
+          <drawableNames id="45"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="46">
+          <parents id="47">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>switch1</uiIDVar>
+          <uiID>2131034121</uiID>
+          <textVar></textVar>
+          <text>Test 10</text>
+          <kindOfUiElement>Switch</kindOfUiElement>
+          <listeners id="48"/>
+          <drawableNames id="49"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="50">
+          <parents id="51">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>concatTextBut</uiIDVar>
+          <uiID>2131034122</uiID>
+          <textVar></textVar>
+          <text>Test 11</text>
+          <kindOfUiElement>Button</kindOfUiElement>
+          <listeners id="52"/>
+          <drawableNames id="53"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="54">
+          <parents id="55">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>arrayText</uiIDVar>
+          <uiID>2131034123</uiID>
+          <textVar></textVar>
+          <text>&quot;Test 12&quot;</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="56"/>
+          <drawableNames id="57"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="58">
+          <parents id="59">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>listText</uiIDVar>
+          <uiID>2131034124</uiID>
+          <textVar></textVar>
+          <text></text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="60"/>
+          <drawableNames id="61"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="62">
+          <parents id="63">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>andrStdText</uiIDVar>
+          <uiID>2131034125</uiID>
+          <textVar></textVar>
+          <text>Cancel</text>
+          <kindOfUiElement>CheckBox</kindOfUiElement>
+          <listeners id="64"/>
+          <drawableNames id="65"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+        <AppsUIElement id="66">
+          <parents id="67">
+            <AppsUIElement reference="5"/>
+          </parents>
+          <uiIDVar>dynAndStdValues</uiIDVar>
+          <uiID>2131034126</uiID>
+          <textVar></textVar>
+          <text>OK</text>
+          <kindOfUiElement>TextView</kindOfUiElement>
+          <listeners id="68"/>
+          <drawableNames id="69"/>
+          <logger class="org.slf4j.impl.SimpleLogger" reference="9"/>
+        </AppsUIElement>
+      </elements>
+      <isIncludedSomeWhere>false</isIncludedSomeWhere>
+    </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+  </xmlLayoutFiles>
+  <activityNames id="70">
+    <string>com.example.TextChallenges.MyActivity</string>
+  </activityNames>
+  <permissions id="71"/>
+  <screens id="72"/>
+  <activityToXMLLayoutFiles id="73">
+    <entry>
+      <string>com.example.TextChallenges.MyActivity</string>
+      <set id="74">
+        <string>2130903040</string>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <classToLayoutFileOrClass id="75"/>
+  <intentFilters id="76">
+    <string>android.intent.action.MAIN</string>
+  </intentFilters>
+  <dialogs id="77"/>
+</st.cs.uni.saarland.de.entities.Application>

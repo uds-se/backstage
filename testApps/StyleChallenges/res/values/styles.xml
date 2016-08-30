@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SuperStyleTextViews">
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:text">superStyle</item>
+    </style>
+    <style name="ChildClassStyleTextView" parent="@style/SuperStyleTextViews">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="MySimpleButtonStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/simpleStyleButton</item>
+        <item name="android:onClick">xmlOnClick</item>
+    </style>
+    <style name="MySimpleButtonStyle2">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">simple Button plain</item>
+    </style>
+</resources>

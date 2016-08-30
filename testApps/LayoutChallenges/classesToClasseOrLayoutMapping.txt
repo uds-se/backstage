@@ -1,0 +1,5 @@
+com.example.LayoutChallenges.Fragment1: 2130903041; 
+com.example.LayoutChallenges.Fragment2: 2130903042; 
+com.example.LayoutChallenges.Fragment1v4: 2130903041; 
+com.example.LayoutChallenges.Fragment2v4: 2130903042; 
+com.example.LayoutChallenges.ViewPagerActivity$ScreenSlidePagerAdapter: 2130903041; 2130903042; 

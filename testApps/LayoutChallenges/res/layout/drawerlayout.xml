@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawerlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mainLayoutDrawer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/drawerTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ListView android:layout_gravity="start" android:id="@id/drawer" android:background="#ff111111" android:layout_width="240.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

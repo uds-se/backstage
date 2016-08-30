@@ -1,0 +1,94 @@
+XMLLayoutFile: drawerlayout; 2130903040
+object_of: android.support.v4.widget.DrawerLayout; parent: ; but_idButVar: drawerlayout; but_idBut: 2131165184; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 
+object_of: FrameLayout; parent: android.support.v4.widget.DrawerLayout:2131165184;; but_idButVar: mainLayoutDrawer; but_idBut: 2131165185; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: FrameLayout:2131165185;; but_idButVar: drawerTextView; but_idBut: 2131165186; but_textVar: ; but_Text: ; drawableName: 
+object_of: ListView; parent: android.support.v4.widget.DrawerLayout:2131165184;; but_idButVar: drawer; but_idBut: 2131165187; but_textVar: ; but_Text: Second choice#First choice; drawableName:  ; listenerClass: com.example.LayoutChallenges.DrawerActivity; listenerMethod void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+NavDropDownMenu:XMLLayoutFile: -NewFoundInCode-; 1527684620
+object_of: List; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: 2130968576; drawableName: 
+  ; listenerClass: com.example.LayoutChallenges.MyActivity$1; listenerMethod boolean onNavigationItemSelected(int, long)
+
+XMLLayoutFile: main; 2130903043
+object_of: LinearLayout; parent: ; but_idButVar: mainLinearLayout; but_idBut: 2131165190; but_textVar: ; but_Text: ; drawableName: 
+object_of: LinearLayout; parent: LinearLayout:2131165190;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: LinearLayout:;; but_idButVar: gotoViewPager; but_idBut: 2131165191; but_textVar: ; but_Text: gotoViewPager; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void gotoViewPagerAct(android.view.View)
+object_of: Button; parent: LinearLayout:;; but_idButVar: gotoViewPagerXMLdef; but_idBut: 2131165192; but_textVar: ; but_Text: gotoViewPagerXMLdef; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void gotoViewPagerXMLAct(android.view.View)
+object_of: LinearLayout; parent: LinearLayout:2131165190;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: LinearLayout:;; but_idButVar: gotoTabView; but_idBut: 2131165193; but_textVar: ; but_Text: gotoTabView; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void gotoTabViewAct(android.view.View)
+object_of: Button; parent: LinearLayout:;; but_idButVar: gotoDrawerActivity; but_idBut: 2131165194; but_textVar: ; but_Text: gotoDrawerActivity; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void gotoDrawerActivity(android.view.View)
+object_of: LinearLayout; parent: LinearLayout:2131165190;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: Button; parent: LinearLayout:;; but_idButVar: getDialog1; but_idBut: 2131165195; but_textVar: ; but_Text: getDialog1; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void showYesNoDialog(android.view.View)
+object_of: Button; parent: LinearLayout:;; but_idButVar: getDialog2; but_idBut: 2131165196; but_textVar: ; but_Text: getDialog2; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void showDialogSpecificChoice(android.view.View)
+object_of: Button; parent: LinearLayout:;; but_idButVar: getDialog3; but_idBut: 2131165197; but_textVar: ; but_Text: getDialog3; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void showDialogFragment(android.view.View)
+object_of: Button; parent: LinearLayout:2131165190;; but_idButVar: gotoMergedLayout; but_idBut: 2131165198; but_textVar: ; but_Text: gotoMergedLayout; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void gotoMergedLayout(android.view.View)
+object_of: ListView; parent: LinearLayout:2131165190;; but_idButVar: listView; but_idBut: 2131165201; but_textVar: ; but_Text: Line1#Line2; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity$2; listenerMethod void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+object_of: TextView; parent: LinearLayout:2131165190;; but_idButVar: noValue; but_idBut: 2131165200; but_textVar: ; but_Text: getContextMenu; drawableName: ---SubLayout: 2131099648:contextmenu---
+object_of: Button; parent: LinearLayout:2131165190;; but_idButVar: noValue; but_idBut: 2131165199; but_textVar: ; but_Text: getPopupMenu; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod void showPopup(android.view.View) ; listenerClass: ; listenerMethod boolean onMenuItemClick(android.view.MenuItem) ; listenerClass: ; listenerMethod boolean onMenuItemClick(android.view.MenuItem)---SubLayout: 2131099650:popupmenu---
+
+XMLLayoutFile: merged_layout1; 2130903044
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: mergedLayout1TV; but_idBut: 2131165202; but_textVar: ; but_Text: mergedLayout1TV; drawableName: 
+object_of: include; parent: LinearLayout:;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 2130903046:merged_layout3_merge_tag---
+
+XMLLayoutFile: ; 0
+ ;activity: com.example.LayoutChallenges.MyActivity ;posText:  ;negText:  ; neutralText;:  ; itemTexts: Second choice#First choice ;message: [][][][ ; listenerClass: com.example.LayoutChallenges.MyActivity$6; listenerMethod void onClick(android.content.DialogInterface,int)]
+TabViewMenu:XMLLayoutFile: fragment2; 2130903042
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: Fragment2TV; but_idBut: 2131165189; but_textVar: ; but_Text: Fragment2TV; drawableName: 
+object_of: -AddedText-; parent: ; but_idButVar: noValue; but_idBut: 87118438; but_textVar: ; but_Text: Tab2 Title; drawableName: 
+
+
+XMLLayoutFile: viewpager_xml_defined; 2130903048
+object_of: android.support.v4.view.ViewPager; parent: ; but_idButVar: viewpagerXML; but_idBut: 2131165208; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 
+object_of: LinearLayout; parent: android.support.v4.view.ViewPager:2131165208;; but_idButVar: viewPagerPageXML1; but_idBut: 2131165209; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:2131165209;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: View1(Viewpager xml defined); drawableName: 
+object_of: LinearLayout; parent: android.support.v4.view.ViewPager:2131165208;; but_idButVar: viewPagerPageXML2; but_idBut: 2131165210; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:2131165210;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: View2(Viewpager xml defined); drawableName: 
+object_of: LinearLayout; parent: android.support.v4.view.ViewPager:2131165208;; but_idButVar: viewPagerPageXML3; but_idBut: 2131165211; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:2131165211;; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: View3(Viewpager xml defined); drawableName: 
+
+TabViewMenu:XMLLayoutFile: fragment1; 2130903041
+object_of: TextView; parent: LinearLayout:;; but_idButVar: Fragment1TV; but_idBut: 2131165188; but_textVar: ; but_Text: Fragment1TV; drawableName: 
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 
+object_of: -AddedText-; parent: ; but_idButVar: noValue; but_idBut: 560146610; but_textVar: ; but_Text: Tab1 Title; drawableName: 
+
+
+ContextualMenu:XMLLayoutFile: contextmenu; 2131099648
+object_of: item; parent: null:;; but_idButVar: menuItem1; but_idBut: 2131165212; but_textVar: ; but_Text: menuItem1; drawableName: 
+object_of: item; parent: null:;; but_idButVar: menuItem2; but_idBut: 2131165213; but_textVar: ; but_Text: menuItem2; drawableName: 
+object_of: item; parent: null:;; but_idButVar: menuItem3; but_idBut: 2131165214; but_textVar: ; but_Text: menuItem3; drawableName: 
+
+
+OptionMenu:XMLLayoutFile: optionmenu; 2131099649
+object_of: item; parent: null:;; but_idButVar: menuItem1; but_idBut: 2131165212; but_textVar: ; but_Text: menuItem1; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod boolean onOptionsItemSelected(android.view.MenuItem)
+object_of: item; parent: null:;; but_idButVar: menuItem2; but_idBut: 2131165213; but_textVar: ; but_Text: menuItem2; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod boolean onOptionsItemSelected(android.view.MenuItem)
+object_of: item; parent: null:;; but_idButVar: menuItem3; but_idBut: 2131165214; but_textVar: ; but_Text: menuItem3; drawableName:  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod boolean onOptionsItemSelected(android.view.MenuItem)
+  ; listenerClass: com.example.LayoutChallenges.MyActivity; listenerMethod boolean onOptionsItemSelected(android.view.MenuItem)
+
+XMLLayoutFile: merged_layout3_merge_tag; 2130903046
+object_of: TextView; parent: LinearLayout:;; but_idButVar: mergedLayout3TV; but_idBut: 2131165205; but_textVar: ; but_Text: mergedLayout3TV; drawableName: 
+object_of: LinearLayout; parent: ; but_idButVar: fragmentContainer; but_idBut: 2131165206; but_textVar: ; but_Text: ; drawableName: 
+
+XMLLayoutFile: ; 1
+ ;activity: com.example.LayoutChallenges.MyActivity ;posText: Yes ;negText: No ; neutralText;:  ; itemTexts:  ;message: My message of Dialog1[ ; listenerClass: com.example.LayoutChallenges.MyActivity$4; listenerMethod void onClick(android.content.DialogInterface,int)][ ; listenerClass: com.example.LayoutChallenges.MyActivity$3; listenerMethod void onClick(android.content.DialogInterface,int)][][]
+XMLLayoutFile: viewpager; 2130903047
+object_of: android.support.v4.view.ViewPager; parent: ; but_idButVar: viewpager; but_idBut: 2131165207; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 
+
+XMLLayoutFile: merged_layout2; 2130903045
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: mergedLayout2TV; but_idBut: 2131165203; but_textVar: ; but_Text: mergedLayout2TV; drawableName: 
+com.example.LayoutChallenges.Fragment1 object_of: fragment; parent: LinearLayout:;; but_idButVar: fragamentTag1; but_idBut: 2131165204; but_textVar: ; but_Text: ; drawableName: ---SubLayout: 2130903041:fragment1---
+
+PopupMenu:XMLLayoutFile: popupmenu; 2131099650
+object_of: item; parent: null:;; but_idButVar: popupItem1; but_idBut: 2131165215; but_textVar: ; but_Text: popupMenuItem1; drawableName: 
+object_of: item; parent: null:;; but_idButVar: popupItem2; but_idBut: 2131165216; but_textVar: ; but_Text: popupMenuItem2; drawableName: 
+  ; listenerClass: ; listenerMethod boolean onMenuItemClick(android.view.MenuItem)
+
+XMLLayoutFile: ; 2
+ ;activity: com.example.LayoutChallenges.FragmentDialog ;posText:  ;negText:  ; neutralText;:  ; itemTexts:  ;message: My question of DialogFragment[][][][]
+XMLLayoutFile: ; 0
+ ;activity: com.example.LayoutChallenges.MyActivity ;posText:  ;negText:  ; neutralText;:  ; itemTexts: Second choice#First choice ;message: [][][][ ; listenerClass: com.example.LayoutChallenges.MyActivity$6; listenerMethod void onClick(android.content.DialogInterface,int)]
+XMLLayoutFile: ; 1
+ ;activity: com.example.LayoutChallenges.MyActivity ;posText: Yes ;negText: No ; neutralText;:  ; itemTexts:  ;message: My message of Dialog1[ ; listenerClass: com.example.LayoutChallenges.MyActivity$4; listenerMethod void onClick(android.content.DialogInterface,int)][ ; listenerClass: com.example.LayoutChallenges.MyActivity$3; listenerMethod void onClick(android.content.DialogInterface,int)][][]
+XMLLayoutFile: ; 2
+ ;activity: com.example.LayoutChallenges.FragmentDialog ;posText:  ;negText:  ; neutralText;:  ; itemTexts:  ;message: My question of DialogFragment[][][][]

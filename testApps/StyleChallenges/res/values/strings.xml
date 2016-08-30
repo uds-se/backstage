@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StyleChallenges</string>
+    <string name="simpleStyleButton">simple style with strVar</string>
+    <string name="textOnChildStyle">textOnChildStyle</string>
+</resources>

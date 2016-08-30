@@ -1,0 +1,43 @@
+IDChallenges;LinearLayout;;;;
+IDChallenges;TableLayout;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;Button;nonStaticField;2131034112;;nonStaticField;com.example.ChallengeApps.MyActivity$5---void onClick(android.view.View)
+IDChallenges;Button;classField;2131034113;;classField;com.example.ChallengeApps.MyActivity$4---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;fieldButtonID;2131034114;;fieldButtonID;com.example.ChallengeApps.MyActivity$9---void onClick(android.view.View)
+IDChallenges;Button;staticField;2131034115;;staticField;com.example.ChallengeApps.MyActivity$10---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;passedID;2131034116;;passedID;com.example.ChallengeApps.MyActivity$21---void onClick(android.view.View)
+IDChallenges;Button;getter;2131034117;;getter;com.example.ChallengeApps.MyActivity$13---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;innerClassField;2131034118;;innerClassField;com.example.ChallengeApps.MyActivity$6---void onClick(android.view.View)
+IDChallenges;Button;array;2131034119;;array;com.example.ChallengeApps.MyActivity$11---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;innerClassFieldID;2131034120;;innerClassFieldID;com.example.ChallengeApps.MyActivity$7---void onClick(android.view.View)
+IDChallenges;Button;list;2131034121;;list
+IDChallenges;TableRow;;;;
+IDChallenges;Button;fieldButton;2131034122;;fieldButton;com.example.ChallengeApps.MyActivity$8---void onClick(android.view.View)
+IDChallenges;Button;loop;2131034123;;loop
+IDChallenges;TableRow;;;;
+IDChallenges;Button;passedButton;2131034124;;passedButton;com.example.ChallengeApps.MyActivity$20---void onClick(android.view.View)
+IDChallenges;Button;hierarchy1;2131034125;;hierarchy1;com.example.ChallengeApps.MyActivity$15---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;staticClassField;2131034126;;staticClassField;com.example.ChallengeApps.MyActivity$1---void onClick(android.view.View)
+IDChallenges;Button;hierarchy2;2131034127;;hierarchy2;com.example.ChallengeApps.MyActivity$16---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;getButFromOtherClass;2131034128;;getButFromOtherClass;com.example.ChallengeApps.MyActivity$3---void onClick(android.view.View)
+IDChallenges;Button;hierarchy3;2131034129;;hierarchy3;com.example.ChallengeApps.MyActivity$17---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;findViewInOtherClass;2131034130;;FindViewInOtherClass;com.example.ChallengeApps.MyActivity$2---void onClick(android.view.View)
+IDChallenges;Button;hierarchy4;2131034131;;hierarchy4;com.example.ChallengeApps.MyActivity$18---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;Button;;16908308;;androidStdIds;com.example.ChallengeApps.MyActivity$19---void onClick(android.view.View)
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;
+IDChallenges;TableRow;;;;

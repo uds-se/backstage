@@ -1,0 +1,4892 @@
+<st.cs.uni.saarland.de.entities.Application id="1">
+  <name>app-debug</name>
+  <uiElementsOfApp id="2">
+    <entry>
+      <int>16908294</int>
+      <AppsUIElement id="3">
+        <parentIDs id="4">
+          <int>2131492911</int>
+        </parentIDs>
+        <childIDs id="5"/>
+        <parentIDsDyn id="6"/>
+        <childIDsDyn id="7"/>
+        <idVar>icon</idVar>
+        <id>16908294</id>
+        <textVar></textVar>
+        <text id="8">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageView</kindOfUiElement>
+        <listeners id="9"/>
+        <drawableNames id="10"/>
+        <styles id="11">
+          <st.cs.uni.saarland.de.entities.Style id="12">
+            <name>RtlOverlay.Widget.AppCompat.DialogTitle.Icon</name>
+            <id>0</id>
+            <text id="13"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" id="14">
+          <name>main</name>
+          <traceCapable>true</traceCapable>
+        </logger>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908295</int>
+      <AppsUIElement id="15">
+        <parentIDs id="16">
+          <int>1000019</int>
+        </parentIDs>
+        <childIDs id="17"/>
+        <parentIDsDyn id="18"/>
+        <childIDsDyn id="19"/>
+        <idVar>icon1</idVar>
+        <id>16908295</id>
+        <textVar></textVar>
+        <text id="20">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="21"/>
+        <drawableNames id="22"/>
+        <styles id="23">
+          <st.cs.uni.saarland.de.entities.Style id="24">
+            <name>RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1</name>
+            <id>0</id>
+            <text id="25"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908299</int>
+      <AppsUIElement id="26">
+        <parentIDs id="27">
+          <int>1000007</int>
+        </parentIDs>
+        <childIDs id="28"/>
+        <parentIDsDyn id="29"/>
+        <childIDsDyn id="30"/>
+        <idVar>message</idVar>
+        <id>16908299</id>
+        <textVar></textVar>
+        <text id="31">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="32"/>
+        <drawableNames id="33"/>
+        <styles id="34">
+          <st.cs.uni.saarland.de.entities.Style id="35">
+            <name>TextAppearance.AppCompat.Subhead</name>
+            <id>0</id>
+            <text id="36"/>
+            <parent>Base.TextAppearance.AppCompat.Subhead</parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908296</int>
+      <AppsUIElement id="37">
+        <parentIDs id="38">
+          <int>1000019</int>
+        </parentIDs>
+        <childIDs id="39"/>
+        <parentIDsDyn id="40"/>
+        <childIDsDyn id="41"/>
+        <idVar>icon2</idVar>
+        <id>16908296</id>
+        <textVar></textVar>
+        <text id="42">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="43"/>
+        <drawableNames id="44"/>
+        <styles id="45">
+          <st.cs.uni.saarland.de.entities.Style id="46">
+            <name>RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2</name>
+            <id>0</id>
+            <text id="47"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492890</int>
+      <AppsUIElement id="48">
+        <parentIDs id="49">
+          <int>1000015</int>
+        </parentIDs>
+        <childIDs id="50"/>
+        <parentIDsDyn id="51"/>
+        <childIDsDyn id="52"/>
+        <idVar></idVar>
+        <id>2131492890</id>
+        <textVar></textVar>
+        <text id="53">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ContentFrameLayout</kindOfUiElement>
+        <listeners id="54"/>
+        <drawableNames id="55"/>
+        <styles id="56"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908308</int>
+      <AppsUIElement id="57">
+        <parentIDs id="58"/>
+        <childIDs id="59"/>
+        <parentIDsDyn id="60"/>
+        <childIDsDyn id="61"/>
+        <idVar>text1</idVar>
+        <id>16908308</id>
+        <textVar></textVar>
+        <text id="62">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="63"/>
+        <drawableNames id="64"/>
+        <styles id="65"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908309</int>
+      <AppsUIElement id="66">
+        <parentIDs id="67">
+          <int>1000019</int>
+        </parentIDs>
+        <childIDs id="68"/>
+        <parentIDsDyn id="69"/>
+        <childIDsDyn id="70"/>
+        <idVar>text2</idVar>
+        <id>16908309</id>
+        <textVar></textVar>
+        <text id="71">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="72"/>
+        <drawableNames id="73"/>
+        <styles id="74"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908314</int>
+      <AppsUIElement id="75">
+        <parentIDs id="76">
+          <int>2131492918</int>
+        </parentIDs>
+        <childIDs id="77"/>
+        <parentIDsDyn id="78"/>
+        <childIDsDyn id="79"/>
+        <idVar>button2</idVar>
+        <id>16908314</id>
+        <textVar></textVar>
+        <text id="80">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="81"/>
+        <drawableNames id="82"/>
+        <styles id="83"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908315</int>
+      <AppsUIElement id="84">
+        <parentIDs id="85">
+          <int>2131492918</int>
+        </parentIDs>
+        <childIDs id="86"/>
+        <parentIDsDyn id="87"/>
+        <childIDsDyn id="88"/>
+        <idVar>button3</idVar>
+        <id>16908315</id>
+        <textVar></textVar>
+        <text id="89">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="90"/>
+        <drawableNames id="91"/>
+        <styles id="92"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>16908313</int>
+      <AppsUIElement id="93">
+        <parentIDs id="94">
+          <int>2131492918</int>
+        </parentIDs>
+        <childIDs id="95"/>
+        <parentIDsDyn id="96"/>
+        <childIDsDyn id="97"/>
+        <idVar>button1</idVar>
+        <id>16908313</id>
+        <textVar></textVar>
+        <text id="98">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="99"/>
+        <drawableNames id="100"/>
+        <styles id="101"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492908</int>
+      <AppsUIElement id="102">
+        <parentIDs id="103">
+          <int>2131492969</int>
+        </parentIDs>
+        <childIDs id="104"/>
+        <parentIDsDyn id="105"/>
+        <childIDsDyn id="106"/>
+        <idVar></idVar>
+        <id>2131492908</id>
+        <textVar></textVar>
+        <text id="107">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="108"/>
+        <drawableNames id="109"/>
+        <styles id="110"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492909</int>
+      <AppsUIElement id="111">
+        <parentIDs id="112"/>
+        <childIDs id="113">
+          <int>2131492910</int>
+          <int>2131492913</int>
+          <int>2131492916</int>
+          <int>2131492918</int>
+        </childIDs>
+        <parentIDsDyn id="114"/>
+        <childIDsDyn id="115"/>
+        <idVar></idVar>
+        <id>2131492909</id>
+        <textVar></textVar>
+        <text id="116">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="117"/>
+        <drawableNames id="118"/>
+        <styles id="119"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492910</int>
+      <AppsUIElement id="120">
+        <parentIDs id="121">
+          <int>2131492909</int>
+        </parentIDs>
+        <childIDs id="122">
+          <int>2131492911</int>
+        </childIDs>
+        <parentIDsDyn id="123"/>
+        <childIDsDyn id="124"/>
+        <idVar></idVar>
+        <id>2131492910</id>
+        <textVar></textVar>
+        <text id="125">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="126"/>
+        <drawableNames id="127"/>
+        <styles id="128"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492911</int>
+      <AppsUIElement id="129">
+        <parentIDs id="130">
+          <int>2131492910</int>
+        </parentIDs>
+        <childIDs id="131">
+          <int>16908294</int>
+          <int>2131492912</int>
+        </childIDs>
+        <parentIDsDyn id="132"/>
+        <childIDsDyn id="133"/>
+        <idVar></idVar>
+        <id>2131492911</id>
+        <textVar></textVar>
+        <text id="134">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="135"/>
+        <drawableNames id="136"/>
+        <styles id="137"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492904</int>
+      <AppsUIElement id="138">
+        <parentIDs id="139">
+          <int>2131492905</int>
+        </parentIDs>
+        <childIDs id="140"/>
+        <parentIDsDyn id="141"/>
+        <childIDsDyn id="142"/>
+        <idVar></idVar>
+        <id>2131492904</id>
+        <textVar></textVar>
+        <text id="143">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageView</kindOfUiElement>
+        <listeners id="144"/>
+        <drawableNames id="145"/>
+        <styles id="146"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492905</int>
+      <AppsUIElement id="147">
+        <parentIDs id="148">
+          <int>2131492902</int>
+        </parentIDs>
+        <childIDs id="149">
+          <int>2131492904</int>
+        </childIDs>
+        <parentIDsDyn id="150"/>
+        <childIDsDyn id="151"/>
+        <idVar></idVar>
+        <id>2131492905</id>
+        <textVar></textVar>
+        <text id="152">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>FrameLayout</kindOfUiElement>
+        <listeners id="153"/>
+        <drawableNames id="154"/>
+        <styles id="155"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492906</int>
+      <AppsUIElement id="156">
+        <parentIDs id="157"/>
+        <childIDs id="158">
+          <int>1000006</int>
+        </childIDs>
+        <parentIDsDyn id="159"/>
+        <childIDsDyn id="160"/>
+        <idVar></idVar>
+        <id>2131492906</id>
+        <textVar></textVar>
+        <text id="161">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="162"/>
+        <drawableNames id="163"/>
+        <styles id="164"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492907</int>
+      <AppsUIElement id="165">
+        <parentIDs id="166">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="167"/>
+        <parentIDsDyn id="168"/>
+        <childIDsDyn id="169"/>
+        <idVar></idVar>
+        <id>2131492907</id>
+        <textVar></textVar>
+        <text id="170">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageView</kindOfUiElement>
+        <listeners id="171"/>
+        <drawableNames id="172"/>
+        <styles id="173"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492900</int>
+      <AppsUIElement id="174">
+        <parentIDs id="175">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="176"/>
+        <parentIDsDyn id="177"/>
+        <childIDsDyn id="178"/>
+        <idVar></idVar>
+        <id>2131492900</id>
+        <textVar></textVar>
+        <text id="179">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="180"/>
+        <drawableNames id="181"/>
+        <styles id="182"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492901</int>
+      <AppsUIElement id="183">
+        <parentIDs id="184"/>
+        <childIDs id="185"/>
+        <parentIDsDyn id="186"/>
+        <childIDsDyn id="187"/>
+        <idVar></idVar>
+        <id>2131492901</id>
+        <textVar>abc_action_mode_done</textVar>
+        <text id="188">
+          <entry>
+            <string>default_value</string>
+            <string>Done</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="189"/>
+        <drawableNames id="190"/>
+        <styles id="191"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492902</int>
+      <AppsUIElement id="192">
+        <parentIDs id="193"/>
+        <childIDs id="194">
+          <int>2131492903</int>
+          <int>2131492905</int>
+        </childIDs>
+        <parentIDsDyn id="195"/>
+        <childIDsDyn id="196"/>
+        <idVar></idVar>
+        <id>2131492902</id>
+        <textVar></textVar>
+        <text id="197">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>view</kindOfUiElement>
+        <listeners id="198"/>
+        <drawableNames id="199"/>
+        <styles id="200"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492903</int>
+      <AppsUIElement id="201">
+        <parentIDs id="202">
+          <int>2131492902</int>
+        </parentIDs>
+        <childIDs id="203">
+          <int>2131492904</int>
+        </childIDs>
+        <parentIDsDyn id="204"/>
+        <childIDsDyn id="205"/>
+        <idVar></idVar>
+        <id>2131492903</id>
+        <textVar></textVar>
+        <text id="206">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>FrameLayout</kindOfUiElement>
+        <listeners id="207"/>
+        <drawableNames id="208"/>
+        <styles id="209"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492899</int>
+      <AppsUIElement id="210">
+        <parentIDs id="211">
+          <int>1000000</int>
+        </parentIDs>
+        <childIDs id="212"/>
+        <parentIDsDyn id="213"/>
+        <childIDsDyn id="214"/>
+        <idVar></idVar>
+        <id>2131492899</id>
+        <textVar></textVar>
+        <text id="215">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="216"/>
+        <drawableNames id="217"/>
+        <styles id="218"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492924</int>
+      <AppsUIElement id="219">
+        <parentIDs id="220">
+          <int>2131492923</int>
+        </parentIDs>
+        <childIDs id="221"/>
+        <parentIDsDyn id="222"/>
+        <childIDsDyn id="223"/>
+        <idVar></idVar>
+        <id>2131492924</id>
+        <textVar></textVar>
+        <text id="224">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ViewStubCompat</kindOfUiElement>
+        <listeners id="225"/>
+        <drawableNames id="226"/>
+        <styles id="227"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492926</int>
+      <AppsUIElement id="228">
+        <parentIDs id="229"/>
+        <childIDs id="230">
+          <int>1000018</int>
+          <int>2131492927</int>
+        </childIDs>
+        <parentIDsDyn id="231"/>
+        <childIDsDyn id="232"/>
+        <idVar></idVar>
+        <id>2131492926</id>
+        <textVar></textVar>
+        <text id="233">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ActionBarOverlayLayout</kindOfUiElement>
+        <listeners id="234"/>
+        <drawableNames id="235"/>
+        <styles id="236"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492927</int>
+      <AppsUIElement id="237">
+        <parentIDs id="238">
+          <int>2131492926</int>
+        </parentIDs>
+        <childIDs id="239">
+          <int>2131492928</int>
+          <int>2131492929</int>
+        </childIDs>
+        <parentIDsDyn id="240"/>
+        <childIDsDyn id="241"/>
+        <idVar></idVar>
+        <id>2131492927</id>
+        <textVar></textVar>
+        <text id="242">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ActionBarContainer</kindOfUiElement>
+        <listeners id="243"/>
+        <drawableNames id="244"/>
+        <styles id="245"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492920</int>
+      <AppsUIElement id="246">
+        <parentIDs id="247"/>
+        <childIDs id="248"/>
+        <parentIDsDyn id="249"/>
+        <childIDsDyn id="250"/>
+        <idVar></idVar>
+        <id>2131492920</id>
+        <textVar></textVar>
+        <text id="251">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>CheckBox</kindOfUiElement>
+        <listeners id="252"/>
+        <drawableNames id="253"/>
+        <styles id="254"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492921</int>
+      <AppsUIElement id="255">
+        <parentIDs id="256">
+          <int>1000014</int>
+        </parentIDs>
+        <childIDs id="257"/>
+        <parentIDsDyn id="258"/>
+        <childIDsDyn id="259"/>
+        <idVar></idVar>
+        <id>2131492921</id>
+        <textVar></textVar>
+        <text id="260">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="261"/>
+        <drawableNames id="262"/>
+        <styles id="263">
+          <st.cs.uni.saarland.de.entities.Style id="264">
+            <name>RtlOverlay.Widget.AppCompat.PopupMenuItem.Text</name>
+            <id>0</id>
+            <text id="265"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492922</int>
+      <AppsUIElement id="266">
+        <parentIDs id="267"/>
+        <childIDs id="268"/>
+        <parentIDsDyn id="269"/>
+        <childIDsDyn id="270"/>
+        <idVar></idVar>
+        <id>2131492922</id>
+        <textVar></textVar>
+        <text id="271">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RadioButton</kindOfUiElement>
+        <listeners id="272"/>
+        <drawableNames id="273"/>
+        <styles id="274"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492923</int>
+      <AppsUIElement id="275">
+        <parentIDs id="276"/>
+        <childIDs id="277">
+          <int>1000017</int>
+          <int>2131492924</int>
+        </childIDs>
+        <parentIDsDyn id="278"/>
+        <childIDsDyn id="279"/>
+        <idVar></idVar>
+        <id>2131492923</id>
+        <textVar></textVar>
+        <text id="280">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.FitWindowsFrameLayout</kindOfUiElement>
+        <listeners id="281"/>
+        <drawableNames id="282"/>
+        <styles id="283"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492916</int>
+      <AppsUIElement id="284">
+        <parentIDs id="285">
+          <int>2131492909</int>
+        </parentIDs>
+        <childIDs id="286">
+          <int>2131492917</int>
+        </childIDs>
+        <parentIDsDyn id="287"/>
+        <childIDsDyn id="288"/>
+        <idVar></idVar>
+        <id>2131492916</id>
+        <textVar></textVar>
+        <text id="289">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>FrameLayout</kindOfUiElement>
+        <listeners id="290"/>
+        <drawableNames id="291"/>
+        <styles id="292"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492917</int>
+      <AppsUIElement id="293">
+        <parentIDs id="294">
+          <int>2131492916</int>
+        </parentIDs>
+        <childIDs id="295"/>
+        <parentIDsDyn id="296"/>
+        <childIDsDyn id="297"/>
+        <idVar></idVar>
+        <id>2131492917</id>
+        <textVar></textVar>
+        <text id="298">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>FrameLayout</kindOfUiElement>
+        <listeners id="299"/>
+        <drawableNames id="300"/>
+        <styles id="301"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492918</int>
+      <AppsUIElement id="302">
+        <parentIDs id="303">
+          <int>2131492909</int>
+        </parentIDs>
+        <childIDs id="304">
+          <int>16908315</int>
+          <int>1000008</int>
+          <int>16908314</int>
+          <int>16908313</int>
+        </childIDs>
+        <parentIDsDyn id="305"/>
+        <childIDsDyn id="306"/>
+        <idVar></idVar>
+        <id>2131492918</id>
+        <textVar></textVar>
+        <text id="307">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="308"/>
+        <drawableNames id="309"/>
+        <styles id="310"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492919</int>
+      <AppsUIElement id="311">
+        <parentIDs id="312"/>
+        <childIDs id="313"/>
+        <parentIDsDyn id="314"/>
+        <childIDsDyn id="315"/>
+        <idVar></idVar>
+        <id>2131492919</id>
+        <textVar></textVar>
+        <text id="316">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.view.menu.ExpandedMenuView</kindOfUiElement>
+        <listeners id="317"/>
+        <drawableNames id="318"/>
+        <styles id="319"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492912</int>
+      <AppsUIElement id="320">
+        <parentIDs id="321">
+          <int>2131492911</int>
+        </parentIDs>
+        <childIDs id="322"/>
+        <parentIDsDyn id="323"/>
+        <childIDsDyn id="324"/>
+        <idVar></idVar>
+        <id>2131492912</id>
+        <textVar></textVar>
+        <text id="325">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.DialogTitle</kindOfUiElement>
+        <listeners id="326"/>
+        <drawableNames id="327"/>
+        <styles id="328"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492913</int>
+      <AppsUIElement id="329">
+        <parentIDs id="330">
+          <int>2131492909</int>
+        </parentIDs>
+        <childIDs id="331">
+          <int>2131492914</int>
+        </childIDs>
+        <parentIDsDyn id="332"/>
+        <childIDsDyn id="333"/>
+        <idVar></idVar>
+        <id>2131492913</id>
+        <textVar></textVar>
+        <text id="334">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>FrameLayout</kindOfUiElement>
+        <listeners id="335"/>
+        <drawableNames id="336"/>
+        <styles id="337"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492914</int>
+      <AppsUIElement id="338">
+        <parentIDs id="339">
+          <int>2131492913</int>
+        </parentIDs>
+        <childIDs id="340">
+          <int>1000007</int>
+        </childIDs>
+        <parentIDsDyn id="341"/>
+        <childIDsDyn id="342"/>
+        <idVar></idVar>
+        <id>2131492914</id>
+        <textVar></textVar>
+        <text id="343">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ScrollView</kindOfUiElement>
+        <listeners id="344"/>
+        <drawableNames id="345"/>
+        <styles id="346"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492915</int>
+      <AppsUIElement id="347">
+        <parentIDs id="348">
+          <int>1000007</int>
+        </parentIDs>
+        <childIDs id="349"/>
+        <parentIDsDyn id="350"/>
+        <childIDsDyn id="351"/>
+        <idVar></idVar>
+        <id>2131492915</id>
+        <textVar></textVar>
+        <text id="352">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>View</kindOfUiElement>
+        <listeners id="353"/>
+        <drawableNames id="354"/>
+        <styles id="355"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000015</int>
+      <AppsUIElement id="356">
+        <parentIDs id="357">
+          <int>1000010</int>
+          <int>1000018</int>
+          <int>1000017</int>
+          <int>1000016</int>
+        </parentIDs>
+        <childIDs id="358">
+          <int>2131492890</int>
+        </childIDs>
+        <parentIDsDyn id="359"/>
+        <childIDsDyn id="360"/>
+        <idVar></idVar>
+        <id>1000015</id>
+        <textVar></textVar>
+        <text id="361">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>merge</kindOfUiElement>
+        <listeners id="362"/>
+        <drawableNames id="363"/>
+        <styles id="364"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492940</int>
+      <AppsUIElement id="365">
+        <parentIDs id="366">
+          <int>2131492939</int>
+        </parentIDs>
+        <childIDs id="367"/>
+        <parentIDsDyn id="368"/>
+        <childIDsDyn id="369"/>
+        <idVar></idVar>
+        <id>2131492940</id>
+        <textVar>abc_searchview_description_submit</textVar>
+        <text id="370">
+          <entry>
+            <string>default_value</string>
+            <string>Submit query</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="371"/>
+        <drawableNames id="372"/>
+        <styles id="373"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000014</int>
+      <AppsUIElement id="374">
+        <parentIDs id="375">
+          <int>1000013</int>
+        </parentIDs>
+        <childIDs id="376">
+          <int>2131492908</int>
+          <int>2131492921</int>
+        </childIDs>
+        <parentIDsDyn id="377"/>
+        <childIDsDyn id="378"/>
+        <idVar></idVar>
+        <id>1000014</id>
+        <textVar></textVar>
+        <text id="379">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="380"/>
+        <drawableNames id="381"/>
+        <styles id="382">
+          <st.cs.uni.saarland.de.entities.Style id="383">
+            <name>RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup</name>
+            <id>0</id>
+            <text id="384"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492941</int>
+      <AppsUIElement id="385">
+        <parentIDs id="386">
+          <int>2131492939</int>
+        </parentIDs>
+        <childIDs id="387"/>
+        <parentIDsDyn id="388"/>
+        <childIDsDyn id="389"/>
+        <idVar></idVar>
+        <id>2131492941</id>
+        <textVar>abc_searchview_description_voice</textVar>
+        <text id="390">
+          <entry>
+            <string>default_value</string>
+            <string>Voice search</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="391"/>
+        <drawableNames id="392"/>
+        <styles id="393"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000013</int>
+      <AppsUIElement id="394">
+        <parentIDs id="395"/>
+        <childIDs id="396">
+          <int>1000014</int>
+        </childIDs>
+        <parentIDsDyn id="397"/>
+        <childIDsDyn id="398"/>
+        <idVar></idVar>
+        <id>1000013</id>
+        <textVar></textVar>
+        <text id="399">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.view.menu.ListMenuItemView</kindOfUiElement>
+        <listeners id="400"/>
+        <drawableNames id="401"/>
+        <styles id="402">
+          <st.cs.uni.saarland.de.entities.Style id="403">
+            <name>RtlOverlay.Widget.AppCompat.PopupMenuItem</name>
+            <id>0</id>
+            <text id="404"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492942</int>
+      <AppsUIElement id="405">
+        <parentIDs id="406"/>
+        <childIDs id="407"/>
+        <parentIDsDyn id="408"/>
+        <childIDsDyn id="409"/>
+        <idVar></idVar>
+        <id>2131492942</id>
+        <textVar></textVar>
+        <text id="410">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ListView</kindOfUiElement>
+        <listeners id="411"/>
+        <drawableNames id="412"/>
+        <styles id="413">
+          <st.cs.uni.saarland.de.entities.Style id="414">
+            <name>Widget.AppCompat.ListView</name>
+            <id>0</id>
+            <text id="415"/>
+            <parent>Base.Widget.AppCompat.ListView</parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000012</int>
+      <AppsUIElement id="416">
+        <parentIDs id="417">
+          <int>1000011</int>
+        </parentIDs>
+        <childIDs id="418">
+          <int>2131492908</int>
+          <int>2131492921</int>
+        </childIDs>
+        <parentIDsDyn id="419"/>
+        <childIDsDyn id="420"/>
+        <idVar></idVar>
+        <id>1000012</id>
+        <textVar></textVar>
+        <text id="421">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="422"/>
+        <drawableNames id="423"/>
+        <styles id="424"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492943</int>
+      <AppsUIElement id="425">
+        <parentIDs id="426">
+          <int>1000020</int>
+        </parentIDs>
+        <childIDs id="427"/>
+        <parentIDsDyn id="428"/>
+        <childIDsDyn id="429"/>
+        <idVar></idVar>
+        <id>2131492943</id>
+        <textVar>hello_world</textVar>
+        <text id="430">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="431"/>
+        <drawableNames id="432"/>
+        <styles id="433"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000011</int>
+      <AppsUIElement id="434">
+        <parentIDs id="435"/>
+        <childIDs id="436">
+          <int>1000012</int>
+        </childIDs>
+        <parentIDsDyn id="437"/>
+        <childIDsDyn id="438"/>
+        <idVar></idVar>
+        <id>1000011</id>
+        <textVar></textVar>
+        <text id="439">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.view.menu.ListMenuItemView</kindOfUiElement>
+        <listeners id="440"/>
+        <drawableNames id="441"/>
+        <styles id="442"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492936</int>
+      <AppsUIElement id="443">
+        <parentIDs id="444">
+          <int>2131492934</int>
+        </parentIDs>
+        <childIDs id="445">
+          <int>2131492937</int>
+          <int>2131492938</int>
+        </childIDs>
+        <parentIDsDyn id="446"/>
+        <childIDsDyn id="447"/>
+        <idVar></idVar>
+        <id>2131492936</id>
+        <textVar></textVar>
+        <text id="448">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="449"/>
+        <drawableNames id="450"/>
+        <styles id="451"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000010</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="452">
+        <parentIDs id="453">
+          <int>1000009</int>
+        </parentIDs>
+        <childIDs id="454">
+          <int>1000015</int>
+        </childIDs>
+        <parentIDsDyn id="455"/>
+        <childIDsDyn id="456"/>
+        <idVar></idVar>
+        <id>1000010</id>
+        <textVar></textVar>
+        <text id="457"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="458"/>
+        <drawableNames id="459"/>
+        <styles id="460"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="461">
+          <int>2130968593</int>
+        </xmlFileIDs>
+        <layoutName>abc_screen_content_include</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492937</int>
+      <AppsUIElement id="462">
+        <parentIDs id="463">
+          <int>2131492936</int>
+        </parentIDs>
+        <childIDs id="464"/>
+        <parentIDsDyn id="465"/>
+        <childIDsDyn id="466"/>
+        <idVar></idVar>
+        <id>2131492937</id>
+        <textVar></textVar>
+        <text id="467">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>view</kindOfUiElement>
+        <listeners id="468"/>
+        <drawableNames id="469"/>
+        <styles id="470"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000009</int>
+      <AppsUIElement id="471">
+        <parentIDs id="472"/>
+        <childIDs id="473">
+          <int>2131492908</int>
+          <int>1000010</int>
+        </childIDs>
+        <parentIDsDyn id="474"/>
+        <childIDsDyn id="475"/>
+        <idVar></idVar>
+        <id>1000009</id>
+        <textVar></textVar>
+        <text id="476">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.FitWindowsLinearLayout</kindOfUiElement>
+        <listeners id="477"/>
+        <drawableNames id="478"/>
+        <styles id="479"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492938</int>
+      <AppsUIElement id="480">
+        <parentIDs id="481">
+          <int>2131492936</int>
+        </parentIDs>
+        <childIDs id="482"/>
+        <parentIDsDyn id="483"/>
+        <childIDsDyn id="484"/>
+        <idVar></idVar>
+        <id>2131492938</id>
+        <textVar>abc_searchview_description_clear</textVar>
+        <text id="485">
+          <entry>
+            <string>default_value</string>
+            <string>Clear query</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="486"/>
+        <drawableNames id="487"/>
+        <styles id="488"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000008</int>
+      <AppsUIElement id="489">
+        <parentIDs id="490">
+          <int>2131492918</int>
+        </parentIDs>
+        <childIDs id="491"/>
+        <parentIDsDyn id="492"/>
+        <childIDsDyn id="493"/>
+        <idVar></idVar>
+        <id>1000008</id>
+        <textVar></textVar>
+        <text id="494">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v4.widget.Space</kindOfUiElement>
+        <listeners id="495"/>
+        <drawableNames id="496"/>
+        <styles id="497"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492939</int>
+      <AppsUIElement id="498">
+        <parentIDs id="499">
+          <int>2131492934</int>
+        </parentIDs>
+        <childIDs id="500">
+          <int>2131492940</int>
+          <int>2131492941</int>
+        </childIDs>
+        <parentIDsDyn id="501"/>
+        <childIDsDyn id="502"/>
+        <idVar></idVar>
+        <id>2131492939</id>
+        <textVar></textVar>
+        <text id="503">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="504"/>
+        <drawableNames id="505"/>
+        <styles id="506"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000007</int>
+      <AppsUIElement id="507">
+        <parentIDs id="508">
+          <int>2131492914</int>
+        </parentIDs>
+        <childIDs id="509">
+          <int>16908299</int>
+          <int>2131492915</int>
+        </childIDs>
+        <parentIDsDyn id="510"/>
+        <childIDsDyn id="511"/>
+        <idVar></idVar>
+        <id>1000007</id>
+        <textVar></textVar>
+        <text id="512">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="513"/>
+        <drawableNames id="514"/>
+        <styles id="515"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492932</int>
+      <AppsUIElement id="516">
+        <parentIDs id="517">
+          <int>2131492931</int>
+        </parentIDs>
+        <childIDs id="518"/>
+        <parentIDsDyn id="519"/>
+        <childIDsDyn id="520"/>
+        <idVar></idVar>
+        <id>2131492932</id>
+        <textVar></textVar>
+        <text id="521">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="522"/>
+        <drawableNames id="523"/>
+        <styles id="524"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000006</int>
+      <AppsUIElement id="525">
+        <parentIDs id="526">
+          <int>2131492906</int>
+        </parentIDs>
+        <childIDs id="527">
+          <int>2131492907</int>
+          <int>2131492908</int>
+        </childIDs>
+        <parentIDsDyn id="528"/>
+        <childIDsDyn id="529"/>
+        <idVar></idVar>
+        <id>1000006</id>
+        <textVar></textVar>
+        <text id="530">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="531"/>
+        <drawableNames id="532"/>
+        <styles id="533"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492933</int>
+      <AppsUIElement id="534">
+        <parentIDs id="535">
+          <int>2131492931</int>
+        </parentIDs>
+        <childIDs id="536"/>
+        <parentIDsDyn id="537"/>
+        <childIDsDyn id="538"/>
+        <idVar></idVar>
+        <id>2131492933</id>
+        <textVar>abc_searchview_description_search</textVar>
+        <text id="539">
+          <entry>
+            <string>default_value</string>
+            <string>Search</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="540"/>
+        <drawableNames id="541"/>
+        <styles id="542"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000005</int>
+      <AppsUIElement id="543">
+        <parentIDs id="544"/>
+        <childIDs id="545"/>
+        <parentIDsDyn id="546"/>
+        <childIDsDyn id="547"/>
+        <idVar></idVar>
+        <id>1000005</id>
+        <textVar></textVar>
+        <text id="548">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ActionBarContextView</kindOfUiElement>
+        <listeners id="549"/>
+        <drawableNames id="550"/>
+        <styles id="551"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492934</int>
+      <AppsUIElement id="552">
+        <parentIDs id="553">
+          <int>2131492931</int>
+        </parentIDs>
+        <childIDs id="554">
+          <int>2131492935</int>
+          <int>2131492936</int>
+          <int>2131492939</int>
+        </childIDs>
+        <parentIDsDyn id="555"/>
+        <childIDsDyn id="556"/>
+        <idVar></idVar>
+        <id>2131492934</id>
+        <textVar></textVar>
+        <text id="557">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="558"/>
+        <drawableNames id="559"/>
+        <styles id="560"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000004</int>
+      <AppsUIElement id="561">
+        <parentIDs id="562"/>
+        <childIDs id="563"/>
+        <parentIDsDyn id="564"/>
+        <childIDsDyn id="565"/>
+        <idVar></idVar>
+        <id>1000004</id>
+        <textVar></textVar>
+        <text id="566">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.widget.ActionMenuView</kindOfUiElement>
+        <listeners id="567"/>
+        <drawableNames id="568"/>
+        <styles id="569"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492935</int>
+      <AppsUIElement id="570">
+        <parentIDs id="571">
+          <int>2131492934</int>
+        </parentIDs>
+        <childIDs id="572"/>
+        <parentIDsDyn id="573"/>
+        <childIDsDyn id="574"/>
+        <idVar></idVar>
+        <id>2131492935</id>
+        <textVar></textVar>
+        <text id="575">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="576"/>
+        <drawableNames id="577"/>
+        <styles id="578">
+          <st.cs.uni.saarland.de.entities.Style id="579">
+            <name>RtlOverlay.Widget.AppCompat.SearchView.MagIcon</name>
+            <id>0</id>
+            <text id="580"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000003</int>
+      <AppsUIElement id="581">
+        <parentIDs id="582"/>
+        <childIDs id="583"/>
+        <parentIDsDyn id="584"/>
+        <childIDsDyn id="585"/>
+        <idVar></idVar>
+        <id>1000003</id>
+        <textVar></textVar>
+        <text id="586">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.view.menu.ActionMenuItemView</kindOfUiElement>
+        <listeners id="587"/>
+        <drawableNames id="588"/>
+        <styles id="589"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492928</int>
+      <AppsUIElement id="590">
+        <parentIDs id="591">
+          <int>2131492927</int>
+        </parentIDs>
+        <childIDs id="592"/>
+        <parentIDsDyn id="593"/>
+        <childIDsDyn id="594"/>
+        <idVar></idVar>
+        <id>2131492928</id>
+        <textVar>abc_action_bar_up_description</textVar>
+        <text id="595">
+          <entry>
+            <string>default_value</string>
+            <string>Navigate up</string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.widget.Toolbar</kindOfUiElement>
+        <listeners id="596"/>
+        <drawableNames id="597"/>
+        <styles id="598"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000002</int>
+      <AppsUIElement id="599">
+        <parentIDs id="600"/>
+        <childIDs id="601"/>
+        <parentIDsDyn id="602"/>
+        <childIDsDyn id="603"/>
+        <idVar></idVar>
+        <id>1000002</id>
+        <textVar></textVar>
+        <text id="604">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="605"/>
+        <drawableNames id="606"/>
+        <styles id="607"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492929</int>
+      <AppsUIElement id="608">
+        <parentIDs id="609">
+          <int>2131492927</int>
+        </parentIDs>
+        <childIDs id="610"/>
+        <parentIDsDyn id="611"/>
+        <childIDsDyn id="612"/>
+        <idVar></idVar>
+        <id>2131492929</id>
+        <textVar></textVar>
+        <text id="613">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.ActionBarContextView</kindOfUiElement>
+        <listeners id="614"/>
+        <drawableNames id="615"/>
+        <styles id="616"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000001</int>
+      <AppsUIElement id="617">
+        <parentIDs id="618"/>
+        <childIDs id="619"/>
+        <parentIDsDyn id="620"/>
+        <childIDsDyn id="621"/>
+        <idVar></idVar>
+        <id>1000001</id>
+        <textVar></textVar>
+        <text id="622">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="623"/>
+        <drawableNames id="624"/>
+        <styles id="625"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492930</int>
+      <AppsUIElement id="626">
+        <parentIDs id="627">
+          <int>1000019</int>
+        </parentIDs>
+        <childIDs id="628"/>
+        <parentIDsDyn id="629"/>
+        <childIDsDyn id="630"/>
+        <idVar></idVar>
+        <id>2131492930</id>
+        <textVar></textVar>
+        <text id="631">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>android.support.v7.internal.widget.TintImageView</kindOfUiElement>
+        <listeners id="632"/>
+        <drawableNames id="633"/>
+        <styles id="634">
+          <st.cs.uni.saarland.de.entities.Style id="635">
+            <name>RtlOverlay.Widget.AppCompat.Search.DropDown.Query</name>
+            <id>0</id>
+            <text id="636"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000000</int>
+      <AppsUIElement id="637">
+        <parentIDs id="638"/>
+        <childIDs id="639">
+          <int>2131492899</int>
+          <int>2131492900</int>
+        </childIDs>
+        <parentIDsDyn id="640"/>
+        <childIDsDyn id="641"/>
+        <idVar></idVar>
+        <id>1000000</id>
+        <textVar></textVar>
+        <text id="642">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="643"/>
+        <drawableNames id="644"/>
+        <styles id="645">
+          <st.cs.uni.saarland.de.entities.Style id="646">
+            <name>RtlOverlay.Widget.AppCompat.ActionBar.TitleItem</name>
+            <id>0</id>
+            <text id="647"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492931</int>
+      <AppsUIElement id="648">
+        <parentIDs id="649"/>
+        <childIDs id="650">
+          <int>2131492932</int>
+          <int>2131492933</int>
+          <int>2131492934</int>
+        </childIDs>
+        <parentIDsDyn id="651"/>
+        <childIDsDyn id="652"/>
+        <idVar></idVar>
+        <id>2131492931</id>
+        <textVar></textVar>
+        <text id="653">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="654"/>
+        <drawableNames id="655"/>
+        <styles id="656"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492956</int>
+      <AppsUIElement id="657">
+        <parentIDs id="658">
+          <int>1000026</int>
+        </parentIDs>
+        <childIDs id="659"/>
+        <parentIDsDyn id="660"/>
+        <childIDsDyn id="661"/>
+        <idVar></idVar>
+        <id>2131492956</id>
+        <textVar></textVar>
+        <text id="662">
+          <entry>
+            <string>default_value</string>
+            <string>goAnaonymousActivity</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="663">
+          <st.cs.uni.saarland.de.entities.Listener id="664">
+            <declaringClass>default_value</declaringClass>
+            <listenerMethod>void goAnonymous(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MainActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+            <calledAPISignatures id="665"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="666"/>
+        <styles id="667"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000031</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="668">
+        <parentIDs id="669">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="670">
+          <int>2131492965</int>
+        </childIDs>
+        <parentIDsDyn id="671"/>
+        <childIDsDyn id="672"/>
+        <idVar></idVar>
+        <id>1000031</id>
+        <textVar></textVar>
+        <text id="673"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="674"/>
+        <drawableNames id="675"/>
+        <styles id="676"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="677">
+          <int>2130968611</int>
+        </xmlFileIDs>
+        <layoutName>notification_media_cancel_action</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492957</int>
+      <AppsUIElement id="678">
+        <parentIDs id="679">
+          <int>1000026</int>
+        </parentIDs>
+        <childIDs id="680"/>
+        <parentIDsDyn id="681"/>
+        <childIDsDyn id="682"/>
+        <idVar></idVar>
+        <id>2131492957</id>
+        <textVar></textVar>
+        <text id="683">
+          <entry>
+            <string>default_value</string>
+            <string>Go to Child Activity</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="684">
+          <st.cs.uni.saarland.de.entities.Listener id="685">
+            <declaringClass>default_value</declaringClass>
+            <listenerMethod>void goToTheChild(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MainActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+            <calledAPISignatures id="686"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="687"/>
+        <styles id="688"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000030</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="689">
+        <parentIDs id="690">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="691">
+          <int>1000033</int>
+        </childIDs>
+        <parentIDsDyn id="692"/>
+        <childIDsDyn id="693"/>
+        <idVar></idVar>
+        <id>1000030</id>
+        <textVar></textVar>
+        <text id="694"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="695"/>
+        <drawableNames id="696"/>
+        <styles id="697"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="698">
+          <int>2130968614</int>
+        </xmlFileIDs>
+        <layoutName>notification_template_lines</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492958</int>
+      <AppsUIElement id="699">
+        <parentIDs id="700">
+          <int>1000027</int>
+        </parentIDs>
+        <childIDs id="701"/>
+        <parentIDsDyn id="702"/>
+        <childIDsDyn id="703"/>
+        <idVar></idVar>
+        <id>2131492958</id>
+        <textVar>hello_world</textVar>
+        <text id="704">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="705"/>
+        <drawableNames id="706"/>
+        <styles id="707"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000029</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="708">
+        <parentIDs id="709">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="710">
+          <int>2131492965</int>
+        </childIDs>
+        <parentIDsDyn id="711"/>
+        <childIDsDyn id="712"/>
+        <idVar></idVar>
+        <id>1000029</id>
+        <textVar></textVar>
+        <text id="713"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="714"/>
+        <drawableNames id="715"/>
+        <styles id="716"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="717">
+          <int>2130968611</int>
+        </xmlFileIDs>
+        <layoutName>notification_media_cancel_action</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492959</int>
+      <AppsUIElement id="718">
+        <parentIDs id="719">
+          <int>1000027</int>
+        </parentIDs>
+        <childIDs id="720"/>
+        <parentIDsDyn id="721"/>
+        <childIDsDyn id="722"/>
+        <idVar></idVar>
+        <id>2131492959</id>
+        <textVar></textVar>
+        <text id="723">
+          <entry>
+            <string>default_value</string>
+            <string>Member Class Button</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="724">
+          <st.cs.uni.saarland.de.entities.Listener id="725">
+            <declaringClass>com.example.avdiienko.button_xml.MemberClass</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MemberClass$HandleClick</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="726"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="727"/>
+        <styles id="728"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000028</int>
+      <AppsUIElement id="729">
+        <parentIDs id="730"/>
+        <childIDs id="731">
+          <int>2131492960</int>
+          <int>2131492961</int>
+          <int>2131492962</int>
+          <int>2131492963</int>
+        </childIDs>
+        <parentIDsDyn id="732"/>
+        <childIDsDyn id="733"/>
+        <idVar></idVar>
+        <id>1000028</id>
+        <textVar></textVar>
+        <text id="734">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="735"/>
+        <drawableNames id="736"/>
+        <styles id="737"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492952</int>
+      <AppsUIElement id="738">
+        <parentIDs id="739">
+          <int>1000025</int>
+        </parentIDs>
+        <childIDs id="740"/>
+        <parentIDsDyn id="741"/>
+        <childIDsDyn id="742"/>
+        <idVar></idVar>
+        <id>2131492952</id>
+        <textVar>hello_world</textVar>
+        <text id="743">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="744"/>
+        <drawableNames id="745"/>
+        <styles id="746"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000027</int>
+      <AppsUIElement id="747">
+        <parentIDs id="748"/>
+        <childIDs id="749">
+          <int>2131492958</int>
+          <int>2131492959</int>
+        </childIDs>
+        <parentIDsDyn id="750"/>
+        <childIDsDyn id="751"/>
+        <idVar></idVar>
+        <id>1000027</id>
+        <textVar></textVar>
+        <text id="752">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="753"/>
+        <drawableNames id="754"/>
+        <styles id="755"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492953</int>
+      <AppsUIElement id="756">
+        <parentIDs id="757">
+          <int>1000025</int>
+        </parentIDs>
+        <childIDs id="758"/>
+        <parentIDsDyn id="759"/>
+        <childIDsDyn id="760"/>
+        <idVar></idVar>
+        <id>2131492953</id>
+        <textVar></textVar>
+        <text id="761">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+          <entry>
+            <string>com.example.avdiienko.button_xml.InterfaceType</string>
+            <string>New Button</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="762">
+          <st.cs.uni.saarland.de.entities.Listener id="763">
+            <declaringClass>com.example.avdiienko.button_xml.InterfaceType</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.InterfaceType$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="764"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="765"/>
+        <styles id="766"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000026</int>
+      <AppsUIElement id="767">
+        <parentIDs id="768"/>
+        <childIDs id="769">
+          <int>2131492954</int>
+          <int>2131492955</int>
+          <int>2131492956</int>
+          <int>2131492957</int>
+        </childIDs>
+        <parentIDsDyn id="770"/>
+        <childIDsDyn id="771"/>
+        <idVar></idVar>
+        <id>1000026</id>
+        <textVar></textVar>
+        <text id="772">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="773"/>
+        <drawableNames id="774"/>
+        <styles id="775"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000025</int>
+      <AppsUIElement id="776">
+        <parentIDs id="777"/>
+        <childIDs id="778">
+          <int>2131492952</int>
+          <int>2131492953</int>
+        </childIDs>
+        <parentIDsDyn id="779"/>
+        <childIDsDyn id="780"/>
+        <idVar></idVar>
+        <id>1000025</id>
+        <textVar></textVar>
+        <text id="781">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="782"/>
+        <drawableNames id="783"/>
+        <styles id="784"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492954</int>
+      <AppsUIElement id="785">
+        <parentIDs id="786">
+          <int>1000026</int>
+        </parentIDs>
+        <childIDs id="787"/>
+        <parentIDsDyn id="788"/>
+        <childIDsDyn id="789"/>
+        <idVar></idVar>
+        <id>2131492954</id>
+        <textVar>hello_world</textVar>
+        <text id="790">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="791"/>
+        <drawableNames id="792"/>
+        <styles id="793"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000024</int>
+      <AppsUIElement id="794">
+        <parentIDs id="795"/>
+        <childIDs id="796">
+          <int>2131492949</int>
+          <int>2131492950</int>
+          <int>2131492951</int>
+        </childIDs>
+        <parentIDsDyn id="797"/>
+        <childIDsDyn id="798"/>
+        <idVar></idVar>
+        <id>1000024</id>
+        <textVar></textVar>
+        <text id="799">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="800"/>
+        <drawableNames id="801"/>
+        <styles id="802"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492955</int>
+      <AppsUIElement id="803">
+        <parentIDs id="804">
+          <int>1000026</int>
+        </parentIDs>
+        <childIDs id="805"/>
+        <parentIDsDyn id="806"/>
+        <childIDsDyn id="807"/>
+        <idVar></idVar>
+        <id>2131492955</id>
+        <textVar></textVar>
+        <text id="808">
+          <entry>
+            <string>default_value</string>
+            <string>Static Button</string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageButton</kindOfUiElement>
+        <listeners id="809">
+          <st.cs.uni.saarland.de.entities.Listener id="810">
+            <declaringClass>default_value</declaringClass>
+            <listenerMethod>void staticButtonClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MainActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>true</xmlDefined>
+            <calledAPISignatures id="811"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="812">
+          <string>abc_ic_menu_share_mtrl_alpha.png</string>
+        </drawableNames>
+        <styles id="813"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000023</int>
+      <AppsUIElement id="814">
+        <parentIDs id="815"/>
+        <childIDs id="816">
+          <int>2131492947</int>
+          <int>2131492948</int>
+        </childIDs>
+        <parentIDsDyn id="817"/>
+        <childIDsDyn id="818"/>
+        <idVar></idVar>
+        <id>1000023</id>
+        <textVar></textVar>
+        <text id="819">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="820"/>
+        <drawableNames id="821"/>
+        <styles id="822"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492948</int>
+      <AppsUIElement id="823">
+        <parentIDs id="824">
+          <int>1000023</int>
+        </parentIDs>
+        <childIDs id="825"/>
+        <parentIDsDyn id="826"/>
+        <childIDsDyn id="827"/>
+        <idVar></idVar>
+        <id>2131492948</id>
+        <textVar></textVar>
+        <text id="828">
+          <entry>
+            <string>default_value</string>
+            <string>New Button</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="829">
+          <st.cs.uni.saarland.de.entities.Listener id="830">
+            <declaringClass>com.example.avdiienko.button_xml.ButtonWithListenerInMethod</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.ButtonWithListenerInMethod$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="831"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="832"/>
+        <styles id="833"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000022</int>
+      <AppsUIElement id="834">
+        <parentIDs id="835"/>
+        <childIDs id="836"/>
+        <parentIDsDyn id="837"/>
+        <childIDsDyn id="838"/>
+        <idVar></idVar>
+        <id>1000022</id>
+        <textVar></textVar>
+        <text id="839">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="840"/>
+        <drawableNames id="841"/>
+        <styles id="842"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492949</int>
+      <AppsUIElement id="843">
+        <parentIDs id="844">
+          <int>1000024</int>
+        </parentIDs>
+        <childIDs id="845"/>
+        <parentIDsDyn id="846"/>
+        <childIDsDyn id="847"/>
+        <idVar></idVar>
+        <id>2131492949</id>
+        <textVar>hello_world</textVar>
+        <text id="848">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="849"/>
+        <drawableNames id="850"/>
+        <styles id="851"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000021</int>
+      <AppsUIElement id="852">
+        <parentIDs id="853"/>
+        <childIDs id="854">
+          <int>2131492945</int>
+          <int>2131492946</int>
+        </childIDs>
+        <parentIDsDyn id="855"/>
+        <childIDsDyn id="856"/>
+        <idVar></idVar>
+        <id>1000021</id>
+        <textVar></textVar>
+        <text id="857">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="858"/>
+        <drawableNames id="859"/>
+        <styles id="860"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492950</int>
+      <AppsUIElement id="861">
+        <parentIDs id="862">
+          <int>1000024</int>
+        </parentIDs>
+        <childIDs id="863"/>
+        <parentIDsDyn id="864"/>
+        <childIDsDyn id="865"/>
+        <idVar></idVar>
+        <id>2131492950</id>
+        <textVar></textVar>
+        <text id="866">
+          <entry>
+            <string>default_value</string>
+            <string>Hey! Find my handler :)</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="867">
+          <st.cs.uni.saarland.de.entities.Listener id="868">
+            <declaringClass>com.example.avdiienko.button_xml.IdInArray</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.IdInArray$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="869"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="870"/>
+        <styles id="871"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000020</int>
+      <AppsUIElement id="872">
+        <parentIDs id="873"/>
+        <childIDs id="874">
+          <int>2131492943</int>
+          <int>2131492944</int>
+        </childIDs>
+        <parentIDsDyn id="875"/>
+        <childIDsDyn id="876"/>
+        <idVar></idVar>
+        <id>1000020</id>
+        <textVar></textVar>
+        <text id="877">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="878"/>
+        <drawableNames id="879"/>
+        <styles id="880"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492951</int>
+      <AppsUIElement id="881">
+        <parentIDs id="882">
+          <int>1000024</int>
+        </parentIDs>
+        <childIDs id="883"/>
+        <parentIDsDyn id="884"/>
+        <childIDsDyn id="885"/>
+        <idVar></idVar>
+        <id>2131492951</id>
+        <textVar></textVar>
+        <text id="886">
+          <entry>
+            <string>default_value</string>
+            <string>Me either</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="887">
+          <st.cs.uni.saarland.de.entities.Listener id="888">
+            <declaringClass>com.example.avdiienko.button_xml.IdInArray</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.IdInArray$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="889"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+          <st.cs.uni.saarland.de.entities.Listener id="890">
+            <declaringClass>com.example.avdiienko.button_xml.IdInArray</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.IdInArray$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="891"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="892"/>
+        <styles id="893"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000019</int>
+      <AppsUIElement id="894">
+        <parentIDs id="895"/>
+        <childIDs id="896">
+          <int>16908295</int>
+          <int>2131492930</int>
+          <int>16908296</int>
+          <int>16908309</int>
+          <int>16908308</int>
+        </childIDs>
+        <parentIDsDyn id="897"/>
+        <childIDsDyn id="898"/>
+        <idVar></idVar>
+        <id>1000019</id>
+        <textVar></textVar>
+        <text id="899">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>RelativeLayout</kindOfUiElement>
+        <listeners id="900"/>
+        <drawableNames id="901"/>
+        <styles id="902">
+          <st.cs.uni.saarland.de.entities.Style id="903">
+            <name>RtlOverlay.Widget.AppCompat.Search.DropDown</name>
+            <id>0</id>
+            <text id="904"/>
+            <parent></parent>
+          </st.cs.uni.saarland.de.entities.Style>
+        </styles>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492944</int>
+      <AppsUIElement id="905">
+        <parentIDs id="906">
+          <int>1000020</int>
+        </parentIDs>
+        <childIDs id="907"/>
+        <parentIDsDyn id="908"/>
+        <childIDsDyn id="909"/>
+        <idVar></idVar>
+        <id>2131492944</id>
+        <textVar></textVar>
+        <text id="910">
+          <entry>
+            <string>default_value</string>
+            <string>Test Button</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="911">
+          <st.cs.uni.saarland.de.entities.Listener id="912">
+            <declaringClass>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="913"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="914"/>
+        <styles id="915"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000018</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="916">
+        <parentIDs id="917">
+          <int>2131492926</int>
+        </parentIDs>
+        <childIDs id="918">
+          <int>1000015</int>
+        </childIDs>
+        <parentIDsDyn id="919"/>
+        <childIDsDyn id="920"/>
+        <idVar></idVar>
+        <id>1000018</id>
+        <textVar></textVar>
+        <text id="921"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="922"/>
+        <drawableNames id="923"/>
+        <styles id="924"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="925">
+          <int>2130968593</int>
+        </xmlFileIDs>
+        <layoutName>abc_screen_content_include</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492945</int>
+      <AppsUIElement id="926">
+        <parentIDs id="927">
+          <int>1000021</int>
+        </parentIDs>
+        <childIDs id="928"/>
+        <parentIDsDyn id="929"/>
+        <childIDsDyn id="930"/>
+        <idVar></idVar>
+        <id>2131492945</id>
+        <textVar>hello_world</textVar>
+        <text id="931">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="932"/>
+        <drawableNames id="933"/>
+        <styles id="934"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000017</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="935">
+        <parentIDs id="936">
+          <int>2131492923</int>
+        </parentIDs>
+        <childIDs id="937">
+          <int>1000015</int>
+        </childIDs>
+        <parentIDsDyn id="938"/>
+        <childIDsDyn id="939"/>
+        <idVar></idVar>
+        <id>1000017</id>
+        <textVar></textVar>
+        <text id="940"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="941"/>
+        <drawableNames id="942"/>
+        <styles id="943"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="944">
+          <int>2130968593</int>
+        </xmlFileIDs>
+        <layoutName>abc_screen_content_include</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492946</int>
+      <AppsUIElement id="945">
+        <parentIDs id="946">
+          <int>1000021</int>
+        </parentIDs>
+        <childIDs id="947"/>
+        <parentIDsDyn id="948"/>
+        <childIDsDyn id="949"/>
+        <idVar></idVar>
+        <id>2131492946</id>
+        <textVar></textVar>
+        <text id="950">
+          <entry>
+            <string>default_value</string>
+            <string>Anonymous onClick</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="951">
+          <st.cs.uni.saarland.de.entities.Listener id="952">
+            <declaringClass>com.example.avdiienko.button_xml.AnonymousOnClickHandler</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.AnonymousOnClickHandler$1</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="953"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="954"/>
+        <styles id="955"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000016</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="956">
+        <parentIDs id="957">
+          <int>2131492923</int>
+        </parentIDs>
+        <childIDs id="958">
+          <int>1000015</int>
+        </childIDs>
+        <parentIDsDyn id="959"/>
+        <childIDsDyn id="960"/>
+        <idVar></idVar>
+        <id>1000016</id>
+        <textVar></textVar>
+        <text id="961"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="962"/>
+        <drawableNames id="963"/>
+        <styles id="964"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="965">
+          <int>2130968593</int>
+        </xmlFileIDs>
+        <layoutName>abc_screen_content_include</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492947</int>
+      <AppsUIElement id="966">
+        <parentIDs id="967">
+          <int>1000023</int>
+        </parentIDs>
+        <childIDs id="968"/>
+        <parentIDsDyn id="969"/>
+        <childIDsDyn id="970"/>
+        <idVar></idVar>
+        <id>2131492947</id>
+        <textVar>hello_world</textVar>
+        <text id="971">
+          <entry>
+            <string>default_value</string>
+            <string>Hello world!</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="972"/>
+        <drawableNames id="973"/>
+        <styles id="974"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492972</int>
+      <AppsUIElement id="975">
+        <parentIDs id="976">
+          <int>1000033</int>
+        </parentIDs>
+        <childIDs id="977"/>
+        <parentIDsDyn id="978"/>
+        <childIDsDyn id="979"/>
+        <idVar></idVar>
+        <id>2131492972</id>
+        <textVar></textVar>
+        <text id="980">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="981"/>
+        <drawableNames id="982"/>
+        <styles id="983"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492973</int>
+      <AppsUIElement id="984">
+        <parentIDs id="985">
+          <int>1000033</int>
+        </parentIDs>
+        <childIDs id="986">
+          <int>2131492974</int>
+          <int>2131492975</int>
+        </childIDs>
+        <parentIDsDyn id="987"/>
+        <childIDsDyn id="988"/>
+        <idVar></idVar>
+        <id>2131492973</id>
+        <textVar></textVar>
+        <text id="989">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="990"/>
+        <drawableNames id="991"/>
+        <styles id="992"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492974</int>
+      <AppsUIElement id="993">
+        <parentIDs id="994">
+          <int>2131492973</int>
+        </parentIDs>
+        <childIDs id="995"/>
+        <parentIDsDyn id="996"/>
+        <childIDsDyn id="997"/>
+        <idVar></idVar>
+        <id>2131492974</id>
+        <textVar></textVar>
+        <text id="998">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="999"/>
+        <drawableNames id="1000"/>
+        <styles id="1001"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000045</int>
+      <AppsUIElement id="1002">
+        <parentIDs id="1003"/>
+        <childIDs id="1004">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1005"/>
+        <childIDsDyn id="1006"/>
+        <idVar></idVar>
+        <id>1000045</id>
+        <textVar></textVar>
+        <text id="1007">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1008">
+          <st.cs.uni.saarland.de.entities.Listener id="1009">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1010"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1011"/>
+        <styles id="1012"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492975</int>
+      <AppsUIElement id="1013">
+        <parentIDs id="1014">
+          <int>2131492973</int>
+        </parentIDs>
+        <childIDs id="1015"/>
+        <parentIDsDyn id="1016"/>
+        <childIDsDyn id="1017"/>
+        <idVar></idVar>
+        <id>2131492975</id>
+        <textVar></textVar>
+        <text id="1018">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="1019"/>
+        <drawableNames id="1020"/>
+        <styles id="1021"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000044</int>
+      <AppsUIElement id="1022">
+        <parentIDs id="1023"/>
+        <childIDs id="1024">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1025"/>
+        <childIDsDyn id="1026"/>
+        <idVar></idVar>
+        <id>1000044</id>
+        <textVar></textVar>
+        <text id="1027">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1028">
+          <st.cs.uni.saarland.de.entities.Listener id="1029">
+            <declaringClass>com.example.avdiienko.button_xml.MemberClass</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MemberClass</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1030"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1031"/>
+        <styles id="1032"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492968</int>
+      <AppsUIElement id="1033">
+        <parentIDs id="1034">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1035"/>
+        <parentIDsDyn id="1036"/>
+        <childIDsDyn id="1037"/>
+        <idVar></idVar>
+        <id>2131492968</id>
+        <textVar></textVar>
+        <text id="1038">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageView</kindOfUiElement>
+        <listeners id="1039"/>
+        <drawableNames id="1040"/>
+        <styles id="1041"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000043</int>
+      <AppsUIElement id="1042">
+        <parentIDs id="1043"/>
+        <childIDs id="1044">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1045"/>
+        <childIDsDyn id="1046"/>
+        <idVar></idVar>
+        <id>1000043</id>
+        <textVar></textVar>
+        <text id="1047">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1048">
+          <st.cs.uni.saarland.de.entities.Listener id="1049">
+            <declaringClass>com.example.avdiienko.button_xml.MainActivity</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.MainActivity</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1050"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1051"/>
+        <styles id="1052"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492969</int>
+      <AppsUIElement id="1053">
+        <parentIDs id="1054">
+          <int>1000033</int>
+        </parentIDs>
+        <childIDs id="1055">
+          <int>2131492908</int>
+          <int>1000034</int>
+          <int>1000035</int>
+        </childIDs>
+        <parentIDsDyn id="1056"/>
+        <childIDsDyn id="1057"/>
+        <idVar></idVar>
+        <id>2131492969</id>
+        <textVar></textVar>
+        <text id="1058">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="1059"/>
+        <drawableNames id="1060"/>
+        <styles id="1061"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000042</int>
+      <AppsUIElement id="1062">
+        <parentIDs id="1063"/>
+        <childIDs id="1064">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1065"/>
+        <childIDsDyn id="1066"/>
+        <idVar></idVar>
+        <id>1000042</id>
+        <textVar></textVar>
+        <text id="1067">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1068">
+          <st.cs.uni.saarland.de.entities.Listener id="1069">
+            <declaringClass>com.example.avdiienko.button_xml.InterfaceType</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.InterfaceType</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1070"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1071"/>
+        <styles id="1072"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492970</int>
+      <AppsUIElement id="1073">
+        <parentIDs id="1074">
+          <int>1000034</int>
+        </parentIDs>
+        <childIDs id="1075"/>
+        <parentIDsDyn id="1076"/>
+        <childIDsDyn id="1077"/>
+        <idVar></idVar>
+        <id>2131492970</id>
+        <textVar></textVar>
+        <text id="1078">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>DateTimeView</kindOfUiElement>
+        <listeners id="1079"/>
+        <drawableNames id="1080"/>
+        <styles id="1081"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000041</int>
+      <AppsUIElement id="1082">
+        <parentIDs id="1083"/>
+        <childIDs id="1084">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1085"/>
+        <childIDsDyn id="1086"/>
+        <idVar></idVar>
+        <id>1000041</id>
+        <textVar></textVar>
+        <text id="1087">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1088">
+          <st.cs.uni.saarland.de.entities.Listener id="1089">
+            <declaringClass>com.example.avdiienko.button_xml.IdInArray</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.IdInArray</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1090"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1091"/>
+        <styles id="1092"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492971</int>
+      <AppsUIElement id="1093">
+        <parentIDs id="1094">
+          <int>1000035</int>
+        </parentIDs>
+        <childIDs id="1095"/>
+        <parentIDsDyn id="1096"/>
+        <childIDsDyn id="1097"/>
+        <idVar></idVar>
+        <id>2131492971</id>
+        <textVar></textVar>
+        <text id="1098">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>Chronometer</kindOfUiElement>
+        <listeners id="1099"/>
+        <drawableNames id="1100"/>
+        <styles id="1101"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000040</int>
+      <AppsUIElement id="1102">
+        <parentIDs id="1103"/>
+        <childIDs id="1104">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1105"/>
+        <childIDsDyn id="1106"/>
+        <idVar></idVar>
+        <id>1000040</id>
+        <textVar></textVar>
+        <text id="1107">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1108">
+          <st.cs.uni.saarland.de.entities.Listener id="1109">
+            <declaringClass>com.example.avdiienko.button_xml.ButtonWithListenerInMethod</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.ButtonWithListenerInMethod</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1110"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1111"/>
+        <styles id="1112"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492964</int>
+      <AppsUIElement id="1113">
+        <parentIDs id="1114"/>
+        <childIDs id="1115"/>
+        <parentIDsDyn id="1116"/>
+        <childIDsDyn id="1117"/>
+        <idVar></idVar>
+        <id>2131492964</id>
+        <textVar></textVar>
+        <text id="1118">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageButton</kindOfUiElement>
+        <listeners id="1119"/>
+        <drawableNames id="1120"/>
+        <styles id="1121"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000039</int>
+      <AppsUIElement id="1122">
+        <parentIDs id="1123"/>
+        <childIDs id="1124">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1125"/>
+        <childIDsDyn id="1126"/>
+        <idVar></idVar>
+        <id>1000039</id>
+        <textVar></textVar>
+        <text id="1127">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1128">
+          <st.cs.uni.saarland.de.entities.Listener id="1129">
+            <declaringClass>com.example.avdiienko.button_xml.AnonymousOnClickHandler</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.AnonymousOnClickHandler</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1130"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1131"/>
+        <styles id="1132"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492965</int>
+      <AppsUIElement id="1133">
+        <parentIDs id="1134">
+          <int>1000031</int>
+          <int>1000029</int>
+          <int>1000037</int>
+        </parentIDs>
+        <childIDs id="1135"/>
+        <parentIDsDyn id="1136"/>
+        <childIDsDyn id="1137"/>
+        <idVar></idVar>
+        <id>2131492965</id>
+        <textVar></textVar>
+        <text id="1138">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageButton</kindOfUiElement>
+        <listeners id="1139"/>
+        <drawableNames id="1140">
+          <string>abc_ic_clear_mtrl_alpha.png</string>
+        </drawableNames>
+        <styles id="1141"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000038</int>
+      <AppsUIElement id="1142">
+        <parentIDs id="1143"/>
+        <childIDs id="1144">
+          <int>2131492977</int>
+        </childIDs>
+        <parentIDsDyn id="1145"/>
+        <childIDsDyn id="1146"/>
+        <idVar></idVar>
+        <id>1000038</id>
+        <textVar></textVar>
+        <text id="1147">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>menu</kindOfUiElement>
+        <listeners id="1148">
+          <st.cs.uni.saarland.de.entities.Listener id="1149">
+            <declaringClass>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</declaringClass>
+            <listenerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1150"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1151"/>
+        <styles id="1152"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492966</int>
+      <AppsUIElement id="1153">
+        <parentIDs id="1154"/>
+        <childIDs id="1155">
+          <int>2131492907</int>
+          <int>1000036</int>
+          <int>2131492967</int>
+          <int>1000037</int>
+          <int>2131492976</int>
+        </childIDs>
+        <parentIDsDyn id="1156"/>
+        <childIDsDyn id="1157"/>
+        <idVar></idVar>
+        <id>2131492966</id>
+        <textVar></textVar>
+        <text id="1158">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="1159"/>
+        <drawableNames id="1160"/>
+        <styles id="1161"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000037</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="1162">
+        <parentIDs id="1163">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1164">
+          <int>2131492965</int>
+        </childIDs>
+        <parentIDsDyn id="1165"/>
+        <childIDsDyn id="1166"/>
+        <idVar></idVar>
+        <id>1000037</id>
+        <textVar></textVar>
+        <text id="1167"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="1168"/>
+        <drawableNames id="1169"/>
+        <styles id="1170"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="1171">
+          <int>2130968611</int>
+        </xmlFileIDs>
+        <layoutName>notification_media_cancel_action</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492967</int>
+      <AppsUIElement id="1172">
+        <parentIDs id="1173">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1174"/>
+        <parentIDsDyn id="1175"/>
+        <childIDsDyn id="1176"/>
+        <idVar></idVar>
+        <id>2131492967</id>
+        <textVar></textVar>
+        <text id="1177">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="1178"/>
+        <drawableNames id="1179"/>
+        <styles id="1180"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000036</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="1181">
+        <parentIDs id="1182">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1183">
+          <int>1000033</int>
+        </childIDs>
+        <parentIDsDyn id="1184"/>
+        <childIDsDyn id="1185"/>
+        <idVar></idVar>
+        <id>1000036</id>
+        <textVar></textVar>
+        <text id="1186"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="1187"/>
+        <drawableNames id="1188"/>
+        <styles id="1189"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="1190">
+          <int>2130968614</int>
+        </xmlFileIDs>
+        <layoutName>notification_template_lines</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492960</int>
+      <AppsUIElement id="1191">
+        <parentIDs id="1192">
+          <int>1000028</int>
+        </parentIDs>
+        <childIDs id="1193"/>
+        <parentIDsDyn id="1194"/>
+        <childIDsDyn id="1195"/>
+        <idVar></idVar>
+        <id>2131492960</id>
+        <textVar>send_uid</textVar>
+        <text id="1196">
+          <entry>
+            <string>default_value</string>
+            <string>Do you want ot share the Device Id?</string>
+          </entry>
+        </text>
+        <kindOfUiElement>TextView</kindOfUiElement>
+        <listeners id="1197"/>
+        <drawableNames id="1198"/>
+        <styles id="1199"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000035</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="1200">
+        <parentIDs id="1201">
+          <int>2131492969</int>
+        </parentIDs>
+        <childIDs id="1202">
+          <int>2131492971</int>
+        </childIDs>
+        <parentIDsDyn id="1203"/>
+        <childIDsDyn id="1204"/>
+        <idVar></idVar>
+        <id>1000035</id>
+        <textVar></textVar>
+        <text id="1205"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="1206"/>
+        <drawableNames id="1207"/>
+        <styles id="1208"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="1209">
+          <int>2130968616</int>
+        </xmlFileIDs>
+        <layoutName>notification_template_part_chronometer</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492961</int>
+      <AppsUIElement id="1210">
+        <parentIDs id="1211">
+          <int>1000028</int>
+        </parentIDs>
+        <childIDs id="1212"/>
+        <parentIDsDyn id="1213"/>
+        <childIDsDyn id="1214"/>
+        <idVar></idVar>
+        <id>2131492961</id>
+        <textVar></textVar>
+        <text id="1215">
+          <entry>
+            <string>default_value</string>
+            <string>Ok</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="1216">
+          <st.cs.uni.saarland.de.entities.Listener id="1217">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1218"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1219"/>
+        <styles id="1220"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000034</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="1221">
+        <parentIDs id="1222">
+          <int>2131492969</int>
+        </parentIDs>
+        <childIDs id="1223">
+          <int>2131492970</int>
+        </childIDs>
+        <parentIDsDyn id="1224"/>
+        <childIDsDyn id="1225"/>
+        <idVar></idVar>
+        <id>1000034</id>
+        <textVar></textVar>
+        <text id="1226"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="1227"/>
+        <drawableNames id="1228"/>
+        <styles id="1229"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="1230">
+          <int>2130968617</int>
+        </xmlFileIDs>
+        <layoutName>notification_template_part_time</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492962</int>
+      <AppsUIElement id="1231">
+        <parentIDs id="1232">
+          <int>1000028</int>
+        </parentIDs>
+        <childIDs id="1233"/>
+        <parentIDsDyn id="1234"/>
+        <childIDsDyn id="1235"/>
+        <idVar></idVar>
+        <id>2131492962</id>
+        <textVar></textVar>
+        <text id="1236">
+          <entry>
+            <string>default_value</string>
+            <string>Cancel</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="1237">
+          <st.cs.uni.saarland.de.entities.Listener id="1238">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1239"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1240"/>
+        <styles id="1241"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000033</int>
+      <AppsUIElement id="1242">
+        <parentIDs id="1243">
+          <int>1000030</int>
+          <int>1000036</int>
+          <int>1000032</int>
+        </parentIDs>
+        <childIDs id="1244">
+          <int>2131492969</int>
+          <int>2131492972</int>
+          <int>2131492973</int>
+        </childIDs>
+        <parentIDsDyn id="1245"/>
+        <childIDsDyn id="1246"/>
+        <idVar></idVar>
+        <id>1000033</id>
+        <textVar></textVar>
+        <text id="1247">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>LinearLayout</kindOfUiElement>
+        <listeners id="1248"/>
+        <drawableNames id="1249"/>
+        <styles id="1250"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492963</int>
+      <AppsUIElement id="1251">
+        <parentIDs id="1252">
+          <int>1000028</int>
+        </parentIDs>
+        <childIDs id="1253"/>
+        <parentIDsDyn id="1254"/>
+        <childIDsDyn id="1255"/>
+        <idVar></idVar>
+        <id>2131492963</id>
+        <textVar></textVar>
+        <text id="1256">
+          <entry>
+            <string>default_value</string>
+            <string>Do nothing</string>
+          </entry>
+        </text>
+        <kindOfUiElement>Button</kindOfUiElement>
+        <listeners id="1257">
+          <st.cs.uni.saarland.de.entities.Listener id="1258">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.view.View)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$2</listenerClass>
+            <actionWaitingFor>OnClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1259"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </listeners>
+        <drawableNames id="1260"/>
+        <styles id="1261"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>1000032</int>
+      <st.cs.uni.saarland.de.entities.XMLIncludeTag id="1262">
+        <parentIDs id="1263">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1264">
+          <int>1000033</int>
+        </childIDs>
+        <parentIDsDyn id="1265"/>
+        <childIDsDyn id="1266"/>
+        <idVar></idVar>
+        <id>1000032</id>
+        <textVar></textVar>
+        <text id="1267"/>
+        <kindOfUiElement>include</kindOfUiElement>
+        <listeners id="1268"/>
+        <drawableNames id="1269"/>
+        <styles id="1270"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <xmlFileIDs id="1271">
+          <int>2130968614</int>
+        </xmlFileIDs>
+        <layoutName>notification_template_lines</layoutName>
+      </st.cs.uni.saarland.de.entities.XMLIncludeTag>
+    </entry>
+    <entry>
+      <int>2131492976</int>
+      <AppsUIElement id="1272">
+        <parentIDs id="1273">
+          <int>2131492966</int>
+        </parentIDs>
+        <childIDs id="1274"/>
+        <parentIDsDyn id="1275"/>
+        <childIDsDyn id="1276"/>
+        <idVar></idVar>
+        <id>2131492976</id>
+        <textVar></textVar>
+        <text id="1277">
+          <entry>
+            <string>default_value</string>
+            <string></string>
+          </entry>
+        </text>
+        <kindOfUiElement>ImageView</kindOfUiElement>
+        <listeners id="1278"/>
+        <drawableNames id="1279"/>
+        <styles id="1280"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+    <entry>
+      <int>2131492977</int>
+      <AppsUIElement id="1281">
+        <parentIDs id="1282">
+          <int>1000045</int>
+        </parentIDs>
+        <childIDs id="1283"/>
+        <parentIDsDyn id="1284"/>
+        <childIDsDyn id="1285"/>
+        <idVar></idVar>
+        <id>2131492977</id>
+        <textVar>action_settings</textVar>
+        <text id="1286">
+          <entry>
+            <string>default_value</string>
+            <string>Settings</string>
+          </entry>
+        </text>
+        <kindOfUiElement>item</kindOfUiElement>
+        <listeners id="1287">
+          <st.cs.uni.saarland.de.entities.Listener reference="1069"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1049"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1029"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1009"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1129"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1149"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1109"/>
+          <st.cs.uni.saarland.de.entities.Listener reference="1089"/>
+        </listeners>
+        <drawableNames id="1288"/>
+        <styles id="1289"/>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </AppsUIElement>
+    </entry>
+  </uiElementsOfApp>
+  <xmlLayoutFiles id="1290">
+    <entry>
+      <int>2130968580</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1291">
+        <name>abc_action_menu_layout</name>
+        <id>2130968580</id>
+        <elementIDs id="1292">
+          <int>1000004</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1293"/>
+        <dynamicIncludedLayoutIDs id="1294"/>
+        <rootElementID>1000004</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968581</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1295">
+        <name>abc_action_mode_bar</name>
+        <id>2130968581</id>
+        <elementIDs id="1296">
+          <int>1000005</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1297"/>
+        <dynamicIncludedLayoutIDs id="1298"/>
+        <rootElementID>1000005</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968582</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1299">
+        <name>abc_action_mode_close_item_material</name>
+        <id>2130968582</id>
+        <elementIDs id="1300">
+          <int>2131492901</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1301"/>
+        <dynamicIncludedLayoutIDs id="1302"/>
+        <rootElementID>2131492901</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968583</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1303">
+        <name>abc_activity_chooser_view</name>
+        <id>2130968583</id>
+        <elementIDs id="1304">
+          <int>2131492904</int>
+          <int>2131492905</int>
+          <int>2131492902</int>
+          <int>2131492903</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1305"/>
+        <dynamicIncludedLayoutIDs id="1306"/>
+        <rootElementID>2131492902</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968576</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1307">
+        <name>abc_action_bar_title_item</name>
+        <id>2130968576</id>
+        <elementIDs id="1308">
+          <int>2131492900</int>
+          <int>1000000</int>
+          <int>2131492899</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1309"/>
+        <dynamicIncludedLayoutIDs id="1310"/>
+        <rootElementID>1000000</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968577</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1311">
+        <name>abc_action_bar_up_container</name>
+        <id>2130968577</id>
+        <elementIDs id="1312">
+          <int>1000001</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1313"/>
+        <dynamicIncludedLayoutIDs id="1314"/>
+        <rootElementID>1000001</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968578</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1315">
+        <name>abc_action_bar_view_list_nav_layout</name>
+        <id>2130968578</id>
+        <elementIDs id="1316">
+          <int>1000002</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1317"/>
+        <dynamicIncludedLayoutIDs id="1318"/>
+        <rootElementID>1000002</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968579</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1319">
+        <name>abc_action_menu_item_layout</name>
+        <id>2130968579</id>
+        <elementIDs id="1320">
+          <int>1000003</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1321"/>
+        <dynamicIncludedLayoutIDs id="1322"/>
+        <rootElementID>1000003</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968588</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1323">
+        <name>abc_list_menu_item_checkbox</name>
+        <id>2130968588</id>
+        <elementIDs id="1324">
+          <int>2131492920</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1325"/>
+        <dynamicIncludedLayoutIDs id="1326"/>
+        <rootElementID>2131492920</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558405</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1327">
+        <name>menu_main</name>
+        <id>2131558405</id>
+        <elementIDs id="1328">
+          <int>1000043</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1329"/>
+        <dynamicIncludedLayoutIDs id="1330"/>
+        <rootElementID>1000043</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1331"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1332">
+          <st.cs.uni.saarland.de.entities.Listener reference="1049"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968589</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1333">
+        <name>abc_list_menu_item_icon</name>
+        <id>2130968589</id>
+        <elementIDs id="1334">
+          <int>2131492907</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1335"/>
+        <dynamicIncludedLayoutIDs id="1336"/>
+        <rootElementID>2131492907</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558404</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1337">
+        <name>menu_interface_type</name>
+        <id>2131558404</id>
+        <elementIDs id="1338">
+          <int>1000042</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1339"/>
+        <dynamicIncludedLayoutIDs id="1340"/>
+        <rootElementID>1000042</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1341"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1342">
+          <st.cs.uni.saarland.de.entities.Listener reference="1069"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968590</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1343">
+        <name>abc_list_menu_item_layout</name>
+        <id>2130968590</id>
+        <elementIDs id="1344">
+          <int>2131492908</int>
+          <int>1000012</int>
+          <int>1000011</int>
+          <int>2131492921</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1345"/>
+        <dynamicIncludedLayoutIDs id="1346"/>
+        <rootElementID>1000011</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558407</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1347">
+        <name>menu_one_listener_multiple_buttons</name>
+        <id>2131558407</id>
+        <elementIDs id="1348">
+          <int>1000045</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1349"/>
+        <dynamicIncludedLayoutIDs id="1350"/>
+        <rootElementID>1000045</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1351"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1352">
+          <st.cs.uni.saarland.de.entities.Listener reference="1009"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968591</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1353">
+        <name>abc_list_menu_item_radio</name>
+        <id>2130968591</id>
+        <elementIDs id="1354">
+          <int>2131492922</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1355"/>
+        <dynamicIncludedLayoutIDs id="1356"/>
+        <rootElementID>2131492922</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558406</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1357">
+        <name>menu_member_class</name>
+        <id>2131558406</id>
+        <elementIDs id="1358">
+          <int>1000044</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1359"/>
+        <dynamicIncludedLayoutIDs id="1360"/>
+        <rootElementID>1000044</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1361"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1362">
+          <st.cs.uni.saarland.de.entities.Listener reference="1029"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968584</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1363">
+        <name>abc_activity_chooser_view_list_item</name>
+        <id>2130968584</id>
+        <elementIDs id="1364">
+          <int>2131492908</int>
+          <int>2131492906</int>
+          <int>2131492907</int>
+          <int>1000006</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1365"/>
+        <dynamicIncludedLayoutIDs id="1366"/>
+        <rootElementID>2131492906</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558401</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1367">
+        <name>menu_anonymous_on_click_handler</name>
+        <id>2131558401</id>
+        <elementIDs id="1368">
+          <int>1000039</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1369"/>
+        <dynamicIncludedLayoutIDs id="1370"/>
+        <rootElementID>1000039</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1371"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1372">
+          <st.cs.uni.saarland.de.entities.Listener reference="1129"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968585</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1373">
+        <name>abc_alert_dialog_material</name>
+        <id>2130968585</id>
+        <elementIDs id="1374">
+          <int>2131492909</int>
+          <int>2131492910</int>
+          <int>2131492911</int>
+          <int>16908294</int>
+          <int>1000008</int>
+          <int>1000007</int>
+          <int>16908299</int>
+          <int>2131492916</int>
+          <int>16908314</int>
+          <int>2131492917</int>
+          <int>16908315</int>
+          <int>2131492918</int>
+          <int>16908313</int>
+          <int>2131492912</int>
+          <int>2131492913</int>
+          <int>2131492914</int>
+          <int>2131492915</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1375"/>
+        <dynamicIncludedLayoutIDs id="1376"/>
+        <rootElementID>2131492909</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558400</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1377">
+        <name>menu_activity_class_implements_listener_interface</name>
+        <id>2131558400</id>
+        <elementIDs id="1378">
+          <int>1000038</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1379"/>
+        <dynamicIncludedLayoutIDs id="1380"/>
+        <rootElementID>1000038</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1381"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1382">
+          <st.cs.uni.saarland.de.entities.Listener reference="1149"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968586</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1383">
+        <name>abc_dialog_title_material</name>
+        <id>2130968586</id>
+        <elementIDs id="1384">
+          <int>2131492908</int>
+          <int>1000010</int>
+          <int>1000009</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1385"/>
+        <dynamicIncludedLayoutIDs id="1386"/>
+        <rootElementID>1000009</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558403</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1387">
+        <name>menu_id_in_array</name>
+        <id>2131558403</id>
+        <elementIDs id="1388">
+          <int>1000041</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1389"/>
+        <dynamicIncludedLayoutIDs id="1390"/>
+        <rootElementID>1000041</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1391"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1392">
+          <st.cs.uni.saarland.de.entities.Listener reference="1089"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968587</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1393">
+        <name>abc_expanded_menu_layout</name>
+        <id>2130968587</id>
+        <elementIDs id="1394">
+          <int>2131492919</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1395"/>
+        <dynamicIncludedLayoutIDs id="1396"/>
+        <rootElementID>2131492919</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2131558402</int>
+      <st.cs.uni.saarland.de.entities.Menu id="1397">
+        <name>menu_button_with_listener_in_method</name>
+        <id>2131558402</id>
+        <elementIDs id="1398">
+          <int>1000040</int>
+          <int>2131492977</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1399"/>
+        <dynamicIncludedLayoutIDs id="1400"/>
+        <rootElementID>1000040</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" defined-in="st.cs.uni.saarland.de.entities.XMLLayoutFile" reference="14"/>
+        <assignedActivity id="1401"/>
+        <kindOfMenu>Option</kindOfMenu>
+        <listeners id="1402">
+          <st.cs.uni.saarland.de.entities.Listener reference="1109"/>
+        </listeners>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.Menu>
+    </entry>
+    <entry>
+      <int>2130968596</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1403">
+        <name>abc_screen_toolbar</name>
+        <id>2130968596</id>
+        <elementIDs id="1404">
+          <int>2131492926</int>
+          <int>2131492927</int>
+          <int>2131492928</int>
+          <int>1000018</int>
+          <int>2131492929</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1405"/>
+        <dynamicIncludedLayoutIDs id="1406"/>
+        <rootElementID>2131492926</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968597</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1407">
+        <name>abc_search_dropdown_item_icons_2line</name>
+        <id>2130968597</id>
+        <elementIDs id="1408">
+          <int>16908295</int>
+          <int>16908308</int>
+          <int>16908309</int>
+          <int>16908296</int>
+          <int>1000019</int>
+          <int>2131492930</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1409"/>
+        <dynamicIncludedLayoutIDs id="1410"/>
+        <rootElementID>1000019</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968598</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1411">
+        <name>abc_search_view</name>
+        <id>2130968598</id>
+        <elementIDs id="1412">
+          <int>2131492940</int>
+          <int>2131492941</int>
+          <int>2131492936</int>
+          <int>2131492937</int>
+          <int>2131492938</int>
+          <int>2131492939</int>
+          <int>2131492932</int>
+          <int>2131492933</int>
+          <int>2131492934</int>
+          <int>2131492935</int>
+          <int>2131492931</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1413"/>
+        <dynamicIncludedLayoutIDs id="1414"/>
+        <rootElementID>2131492931</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968599</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1415">
+        <name>abc_select_dialog_material</name>
+        <id>2130968599</id>
+        <elementIDs id="1416">
+          <int>2131492942</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1417"/>
+        <dynamicIncludedLayoutIDs id="1418"/>
+        <rootElementID>2131492942</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968592</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1419">
+        <name>abc_popup_menu_item_layout</name>
+        <id>2130968592</id>
+        <elementIDs id="1420">
+          <int>2131492908</int>
+          <int>1000014</int>
+          <int>1000013</int>
+          <int>2131492921</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1421"/>
+        <dynamicIncludedLayoutIDs id="1422"/>
+        <rootElementID>1000013</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968593</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1423">
+        <name>abc_screen_content_include</name>
+        <id>2130968593</id>
+        <elementIDs id="1424">
+          <int>1000015</int>
+          <int>2131492890</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1425"/>
+        <dynamicIncludedLayoutIDs id="1426"/>
+        <rootElementID>1000015</rootElementID>
+        <isIncludedSomeWhere>true</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968594</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1427">
+        <name>abc_screen_simple</name>
+        <id>2130968594</id>
+        <elementIDs id="1428">
+          <int>2131492924</int>
+          <int>2131492923</int>
+          <int>1000016</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1429"/>
+        <dynamicIncludedLayoutIDs id="1430"/>
+        <rootElementID>2131492923</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968595</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1431">
+        <name>abc_screen_simple_overlay_action_mode</name>
+        <id>2130968595</id>
+        <elementIDs id="1432">
+          <int>2131492924</int>
+          <int>2131492923</int>
+          <int>1000017</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1433"/>
+        <dynamicIncludedLayoutIDs id="1434"/>
+        <rootElementID>2131492923</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968604</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1435">
+        <name>activity_button_with_listener_in_method</name>
+        <id>2130968604</id>
+        <elementIDs id="1436">
+          <int>1000023</int>
+          <int>2131492948</int>
+          <int>2131492947</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1437"/>
+        <dynamicIncludedLayoutIDs id="1438"/>
+        <rootElementID>1000023</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968605</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1439">
+        <name>activity_id_in_array</name>
+        <id>2130968605</id>
+        <elementIDs id="1440">
+          <int>1000024</int>
+          <int>2131492949</int>
+          <int>2131492950</int>
+          <int>2131492951</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1441"/>
+        <dynamicIncludedLayoutIDs id="1442"/>
+        <rootElementID>1000024</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968606</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1443">
+        <name>activity_interface_type</name>
+        <id>2130968606</id>
+        <elementIDs id="1444">
+          <int>2131492952</int>
+          <int>2131492953</int>
+          <int>1000025</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1445"/>
+        <dynamicIncludedLayoutIDs id="1446"/>
+        <rootElementID>1000025</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968607</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1447">
+        <name>activity_main</name>
+        <id>2130968607</id>
+        <elementIDs id="1448">
+          <int>2131492956</int>
+          <int>2131492957</int>
+          <int>1000026</int>
+          <int>2131492954</int>
+          <int>2131492955</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1449"/>
+        <dynamicIncludedLayoutIDs id="1450"/>
+        <rootElementID>1000026</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968600</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1451">
+        <name>abc_simple_dropdown_hint</name>
+        <id>2130968600</id>
+        <elementIDs id="1452">
+          <int>16908308</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1453"/>
+        <dynamicIncludedLayoutIDs id="1454"/>
+        <rootElementID>16908308</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968601</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1455">
+        <name>activity_activity_class_implements_listener_interface</name>
+        <id>2130968601</id>
+        <elementIDs id="1456">
+          <int>2131492943</int>
+          <int>1000020</int>
+          <int>2131492944</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1457"/>
+        <dynamicIncludedLayoutIDs id="1458"/>
+        <rootElementID>1000020</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968602</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1459">
+        <name>activity_anonymous_on_click_handler</name>
+        <id>2130968602</id>
+        <elementIDs id="1460">
+          <int>1000021</int>
+          <int>2131492945</int>
+          <int>2131492946</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1461"/>
+        <dynamicIncludedLayoutIDs id="1462"/>
+        <rootElementID>1000021</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968603</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1463">
+        <name>activity_base</name>
+        <id>2130968603</id>
+        <elementIDs id="1464">
+          <int>1000022</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1465"/>
+        <dynamicIncludedLayoutIDs id="1466"/>
+        <rootElementID>1000022</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968612</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1467">
+        <name>notification_template_big_media</name>
+        <id>2130968612</id>
+        <elementIDs id="1468">
+          <int>1000030</int>
+          <int>1000029</int>
+          <int>2131492968</int>
+          <int>2131492907</int>
+          <int>2131492966</int>
+          <int>2131492967</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1469"/>
+        <dynamicIncludedLayoutIDs id="1470"/>
+        <rootElementID>2131492966</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968613</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1471">
+        <name>notification_template_big_media_narrow</name>
+        <id>2130968613</id>
+        <elementIDs id="1472">
+          <int>1000031</int>
+          <int>2131492968</int>
+          <int>2131492907</int>
+          <int>2131492966</int>
+          <int>2131492967</int>
+          <int>1000032</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1473"/>
+        <dynamicIncludedLayoutIDs id="1474"/>
+        <rootElementID>2131492966</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968614</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1475">
+        <name>notification_template_lines</name>
+        <id>2130968614</id>
+        <elementIDs id="1476">
+          <int>2131492908</int>
+          <int>2131492972</int>
+          <int>2131492973</int>
+          <int>2131492974</int>
+          <int>2131492975</int>
+          <int>2131492969</int>
+          <int>1000035</int>
+          <int>1000034</int>
+          <int>1000033</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1477"/>
+        <dynamicIncludedLayoutIDs id="1478"/>
+        <rootElementID>1000033</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968615</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1479">
+        <name>notification_template_media</name>
+        <id>2130968615</id>
+        <elementIDs id="1480">
+          <int>2131492907</int>
+          <int>2131492966</int>
+          <int>1000037</int>
+          <int>1000036</int>
+          <int>2131492967</int>
+          <int>2131492976</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1481"/>
+        <dynamicIncludedLayoutIDs id="1482"/>
+        <rootElementID>2131492966</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968608</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1483">
+        <name>activity_member_class</name>
+        <id>2130968608</id>
+        <elementIDs id="1484">
+          <int>2131492958</int>
+          <int>2131492959</int>
+          <int>1000027</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1485"/>
+        <dynamicIncludedLayoutIDs id="1486"/>
+        <rootElementID>1000027</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968609</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1487">
+        <name>activity_one_listener_multiple_buttons</name>
+        <id>2130968609</id>
+        <elementIDs id="1488">
+          <int>1000028</int>
+          <int>2131492960</int>
+          <int>2131492961</int>
+          <int>2131492962</int>
+          <int>2131492963</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1489"/>
+        <dynamicIncludedLayoutIDs id="1490"/>
+        <rootElementID>1000028</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968610</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1491">
+        <name>notification_media_action</name>
+        <id>2130968610</id>
+        <elementIDs id="1492">
+          <int>2131492964</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1493"/>
+        <dynamicIncludedLayoutIDs id="1494"/>
+        <rootElementID>2131492964</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968611</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1495">
+        <name>notification_media_cancel_action</name>
+        <id>2130968611</id>
+        <elementIDs id="1496">
+          <int>2131492965</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1497"/>
+        <dynamicIncludedLayoutIDs id="1498"/>
+        <rootElementID>2131492965</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968620</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1499">
+        <name>select_dialog_singlechoice_material</name>
+        <id>2130968620</id>
+        <elementIDs id="1500">
+          <int>16908308</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1501"/>
+        <dynamicIncludedLayoutIDs id="1502"/>
+        <rootElementID>16908308</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968621</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1503">
+        <name>support_simple_spinner_dropdown_item</name>
+        <id>2130968621</id>
+        <elementIDs id="1504">
+          <int>16908308</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1505"/>
+        <dynamicIncludedLayoutIDs id="1506"/>
+        <rootElementID>16908308</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968616</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1507">
+        <name>notification_template_part_chronometer</name>
+        <id>2130968616</id>
+        <elementIDs id="1508">
+          <int>2131492971</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1509"/>
+        <dynamicIncludedLayoutIDs id="1510"/>
+        <rootElementID>2131492971</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968617</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1511">
+        <name>notification_template_part_time</name>
+        <id>2130968617</id>
+        <elementIDs id="1512">
+          <int>2131492970</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1513"/>
+        <dynamicIncludedLayoutIDs id="1514"/>
+        <rootElementID>2131492970</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968618</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1515">
+        <name>select_dialog_item_material</name>
+        <id>2130968618</id>
+        <elementIDs id="1516">
+          <int>16908308</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1517"/>
+        <dynamicIncludedLayoutIDs id="1518"/>
+        <rootElementID>16908308</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+    <entry>
+      <int>2130968619</int>
+      <st.cs.uni.saarland.de.entities.XMLLayoutFile id="1519">
+        <name>select_dialog_multichoice_material</name>
+        <id>2130968619</id>
+        <elementIDs id="1520">
+          <int>16908308</int>
+        </elementIDs>
+        <staticIncludedLayoutIDs id="1521"/>
+        <dynamicIncludedLayoutIDs id="1522"/>
+        <rootElementID>16908308</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+      </st.cs.uni.saarland.de.entities.XMLLayoutFile>
+    </entry>
+  </xmlLayoutFiles>
+  <dialogs id="1523">
+    <entry>
+      <int>1000060</int>
+      <st.cs.uni.saarland.de.entities.Dialog id="1524">
+        <name></name>
+        <id>1000060</id>
+        <elementIDs id="1525"/>
+        <staticIncludedLayoutIDs id="1526"/>
+        <dynamicIncludedLayoutIDs id="1527"/>
+        <rootElementID>0</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <showingClass>com.example.avdiienko.button_xml.MainActivity</showingClass>
+        <posText></posText>
+        <negText></negText>
+        <neutralText></neutralText>
+        <itemTexts></itemTexts>
+        <message></message>
+        <titleText>Hallo</titleText>
+        <kindOfUiElement>Dialog</kindOfUiElement>
+        <negativeListener id="1528"/>
+        <posListener id="1529"/>
+        <neutralListener id="1530"/>
+        <itemListener id="1531"/>
+      </st.cs.uni.saarland.de.entities.Dialog>
+    </entry>
+    <entry>
+      <int>1000059</int>
+      <st.cs.uni.saarland.de.entities.Dialog id="1532">
+        <name></name>
+        <id>1000059</id>
+        <elementIDs id="1533"/>
+        <staticIncludedLayoutIDs id="1534"/>
+        <dynamicIncludedLayoutIDs id="1535"/>
+        <rootElementID>0</rootElementID>
+        <isIncludedSomeWhere>false</isIncludedSomeWhere>
+        <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+        <showingClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</showingClass>
+        <posText>Yes</posText>
+        <negText>No</negText>
+        <neutralText>Skip</neutralText>
+        <itemTexts></itemTexts>
+        <message>Are you sure?</message>
+        <titleText></titleText>
+        <kindOfUiElement>Dialog</kindOfUiElement>
+        <negativeListener id="1536">
+          <st.cs.uni.saarland.de.entities.Listener id="1537">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$1</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1538"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </negativeListener>
+        <posListener id="1539">
+          <st.cs.uni.saarland.de.entities.Listener id="1540">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$1</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1541"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </posListener>
+        <neutralListener id="1542">
+          <st.cs.uni.saarland.de.entities.Listener id="1543">
+            <declaringClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons</declaringClass>
+            <listenerMethod>void onClick(android.content.DialogInterface,int)</listenerMethod>
+            <listenerClass>com.example.avdiienko.button_xml.OneListenerMultipleButtons$1</listenerClass>
+            <actionWaitingFor>onClick</actionWaitingFor>
+            <xmlDefined>false</xmlDefined>
+            <calledAPISignatures id="1544"/>
+          </st.cs.uni.saarland.de.entities.Listener>
+        </neutralListener>
+        <itemListener id="1545"/>
+      </st.cs.uni.saarland.de.entities.Dialog>
+    </entry>
+  </dialogs>
+  <activityNames id="1546">
+    <string>com.example.avdiienko.button_xml.MainActivity</string>
+    <string>com.example.avdiienko.button_xml.AnonymousOnClickHandler</string>
+    <string>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</string>
+    <string>com.example.avdiienko.button_xml.MemberClass</string>
+    <string>com.example.avdiienko.button_xml.ButtonWithListenerInMethod</string>
+    <string>com.example.avdiienko.button_xml.InterfaceType</string>
+    <string>com.example.avdiienko.button_xml.OneListenerMultipleButtons</string>
+    <string>com.example.avdiienko.button_xml.IdInArray</string>
+    <string>com.example.avdiienko.button_xml.BaseActivity</string>
+  </activityNames>
+  <firstActivities id="1547">
+    <string>com.example.avdiienko.button_xml.MainActivity</string>
+  </firstActivities>
+  <permissions id="1548">
+    <string>android.permission.READ_PHONE_STATE</string>
+    <string>android.permission.SEND_SMS</string>
+    <string>android.permission.ACCESS_COARSE_LOCATION</string>
+  </permissions>
+  <includeTagIDs id="1549">
+    <int>1000031</int>
+    <int>1000030</int>
+    <int>1000029</int>
+    <int>1000010</int>
+    <int>1000037</int>
+    <int>1000036</int>
+    <int>1000035</int>
+    <int>1000018</int>
+    <int>1000034</int>
+    <int>1000017</int>
+    <int>1000016</int>
+    <int>1000032</int>
+  </includeTagIDs>
+  <fragmentTagIDs id="1550"/>
+  <screens id="1551"/>
+  <activityToXMLLayoutFiles id="1552">
+    <entry>
+      <string>com.example.avdiienko.button_xml.OneListenerMultipleButtons</string>
+      <set id="1553">
+        <int>1000059</int>
+        <int>2130968609</int>
+        <int>2131558407</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.ActivityClassImplementsListenerInterface</string>
+      <set id="1554">
+        <int>2130968601</int>
+        <int>2131558400</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.BaseActivity</string>
+      <set id="1555">
+        <int>2130968603</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.MemberClass</string>
+      <set id="1556">
+        <int>2130968608</int>
+        <int>2131558406</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.AnonymousOnClickHandler</string>
+      <set id="1557">
+        <int>2131558401</int>
+        <int>2130968602</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.MainActivity</string>
+      <set id="1558">
+        <int>1000060</int>
+        <int>2131558405</int>
+        <int>2130968607</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.ButtonWithListenerInMethod</string>
+      <set id="1559">
+        <int>2130968604</int>
+        <int>2131558402</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.IdInArray</string>
+      <set id="1560">
+        <int>2130968605</int>
+        <int>2131558403</int>
+      </set>
+    </entry>
+    <entry>
+      <string>com.example.avdiienko.button_xml.InterfaceType</string>
+      <set id="1561">
+        <int>2131558404</int>
+        <int>2130968606</int>
+      </set>
+    </entry>
+  </activityToXMLLayoutFiles>
+  <mergedLayoutFileIDs id="1562"/>
+  <fragmentClassToLayout id="1563"/>
+  <intentFilters id="1564">
+    <string>android.intent.action.MAIN</string>
+  </intentFilters>
+  <logger class="org.slf4j.impl.Log4jLoggerAdapter" reference="14"/>
+</st.cs.uni.saarland.de.entities.Application>

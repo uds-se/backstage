@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/mergedLayout2TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mergedLayout2TV" />
+    <fragment android:name="com.example.LayoutChallenges.Fragment1" android:id="@id/fragamentTag1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

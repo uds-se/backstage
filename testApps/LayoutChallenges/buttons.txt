@@ -1,0 +1,10 @@
+LayoutChallenges;Button;gotoViewPager;2131165191;;gotoViewPager;com.example.LayoutChallenges.MyActivity---void gotoViewPagerAct(android.view.View)
+LayoutChallenges;Button;gotoViewPagerXMLdef;2131165192;;gotoViewPagerXMLdef;com.example.LayoutChallenges.MyActivity---void gotoViewPagerXMLAct(android.view.View)
+LayoutChallenges;Button;gotoTabView;2131165193;;gotoTabView;com.example.LayoutChallenges.MyActivity---void gotoTabViewAct(android.view.View)
+LayoutChallenges;Button;gotoDrawerActivity;2131165194;;gotoDrawerActivity;com.example.LayoutChallenges.MyActivity---void gotoDrawerActivity(android.view.View)
+LayoutChallenges;Button;getDialog1;2131165195;;getDialog1;com.example.LayoutChallenges.MyActivity---void showYesNoDialog(android.view.View)
+LayoutChallenges;Button;getDialog2;2131165196;;getDialog2;com.example.LayoutChallenges.MyActivity---void showDialogSpecificChoice(android.view.View)
+LayoutChallenges;Button;getDialog3;2131165197;;getDialog3;com.example.LayoutChallenges.MyActivity---void showDialogFragment(android.view.View)
+LayoutChallenges;Button;gotoMergedLayout;2131165198;;gotoMergedLayout;com.example.LayoutChallenges.MyActivity---void gotoMergedLayout(android.view.View)
+LayoutChallenges;Button;noValue;2131165199;;getPopupMenu;com.example.LayoutChallenges.MyActivity---void showPopup(android.view.View);---boolean onMenuItemClick(android.view.MenuItem);---boolean onMenuItemClick(android.view.MenuItem)
+---SubLayout: 2131099650;

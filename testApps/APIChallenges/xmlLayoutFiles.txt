@@ -1,0 +1,29 @@
+XMLLayoutFile: main2; 2130903041
+UIElement id: 2131034129
+UIElement id: 1000006
+
+XMLLayoutFile: main; 2130903040
+UIElement id: 2131034117
+UIElement id: 2131034116
+UIElement id: 2131034119
+UIElement id: 2131034118
+UIElement id: 2131034113
+UIElement id: 2131034112
+UIElement id: 2131034115
+UIElement id: 2131034114
+UIElement id: 2131034125
+UIElement id: 2131034124
+UIElement id: 2131034127
+UIElement id: 1000005
+UIElement id: 1000004
+UIElement id: 2131034126
+UIElement id: 1000003
+UIElement id: 2131034121
+UIElement id: 1000002
+UIElement id: 2131034120
+UIElement id: 1000001
+UIElement id: 2131034123
+UIElement id: 1000000
+UIElement id: 2131034122
+UIElement id: 2131034128
+

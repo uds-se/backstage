@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="nonStaticField">false</item>
+    <item type="id" name="classField">false</item>
+    <item type="id" name="fieldButtonID">false</item>
+    <item type="id" name="staticField">false</item>
+    <item type="id" name="passedID">false</item>
+    <item type="id" name="getter">false</item>
+    <item type="id" name="innerClassField">false</item>
+    <item type="id" name="array">false</item>
+    <item type="id" name="innerClassFieldID">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="fieldButton">false</item>
+    <item type="id" name="loop">false</item>
+    <item type="id" name="passedButton">false</item>
+    <item type="id" name="hierarchy1">false</item>
+    <item type="id" name="staticClassField">false</item>
+    <item type="id" name="hierarchy2">false</item>
+    <item type="id" name="getButFromOtherClass">false</item>
+    <item type="id" name="hierarchy3">false</item>
+    <item type="id" name="findViewInOtherClass">false</item>
+    <item type="id" name="hierarchy4">false</item>
+</resources>

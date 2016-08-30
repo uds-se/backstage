@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/gotoViewPager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gotoViewPager" android:onClick="gotoViewPagerAct" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/gotoViewPagerXMLdef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gotoViewPagerXMLdef" android:onClick="gotoViewPagerXMLAct" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/gotoTabView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gotoTabView" android:onClick="gotoTabViewAct" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/gotoDrawerActivity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gotoDrawerActivity" android:onClick="gotoDrawerActivity" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getDialog1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getDialog1" android:onClick="showYesNoDialog" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/getDialog2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getDialog2" android:onClick="showDialogSpecificChoice" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/getDialog3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getDialog3" android:onClick="showDialogFragment" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <Button android:id="@id/gotoMergedLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gotoMergedLayout" android:onClick="gotoMergedLayout" style="?android:attr/buttonStyleSmall" />
+    <Button android:id="@id/getPopupMenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getPopupMenu" android:onClick="showPopup" style="?android:attr/buttonStyleSmall" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/getContextMenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getContextMenu" />
+    <ListView android:id="@id/listView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

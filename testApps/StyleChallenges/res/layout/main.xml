@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/MySimpleButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MySimpleButtonStyle" />
+    <Button android:id="@id/MySimpleButtonStyle2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MySimpleButtonStyle2" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/SuperStyleTextViews" android:layout_width="336.0dip" android:layout_height="wrap_content" style="@style/SuperStyleTextViews" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/ChildClassStyleTextView" android:layout_width="348.0dip" android:layout_height="wrap_content" style="@style/ChildClassStyleTextView" />
+    <Button android:id="@id/onClickAndText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextInButtonTag" android:onClick="xmlOnClick2" style="@style/MySimpleButtonStyle" />
+</LinearLayout>

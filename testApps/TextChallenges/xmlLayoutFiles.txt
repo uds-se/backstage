@@ -1,0 +1,18 @@
+XMLLayoutFile: main; 2130903040
+object_of: LinearLayout; parent: ; but_idButVar: ; but_idBut: ; but_textVar: ; but_Text: ; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: normalStringInXML; but_idBut: 2131034112; but_textVar: ; but_Text: Test 1; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: xmlWithStringVariable; but_idBut: 2131034113; but_textVar: my_Text2; but_Text: Test 2; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: globalVarLaterWritten; but_idBut: 2131034114; but_textVar: ; but_Text: "Test 3"; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: globalVarText; but_idBut: 2131034115; but_textVar: ; but_Text: "Test 4"; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: globalVarTextID; but_idBut: 2131034116; but_textVar: ; but_Text: Test 5; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: staticTextID; but_idBut: 2131034117; but_textVar: ; but_Text: Test 6; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: stringBuilderDifficult; but_idBut: 2131034118; but_textVar: ; but_Text: Te$r3 7; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: stringBuilderTextView; but_idBut: 2131034119; but_textVar: ; but_Text: Test 8; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: dynStringVar; but_idBut: 2131034120; but_textVar: ; but_Text: Test 9; drawableName: 
+object_of: Switch; parent: LinearLayout:;; but_idButVar: switch1; but_idBut: 2131034121; but_textVar: ; but_Text: Test 10; drawableName: 
+object_of: Button; parent: LinearLayout:;; but_idButVar: concatTextBut; but_idBut: 2131034122; but_textVar: ; but_Text: Test 11; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: arrayText; but_idBut: 2131034123; but_textVar: ; but_Text: "Test 12"; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: listText; but_idBut: 2131034124; but_textVar: ; but_Text: ; drawableName: 
+object_of: CheckBox; parent: LinearLayout:;; but_idButVar: andrStdText; but_idBut: 2131034125; but_textVar: ; but_Text: Cancel; drawableName: 
+object_of: TextView; parent: LinearLayout:;; but_idButVar: dynAndStdValues; but_idBut: 2131034126; but_textVar: ; but_Text: OK; drawableName: 
+

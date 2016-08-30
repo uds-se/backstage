@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="drawerlayout">false</item>
+    <item type="id" name="mainLayoutDrawer">false</item>
+    <item type="id" name="drawerTextView">false</item>
+    <item type="id" name="drawer">false</item>
+    <item type="id" name="Fragment1TV">false</item>
+    <item type="id" name="Fragment2TV">false</item>
+    <item type="id" name="mainLinearLayout">false</item>
+    <item type="id" name="gotoViewPager">false</item>
+    <item type="id" name="gotoViewPagerXMLdef">false</item>
+    <item type="id" name="gotoTabView">false</item>
+    <item type="id" name="gotoDrawerActivity">false</item>
+    <item type="id" name="getDialog1">false</item>
+    <item type="id" name="getDialog2">false</item>
+    <item type="id" name="getDialog3">false</item>
+    <item type="id" name="gotoMergedLayout">false</item>
+    <item type="id" name="getPopupMenu">false</item>
+    <item type="id" name="getContextMenu">false</item>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="mergedLayout1TV">false</item>
+    <item type="id" name="mergedLayout2TV">false</item>
+    <item type="id" name="fragamentTag1">false</item>
+    <item type="id" name="mergedLayout3TV">false</item>
+    <item type="id" name="fragmentContainer">false</item>
+    <item type="id" name="viewpager">false</item>
+    <item type="id" name="viewpagerXML">false</item>
+    <item type="id" name="viewPagerPageXML1">false</item>
+    <item type="id" name="viewPagerPageXML2">false</item>
+    <item type="id" name="viewPagerPageXML3">false</item>
+    <item type="id" name="menuItem1">false</item>
+    <item type="id" name="menuItem2">false</item>
+    <item type="id" name="menuItem3">false</item>
+    <item type="id" name="popupItem1">false</item>
+    <item type="id" name="popupItem2">false</item>
+</resources>

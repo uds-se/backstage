@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TextChallenges</string>
+    <string name="xmlWithStringVariable">xmlWithStringVariable</string>
+    <string name="xmlStringVar">xmlWithStringVariable</string>
+    <string name="myText2">TextView Text 2</string>
+    <string name="myTe">Te</string>
+    <string name="my_Text2">Test 2</string>
+    <string name="my_Text5">Test 5</string>
+    <string name="my_Text6">Test 6</string>
+    <string name="my_Text10">Test 10</string>
+    <string name="my_Text9">Test 9</string>
+</resources>

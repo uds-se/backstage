@@ -1,0 +1,205 @@
+XMLLayoutFile: abc_action_menu_layout; 2130968580
+UIElement id: 1000004
+
+XMLLayoutFile: abc_action_mode_bar; 2130968581
+UIElement id: 1000005
+
+XMLLayoutFile: abc_action_mode_close_item_material; 2130968582
+UIElement id: 2131492901
+
+XMLLayoutFile: abc_activity_chooser_view; 2130968583
+UIElement id: 2131492904
+UIElement id: 2131492905
+UIElement id: 2131492902
+UIElement id: 2131492903
+
+XMLLayoutFile: abc_action_bar_title_item; 2130968576
+UIElement id: 2131492900
+UIElement id: 1000000
+UIElement id: 2131492899
+
+XMLLayoutFile: abc_action_bar_up_container; 2130968577
+UIElement id: 1000001
+
+XMLLayoutFile: abc_action_bar_view_list_nav_layout; 2130968578
+UIElement id: 1000002
+
+XMLLayoutFile: abc_action_menu_item_layout; 2130968579
+UIElement id: 1000003
+
+XMLLayoutFile: abc_list_menu_item_checkbox; 2130968588
+UIElement id: 2131492920
+
+XMLLayoutFile: abc_list_menu_item_icon; 2130968589
+UIElement id: 2131492907
+
+XMLLayoutFile: abc_list_menu_item_layout; 2130968590
+UIElement id: 2131492908
+UIElement id: 1000012
+UIElement id: 1000011
+UIElement id: 2131492921
+
+XMLLayoutFile: abc_list_menu_item_radio; 2130968591
+UIElement id: 2131492922
+
+XMLLayoutFile: abc_activity_chooser_view_list_item; 2130968584
+UIElement id: 2131492908
+UIElement id: 2131492906
+UIElement id: 2131492907
+UIElement id: 1000006
+
+XMLLayoutFile: abc_alert_dialog_material; 2130968585
+UIElement id: 2131492909
+UIElement id: 2131492910
+UIElement id: 2131492911
+UIElement id: 16908294
+UIElement id: 1000008
+UIElement id: 1000007
+UIElement id: 16908299
+UIElement id: 2131492916
+UIElement id: 16908314
+UIElement id: 2131492917
+UIElement id: 16908315
+UIElement id: 2131492918
+UIElement id: 16908313
+UIElement id: 2131492912
+UIElement id: 2131492913
+UIElement id: 2131492914
+UIElement id: 2131492915
+
+XMLLayoutFile: abc_dialog_title_material; 2130968586
+UIElement id: 2131492908
+UIElement id: 1000010
+UIElement id: 1000009
+
+XMLLayoutFile: abc_expanded_menu_layout; 2130968587
+UIElement id: 2131492919
+
+XMLLayoutFile: abc_screen_toolbar; 2130968596
+UIElement id: 2131492926
+UIElement id: 2131492927
+UIElement id: 2131492928
+UIElement id: 1000018
+UIElement id: 2131492929
+
+XMLLayoutFile: abc_search_dropdown_item_icons_2line; 2130968597
+UIElement id: 16908295
+UIElement id: 16908308
+UIElement id: 16908309
+UIElement id: 16908296
+UIElement id: 1000019
+UIElement id: 2131492930
+
+XMLLayoutFile: abc_search_view; 2130968598
+UIElement id: 2131492940
+UIElement id: 2131492941
+UIElement id: 2131492936
+UIElement id: 2131492937
+UIElement id: 2131492938
+UIElement id: 2131492939
+UIElement id: 2131492932
+UIElement id: 2131492933
+UIElement id: 2131492934
+UIElement id: 2131492935
+UIElement id: 2131492931
+
+XMLLayoutFile: abc_select_dialog_material; 2130968599
+UIElement id: 2131492942
+
+XMLLayoutFile: abc_popup_menu_item_layout; 2130968592
+UIElement id: 2131492908
+UIElement id: 1000014
+UIElement id: 1000013
+UIElement id: 2131492921
+
+XMLLayoutFile: abc_screen_content_include; 2130968593
+UIElement id: 1000015
+UIElement id: 2131492864
+
+XMLLayoutFile: abc_screen_simple; 2130968594
+UIElement id: 2131492924
+UIElement id: 2131492923
+UIElement id: 1000016
+
+XMLLayoutFile: abc_screen_simple_overlay_action_mode; 2130968595
+UIElement id: 2131492924
+UIElement id: 2131492923
+UIElement id: 1000017
+
+XMLLayoutFile: notification_media_action; 2130968604
+UIElement id: 2131492949
+
+XMLLayoutFile: notification_media_cancel_action; 2130968605
+UIElement id: 2131492950
+
+XMLLayoutFile: notification_template_big_media; 2130968606
+UIElement id: 2131492952
+UIElement id: 2131492953
+UIElement id: 2131492907
+UIElement id: 1000024
+UIElement id: 1000023
+UIElement id: 2131492951
+
+XMLLayoutFile: notification_template_big_media_narrow; 2130968607
+UIElement id: 2131492952
+UIElement id: 1000026
+UIElement id: 2131492953
+UIElement id: 1000025
+UIElement id: 2131492907
+UIElement id: 2131492951
+
+XMLLayoutFile: abc_simple_dropdown_hint; 2130968600
+UIElement id: 16908308
+
+XMLLayoutFile: activity_main; 2130968601
+UIElement id: 2131492943
+UIElement id: 1000020
+UIElement id: 2131492944
+
+XMLLayoutFile: activity_second; 2130968602
+UIElement id: 1000021
+UIElement id: 2131492945
+
+XMLLayoutFile: fragment_fragment_with_buttons; 2130968603
+UIElement id: 2131492948
+UIElement id: 1000022
+UIElement id: 2131492946
+UIElement id: 2131492947
+
+XMLLayoutFile: select_dialog_item_material; 2130968612
+UIElement id: 16908308
+
+XMLLayoutFile: select_dialog_multichoice_material; 2130968613
+UIElement id: 16908308
+
+XMLLayoutFile: select_dialog_singlechoice_material; 2130968614
+UIElement id: 16908308
+
+XMLLayoutFile: support_simple_spinner_dropdown_item; 2130968615
+UIElement id: 16908308
+
+XMLLayoutFile: notification_template_lines; 2130968608
+UIElement id: 2131492908
+UIElement id: 2131492957
+UIElement id: 1000029
+UIElement id: 2131492958
+UIElement id: 1000028
+UIElement id: 2131492959
+UIElement id: 1000027
+UIElement id: 2131492954
+UIElement id: 2131492960
+
+XMLLayoutFile: notification_template_media; 2130968609
+UIElement id: 1000031
+UIElement id: 1000030
+UIElement id: 2131492952
+UIElement id: 2131492907
+UIElement id: 2131492951
+UIElement id: 2131492961
+
+XMLLayoutFile: notification_template_part_chronometer; 2130968610
+UIElement id: 2131492956
+
+XMLLayoutFile: notification_template_part_time; 2130968611
+UIElement id: 2131492955
+

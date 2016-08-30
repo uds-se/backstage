@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Button_xml</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send_location">Do you want to send location to the server?</string>
+    <string name="send_uid">Do you want ot share the Device Id?</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_activity_class_implements_listener_interface">ActivityClassImplementsListenerInterface</string>
+    <string name="title_activity_anonymous_on_click_handler">AnonymousOnClickHandler</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_button_with_listener_in_method">ButtonWithListenerInMethod</string>
+    <string name="title_activity_id_in_array">IdInArray</string>
+    <string name="title_activity_interface_type">InterfaceType</string>
+    <string name="title_activity_member_class">MemberClass</string>
+    <string name="title_activity_one_listener_multiple_buttons">OneListenerMultipleBUttons</string>
+</resources>
