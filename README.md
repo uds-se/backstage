@@ -11,6 +11,7 @@ $ mvn initialize
 $ mvn package
 ```
 ## Usage:
+The script below only works on Linux and MacOS systems. If you want to run it on Windows, just examine the `runApp.sh` file and run `apktool` and `backstage.jar` manually.
 ```bash
 ./runApp.sh PATH_TO_APK/myApp.apk
 ```
