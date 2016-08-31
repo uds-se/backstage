@@ -1,5 +1,7 @@
 # Backstage - Detecting Behavior Anomalies in Graphical User Interfaces
 
+An official web-page of the Backstage project can be found [here](https://www.st.cs.uni-saarland.de/appmining/backstage/).
+
 ## UI analysis phase
 
 ### Prerequiesites:
