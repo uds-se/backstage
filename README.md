@@ -72,8 +72,15 @@ and download the following packages:
 * stopwords
 * words
 
-### Run an analysis
+#### Obtaining a raw data
+In order to run a mutation analysis you need to obtain a raw data with information about UI elements, their labels and APIs.
+Please donwload a [backstage_data.zip](https://www.st.cs.uni-saarland.de/~avdiienko/backstage_data.zip), unzip it to the script folder and put the reference to it via `$SNAP_DIR` variable inside the `launch.sh` script.
+
+The zip-archive contains a `data` folder inside. Ideally, you should move it to the `scripts` folder and the `$SNAP_DIR` is already referencing it.
+
+### Run the analysis
 ```bash
+cd scripts
 ./launch.sh
 ```
 
@@ -81,7 +88,7 @@ and download the following packages:
 
 Mutation procedure takes place only in the middle of the whole analysis. Thus, you don't need to rerun the whole script in order to try different mutation techniques.
 
-Open `launch.sh` file in your favourite text editor and find the line with invocation of `make_mutants.R`.
+Open the `launch.sh` file in your favourite text editor and find the line with invocation of `make_mutants.R`.
 By default we use `high distance` mode, but you can also make outliers based on `random` choice or `crossover label mutations`.
 You can specify a desired mode by using `-t` parameter in `make_mutants.R` file. Possible values are:
 * dist - stands for `high distance` mode
