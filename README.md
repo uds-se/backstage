@@ -27,6 +27,15 @@ The tool produces:
 
 Those files are needed to obtain the mapping between UI elements and APIs later on. 
 
+## Generating data for the next phase
+
+```bash
+cd scripts
+./ui_extraction.sh output <output_file_prefix>
+./api_extraction.sh results <output_dir>
+```
+
+
 ## Detecting outliers phase 
 
 ### Prerequiesites:
