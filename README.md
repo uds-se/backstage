@@ -31,6 +31,7 @@ Those files are needed to obtain the mapping between UI elements and APIs later 
 1. R
 2. Python 3
 3. pip3 
+4. Linux or MacOS
 
 ### Before you start
 Before running the scripts you need to follow the steps below:
