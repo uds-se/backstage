@@ -46,6 +46,7 @@ install.packages("skmeans", dependencies=TRUE)
 install.packages("cluster", dependencies=TRUE)
 install.packages("clue", dependencies=TRUE)
 install.packages("doParallel", dependencies=TRUE)
+install.packages("data.table", dependencies=TRUE)
 ```
 ####  Make sure you have `Python v3` and `pip v3` installed and: 
 ```bash
