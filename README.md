@@ -68,6 +68,14 @@ and download the following packages:
 * stopwords
 * words
 
+#### Select the appropriate model for mutations
+Open `launch.sh` file in your favourite text editor and find the line with invocation of `make_mutants.R`.
+By default we use `high distance` mode, but you can also make outliers based on `random` choice or `crossover label mutations`.
+You can specify a desired mode by using `-t` parameter in `make_mutants.R` file. Possible values are:
+* dist - stands for `high distance` mode
+* rand - stands for `random` mode
+* cross - stands for `crossover label mutations`
+
 ### Run an analysis
 ```bash
 ./launch.sh
