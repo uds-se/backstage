@@ -132,7 +132,7 @@ public class ApiResultsProcessor {
                     });
 
                 } catch (IOException e) {
-                    logger.error("We done fucked up again.");
+                    logger.error("Unexpected error occurred.");
                 }
             }));
         }
