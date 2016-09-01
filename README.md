@@ -83,7 +83,7 @@ and download the following packages:
 
 #### Obtaining a raw data
 In order to run a mutation analysis you need to obtain a raw data with information about UI elements, their labels and APIs.
-Please donwload a [backstage_data.zip](https://www.st.cs.uni-saarland.de/~avdiienko/backstage_data.zip), unzip it to the script folder and put the reference to it via `$SNAP_DIR` variable inside the `launch.sh` script.
+Please donwload a [backstage_data.zip](https://www.st.cs.uni-saarland.de/~avdiienko/files/backstage_data.zip), unzip it to the script folder and put the reference to it via `$SNAP_DIR` variable inside the `launch.sh` script.
 
 The zip-archive contains a `data` folder inside. Ideally, you should move it to the `scripts` folder and the `$SNAP_DIR` is already referencing it.
 
