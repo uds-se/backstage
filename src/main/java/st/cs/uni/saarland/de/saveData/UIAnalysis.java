@@ -36,8 +36,8 @@ public class UIAnalysis {
             System.out.println("1 - serialized, 2 - output file prefix, 3 - folder with styles");
             return;
         }
-        Path dir = Paths.get(args[0]).toRealPath();//"/Users/kuznetsov/LAB/workspace/backstage/test/output");
-        Path outputFile = Paths.get(args[1]);//"/Users/kuznetsov/LAB/workspace/backstage/test/data/file");
+        Path dir = Paths.get(args[0]).toRealPath();
+        Path outputFile = Paths.get(args[1]);
         Path resDir = Paths.get(args[2]);
         uiAnalysis.processFiles(dir, outputFile, resDir);
     }
@@ -132,14 +132,21 @@ public class UIAnalysis {
         Set<Integer> unlinkedLayouts = new HashSet<>();
         Map<Integer, XMLLayoutFile> xmlLayoutFilesMap = app.getXMLLayoutFilesMap();
         unlinkedLayouts.addAll(xmlLayoutFilesMap.keySet());
-        logger.info("LAYOUTS # " + unlinkedLayouts.size());
+        logger.info("LAYOUTS in total: # " + unlinkedLayouts.size());
         //process dialogs
         app.getDialogsOfApp().forEach(dialog -> {
             extractLabelsFromDialog(app, results, dialog.getId());
             unlinkedLayouts.remove(dialog.getId());
         });
-        Map<String, Activity> activityNames = app.getActivities().stream().peek(x -> logger.info(x.getName()))
-                .collect(Collectors.toMap(Activity::getName, x -> x));
+        //FIXME: this is to support legacy code with bug in Activity.equals method
+        Map<String, Activity> activityNames = app.getActivities().stream()
+                .collect(Collectors.toMap(Activity::getName, x -> x, (a, s) -> {
+                    a.getXmlLayouts().addAll(s.getXmlLayouts());
+                    return a;
+                }));
+        // this should be used for normal case
+        // Map<String, Activity> activityNames = app.getActivities().stream()
+        //      .collect(Collectors.toMap(Activity::getName, x -> x));
         //get all fragments and add them to the activity
         for (Activity activity : app.getActivities()) {
             Set<Integer> layouts = activity.getXmlLayouts();
@@ -152,7 +159,9 @@ public class UIAnalysis {
         }
         //remove all xmlLayouts bound to any activity
         app.getActivities().stream().map(Activity::getXmlLayouts).forEach(unlinkedLayouts::removeAll);
+        logger.info("Activities are done. Remaining layouts: # " + unlinkedLayouts.size());
         //bind layouts to an activity based on listeners
+        //match activity name with declaring class name
         for (Iterator<Integer> iterator = unlinkedLayouts.iterator(); iterator.hasNext(); ) {
             Integer layoutId = iterator.next();
             XMLLayoutFile layout = app.getXmlLayoutFile(layoutId);
@@ -167,8 +176,9 @@ public class UIAnalysis {
                 iterator.remove();
             }
         }
-        logger.info("LAYOUTS 2# " + unlinkedLayouts.size());
+        logger.info("Declaring class name layouts removed. Remaining layouts: # " + unlinkedLayouts.size());
         //bind layouts to an activity based on listeners
+        //match activity name with the name of class for which the certain text is defined (if no, we have only default_value in a class:text map)
         for (Iterator<Integer> iterator = unlinkedLayouts.iterator(); iterator.hasNext(); ) {
             Integer layoutId = iterator.next();
             XMLLayoutFile layout = app.getXmlLayoutFile(layoutId);
@@ -182,7 +192,7 @@ public class UIAnalysis {
                 iterator.remove();
             }
         }
-        logger.info("LAYOUTS 3# " + unlinkedLayouts.size());
+        logger.info("Declaring class text layouts removed. Remaining layouts: # " + unlinkedLayouts.size());
 
         for (Activity activity : app.getActivities()) {
             String activityClass = activity.getName();
@@ -190,6 +200,7 @@ public class UIAnalysis {
             //            logger.info(activityClass);
             List<Label> labels = new ArrayList<>();
             for (int layID : activity.getXmlLayouts()) {
+                //List<Label> labels = new ArrayList<>();//restrict context to layouts
                 if (app.containsDialog(layID) && unlinkedLayouts.contains(layID)) {
                     unlinkedLayouts.remove(layID);
                     extractLabelsFromDialog(app, results,
@@ -200,6 +211,11 @@ public class UIAnalysis {
                 if (app.containsXMLLayoutFile(layID)) {
                     List<Label> layoutLabels = extractLabelsFromLayout(layID, activityClass, app, styleMap);
                     labels.addAll(layoutLabels);
+                    //restrict context to layouts
+                    //Set<String> context = makeContext(labels);
+                    //context.add(Label.sanitise(activityLabel));
+                    //labels.stream().filter(x -> x.hasCallback)
+                    //      .forEach(label -> results.add(makeCsvRow(context, label)));
                 }
                 else {
                     logger.error(String.format("XMLLayoutFile with id: %s, of activity: %s - %s, not found", layID,
@@ -209,7 +225,7 @@ public class UIAnalysis {
             Set<String> context = makeContext(labels);
             context.add(Label.sanitise(activityLabel));
             labels.stream().filter(x -> x.hasCallback).forEach(label -> results.add(makeCsvRow(context, label)));
-            logger.info(String.format("%s - %d", activityClass, labels.size()));
+            //            logger.info(String.format("%s - %d", activityClass, labels.size()));
         }
 
         //orphan layouts
@@ -267,7 +283,7 @@ public class UIAnalysis {
      */
     private Set<String> makeContext(List<Label> labels) {
         Set<String> res = labels.stream().filter(Label::isAccepted).filter(x -> !x.isButton())
-                .filter(x -> !x.hasCallback).map(x -> x.textValue.replace("#"," ")).collect(Collectors.toSet());
+                .filter(x -> !x.hasCallback).map(x -> x.textValue.replace("#", " ")).collect(Collectors.toSet());
         return res;
 
     }
@@ -352,7 +368,7 @@ public class UIAnalysis {
 
             //we don't split buttons now
             if (!textForActivity.isEmpty()) {//remove empty labels
-                Optional<String> iconOpt = uiE.getDrawableNames().stream().filter(x->x.endsWith(".png")).findFirst();
+                Optional<String> iconOpt = uiE.getDrawableNames().stream().filter(x -> x.endsWith(".png")).findFirst();
                 String icon = iconOpt.isPresent() ? iconOpt.get() : Label.NO_ICON;
                 Label label = new Label(app.getBaseName(), elementType, textForActivity, callbackClass, activityClass,
                         uiId, varName, hasCallback, textMap.get(Label.default_label), isOrphan, icon);

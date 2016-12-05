@@ -51,7 +51,7 @@ public class Activity {
 
     @Override
     public boolean equals(Object toCompare) {
-        if (!(toCompare instanceof Application)) {
+        if (!(Activity.class.equals(toCompare.getClass()))) {
             return false;
         }
         Activity second = (Activity) toCompare;
